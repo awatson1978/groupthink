@@ -1,0 +1,47 @@
+<template name="layout">
+    <aside>
+        <!-- render to the sidebar yield -->
+        {{yield 'sidebar'}}
+    </aside>
+
+    {{> navbarHeader }}
+
+    <!-- the main template will be rendered here -->
+    {{yield}}
+
+    <footer>
+        <!-- render to the footer yield -->
+        {{yield 'footer'}}
+    </footer>
+</template>
+
+<template name="yield">
+    hey, this is a yield page!
+</template>
+
+<template name="landingPage">
+    <div class="container">
+        welcome
+    </div>
+</template>
+<template name="rulesPage">
+    <div id="rulesPage" class="container">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec fringilla mauris, ac adipiscing lectus. Maecenas non tortor nec arcu hendrerit pretium. In et nisi tincidunt, aliquam tellus a, mattis purus. Pellentesque elit lectus, facilisis at mattis vitae, euismod et nisi. Donec sagittis nec dolor id laoreet. Nam quis sapien tempus, tincidunt sapien eu, eleifend ipsum. Vivamus varius magna nec euismod dictum. Maecenas mauris elit, varius quis pharetra in, mollis non tortor.
+    </div>
+</template>
+<template name="welcomePage">
+    <div id="welcomePage" class="container">
+        Welcome to the community forum.
+    </div>
+</template>
+<template name="mapPage">
+    <div id="mapPage" class="container">
+        Map page.  [put a map here]
+    </div>
+</template>
+
+<template name="articlesPage">
+    <div id="articlesPage" class="container">
+        Some articles we've written.
+    </div>
+</template>
