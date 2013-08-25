@@ -21,7 +21,7 @@
     <file path="/zipB.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377417452035" ignored="false" />
     <file path="/page.post.html" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377421753165" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/programs/client/packages/bootstrap-3/bootstrap-3/css/bootstrap.css" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377446677239" ignored="false" />
-    <file path="/page.map.html" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377453454499" ignored="false" />
+    <file path="/page.map.html" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377463667359" ignored="false" />
     <file path="/page.map.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377461232763" ignored="false" />
     <file path="/page.map.less" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377453249285" ignored="false" />
     <file path="/model.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377457119508" ignored="false" />
@@ -73,10 +73,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.map.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="page.map.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/controllers/page.map.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="25" selection-start="633790" selection-end="633790" vertical-scroll-proportion="0.42331287">
+                <state line="38" column="42" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="unemployment_2011.json" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/data/unemployment_2011.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -98,7 +107,7 @@
           <file leaf-file-name="page.map.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/templates/page.map.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="27" selection-start="229" selection-end="239" vertical-scroll-proportion="0.20522387">
+                <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.26119402">
                   <folding />
                 </state>
               </provider>
@@ -107,7 +116,7 @@
           <file leaf-file-name="page.map.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/stylesheets/page.map.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="2" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.8">
+                <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.4">
                   <folding />
                 </state>
               </provider>
@@ -143,12 +152,12 @@
         <option value="$PROJECT_DIR$/client/subscriptions.js" />
         <option value="$PROJECT_DIR$/server/initialize.zipcodes.js" />
         <option value="$PROJECT_DIR$/model.js" />
-        <option value="$PROJECT_DIR$/client/stylesheets/page.map.less" />
-        <option value="$PROJECT_DIR$/client/templates/page.map.html" />
         <option value="$PROJECT_DIR$/client/controllers/d3/choropleth.js" />
         <option value="$PROJECT_DIR$/client/controllers/d3/page.map.js" />
         <option value="$PROJECT_DIR$/client/controllers/d3/core/d3.chart.js" />
         <option value="$PROJECT_DIR$/client/controllers/d3/graphs/core/d3.chart.js" />
+        <option value="$PROJECT_DIR$/client/stylesheets/page.map.less" />
+        <option value="$PROJECT_DIR$/client/templates/page.map.html" />
         <option value="$PROJECT_DIR$/client/controllers/page.map.js" />
       </list>
     </option>
@@ -446,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/d3.choropleth.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="386" selection-end="386" vertical-scroll-proportion="-10.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/subscriptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
@@ -474,23 +476,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.map.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/.page.map.firsttry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="46" selection-start="633628" selection-end="633628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="229" selection-end="239" vertical-scroll-proportion="0.20522387">
           <folding />
         </state>
       </provider>
@@ -502,26 +490,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/us_counties_20m_topo.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/d3/graphs/d3.chart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="19" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35403726">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/unemployment_2011.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -546,9 +520,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/d3.choropleth.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="386" selection-end="386" vertical-scroll-proportion="-10.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.map.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="316" selection-end="316" vertical-scroll-proportion="0.26119402">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/us_counties_20m_topo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="67" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="633790" selection-end="633790" vertical-scroll-proportion="0.42331287">
+        <state line="38" column="42" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/unemployment_2011.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

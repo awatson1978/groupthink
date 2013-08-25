@@ -1,15 +1,18 @@
 <template name="mapPage">
     <div id="mapPage" class="container">
-        Map page.  [put a map here]
         {{> map}}
     </div>
 </template>
 
 
 <template name="map">
-    <div class="map">
+    <div class="map panel panel-default">
+        <div class="panel-heading">
+            National Unemployment 2011
+        </div>
         {{#constant}}
         <div id="choropleth">
+
         </div>
         {{/constant}}
     </div>
