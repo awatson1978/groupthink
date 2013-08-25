@@ -1,0 +1,319 @@
+
+//-----------------------------------------
+// Body
+
+
+//body{
+//  padding-top: 50px;
+//  padding-bottom: 40px;
+//
+//}
+
+
+//-----------------------------------------
+// Body
+
+.page{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+//-----------------------------------------
+// Clicking
+
+.clickable{
+  cursor: pointer;
+}
+.unselectable{
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.dynamic .panel:hover{
+  border: 1px solid salmon;
+}
+.dynamic .panel:hover .panel-header{
+  background-color: lightsalmon;
+}
+
+
+//-----------------------------------------
+// Padding
+
+.padded{
+    box-sizing: border-box;
+    padding: 16px;
+}
+.padded-horizontal, .with-horizontal-padding, .horizontally-padded{
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padded-vertical, .with-vertical-padding, .vertically-padded{
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.without-padding, .nopadding, .no-padding, .unpadded{
+  padding: 0px;
+}
+.without-right-padding{
+  padding-right: 0px !important;
+}
+.without-left-padding{
+  padding-left: 0px !important;
+}
+.without-top-padding{
+  padding-top: 0px !important;
+}
+.without-bottom-padding{
+  padding-bottom: 0px !important;
+}
+.without-vertical-padding{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.margined, .with-margins{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.with-bottom-spacer, .with-bottom-padding{
+  padding-bottom: 20px !important;
+}
+.with-top-spacer, .with-top-padding{
+  padding-top:20px !important;
+}
+.with-right-padding{
+  padding-right: 20px !important;
+}
+.with-left-padding{
+  padding-left: 20px !important;
+}
+
+
+//-----------------------------------------
+// Colors
+
+.gray-line{
+  border: 1px solid lightgray;
+}
+.gray-text{
+  color: gray;
+}
+
+//-----------------------------------------
+
+
+
+.dotted{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: lightgray;
+}
+.panel_container{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+.doesnt-overlap-header{
+  padding-top: 50px;
+}
+.doesnt-overlap-footer{
+  padding-bottom: 50px;
+}
+.spacer{
+  height: 20px;
+}
+.centered{
+  text-align: center;
+}
+
+
+
+
+
+//-------------------------------------
+// columns (need to delete)
+//.column-container{
+//  width: 100%;
+//}
+//.column-one-of-two{
+//  width: 50%;
+//  position: relative;
+//  float: left;
+//  padding-left: 5px;
+//  padding-right: 2.5px;
+//}
+//.column-two-of-two{
+//  width: 50%;
+//  position: relative;
+//  float: left;
+//  padding-left: 2.5px;
+//  padding-right: 5px;
+//}
+
+//-------------------------------------
+// sizing
+
+.fullwidth{
+  width: 100%;
+}
+.fullheight{
+  height: 100%;
+}
+.widthless{
+  width: 0px;
+}
+
+//-------------------------------------
+// anchoring
+
+.bottom-anchored{
+  position: fixed;
+  bottom: 50px;
+}
+.bottom-anchor{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+.top-anchored{
+  position: fixed;
+  top: 60px;
+}
+
+//------------------------------------
+// text
+
+.bold{
+  font-weight: bold;
+}
+.largish{
+  font-size: 32px;
+}
+.gray-border{
+  border: 1px solid lightgray;
+}
+@corner-radius: .4em;
+.with-rounded-corners {
+  -moz-border-radius: 				@corner-radius /*{global-radii-blocks}*/;
+  -webkit-border-radius: 				@corner-radius /*{global-radii-blocks}*/;
+  border-radius: 						@corner-radius /*{global-radii-blocks}*/;
+}
+
+.reference{
+  position: relative;
+}
+.close{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 1.8em;
+  top: -2px;
+}
+.close:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.left-anchored{
+  position: fixed;
+  left: 0px;
+}
+.right-anchored{
+  position: fixed;
+  right: 0px;
+}
+.float-right{
+  position: absolute;
+  float: right;
+  right: 0px;
+}
+
+.slide-tab{
+  width: 200px;
+  top: 60px;
+}
+.sidebar{
+  width: 274px;
+  opacity: 0.9;
+}
+
+.no-background{
+  background-color: none;
+}
+
+
+.well-behaved{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.absolute-layout{
+  position:absolute;
+}
+.fixed-layout{
+  position: fixed;
+}
+
+//----------------------------------------------
+
+// TODO:  decide if we want to keep the bookends
+//.bookend-right{
+//  position: absolute;
+//  background: white;
+//  width: 40px;
+//  height: 30px;
+//  right: 0px;
+//  top: 10px;
+//  z-index: 100;
+//}
+//.bookend-left{
+//  position: absolute;
+//  top: 0px;
+//  left: -20px;
+//  height: 35px;
+//  width: 20px;
+//  z-index: 0;
+//
+//  background: -webkit-gradient(linear,
+//  right top,
+//  left top,
+//  color-stop(0, rgba(255, 255, 255, 1)),
+//  color-stop(1, rgba(255, 255, 255, 0)));
+//  background: -ms-linear-gradient(bottom,
+//  rgba(255, 255, 255, 1),
+//  rgba(255, 255, 255, 0));
+//  background: -moz-linear-gradient(center bottom,
+//  rgba(255, 255, 255, 1) 0%,
+//  rgba(255, 255, 255, 0) 100%);
+//  filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",#00f2f2f2,#FFf2f2f2));
+//}
+
+.strikeout{
+  text-decoration: line-through;
+  color: lightgray !important;
+}
+
+
+ul{
+  margin: 0px !important;
+}
+
+.monospace{
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+}

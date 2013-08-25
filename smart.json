@@ -1,6 +1,9 @@
 {
   "packages": {
     "bootstrap-3": {},
-    "iron-router": {}
+    "iron-router": {},
+    "bootstrap-wysiwyg": {},
+    "roles": {},
+    "font-awesome": {}
   }
 }

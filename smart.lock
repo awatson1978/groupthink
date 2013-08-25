@@ -3,7 +3,10 @@
   "dependencies": {
     "basePackages": {
       "bootstrap-3": {},
-      "iron-router": {}
+      "iron-router": {},
+      "bootstrap-wysiwyg": {},
+      "roles": {},
+      "font-awesome": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -15,6 +18,21 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "tag": "v0.5.4",
         "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+      },
+      "bootstrap-wysiwyg": {
+        "git": "https://github.com/mcrider/meteor-bootstrap-wysiwyg.git",
+        "tag": "v0.1.0",
+        "commit": "b9b1ffadb42b8bbfade08aaea10e4fbe890d21dd"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.0.6",
+        "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v3.2.1",
+        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
       }
     }
   }
