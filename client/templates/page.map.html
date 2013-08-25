@@ -1,5 +1,16 @@
 <template name="mapPage">
     <div id="mapPage" class="container">
         Map page.  [put a map here]
+        {{> map}}
+    </div>
+</template>
+
+
+<template name="map">
+    <div class="map">
+        {{#constant}}
+        <div id="choropleth">
+        </div>
+        {{/constant}}
     </div>
 </template>
