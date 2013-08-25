@@ -13,63 +13,122 @@ Template.map.rendered = function () {
             var width = 960,
                 height = 500;
 
-            var chart_1 = d3.select('#choropleth')
-                .append("svg")
-                .attr("height", 500)
-                .attr("width", 960)
-                .chart("Choropleth")
-                .domain([0, 15])
-                .range('YlGnBu')
-                .projection(d3.geo.albersUsa())
-                .scale(960);
+            var rateById = d3.map();
+            console.log('checking rateById... ');
+            console.log(rateById);
 
-            queue()
-                .defer(d3.json, '/data/unemployment_2011.json')
-                .defer(d3.json, '/data/us_counties_20m_topo.json')
-                .await(makeMap)
+            var quantize = d3.scale.quantize()
+                .domain([0, .15])
+                .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
 
-            function makeMap(error, data, geo) {
+            var path = d3.geo.path();
+            //console.log('checking path... ');
+            //console.log(path);
+            var svg = null;
+            if(!self.find("#usaMap")){
+                svg = d3.select("#choropleth").append("svg")
+                    .attr("id", 'usaMap')
+                    .attr("width", width)
+                    .attr("height", height);
 
-                county_feat = topojson.feature(geo, geo.objects.us_counties_20m).features
-                bind_data = data[0];
-                mapData = {'Geo': county_feat, 'ToBind': bind_data};
+                svg.append("g")
+                    .attr("class", "counties")
+                    .selectAll("path")
+                    .data(topojson.feature(usaTopology, usaTopology.objects.counties).features)
+                    .enter().append("path")
+                    .attr("d", path);
+                    //.attr("class", function(d) { return quantize(rateById.get(d.zipcode)); })
 
-                // Draw the charts
-                chart_1.draw(mapData);
+                svg.append("path")
+                    .datum(topojson.mesh(usaTopology, usaTopology.objects.states, function(a, b) { return a !== b; }))
+                    .attr("class", "states")
+                    .attr("d", path);
 
-            };
+                svg.append("path")
+                    .datum(topojson.mesh(usaTopology, usaTopology.objects.counties, function(a, b) { return a !== b; }))
+                    .attr("class", "counties")
+                    .attr("d", path);
+            }
 
-//            var svg = null;
-//            if(!self.find("#usaMap")){
-//                svg = d3.select("#choropleth").append("svg")
-//                    .attr("id", 'usaMap')
-//                    .attr("width", width)
-//                    .attr("height", height);
-//
+            //console.log('checking svg... ');
+            //console.log(svg);
+
+            console.log('checking usaTopology... ');
+            console.log(usaTopology);
+
+            //console.log('checking /unemployment.tsv... ');
+            //console.log(svg);
+
+            console.log(ZipCodes.find().fetch());
+
+
+
+//            queue()
+//                .defer(d3.json, usaTopology)
+//                .defer(d3.json, ZipCodes.find().fetch(), function(record) { rateById.set(record.zipcode, +record.scalar); })
+//                .await(ready);
+                //.defer(d3.tsv, "/unemployment.tsv", function(d) { rateById.set(d.id, +d.rate); })
+
+
+
+
+//            function ready(error, us) {
 //                svg.append("g")
 //                    .attr("class", "counties")
 //                    .selectAll("path")
 //                    .data(topojson.feature(usaTopology, usaTopology.objects.counties).features)
 //                    .enter().append("path")
+//                    .attr("class", function(d) { return quantize(rateById.get(d.zipcode)); })
 //                    .attr("d", path);
-//                //.attr("class", function(d) { return quantize(rateById.get(d.zipcode)); })
+//
+////                svg.append("path")
+////                    .datum(topojson.mesh(usaTopology, usaTopology.objects.land, function(a, b) { return a !== b; }))
+////                    .attr("class", "land")
+////                    .attr("d", path);
+//
+////                svg.append("path")
+////                    .datum(topojson.mesh(usaTopology, usaTopology.objects.counties, function(a, b) { return a !== b; }))
+////                    .attr("class", "counties")
+////                    .attr("d", path);
 //
 //                svg.append("path")
 //                    .datum(topojson.mesh(usaTopology, usaTopology.objects.states, function(a, b) { return a !== b; }))
 //                    .attr("class", "states")
 //                    .attr("d", path);
-//
-//                svg.append("path")
-//                    .datum(topojson.mesh(usaTopology, usaTopology.objects.counties, function(a, b) { return a !== b; }))
-//                    .attr("class", "counties")
-//                    .attr("d", path);
 //            }
 
+            console.log('path: ' + path);
 
-            console.log('checking usaTopology... ');
-            console.log(usaTopology);
 
-            console.log(ZipCodes.find().fetch());
+//            var selected = Session.get('selected');
+//            var selectedParty = selected && Parties.findOne(selected);
+//            var radius = function (party) {
+//                return 10 + Math.sqrt(attending(party)) * 10;
+//            };
+
+//            // Draw a circle for each party
+//            var updateCircles = function (group) {
+//                group.attr("id", function (party) { return party._id; })
+//                    .attr("cx", function (party) { return party.x * 500; })
+//                    .attr("cy", function (party) { return party.y * 500; })
+//                    .attr("r", radius)
+//                    .attr("class", function (party) {
+//                        return party.public ? "public" : "private";
+//                    })
+//                    .style('opacity', function (party) {
+//                        return selected === party._id ? 1 : 0.6;
+//                    });
+//            };
+
+//            var circles = d3.select(self.node).select(".circles").selectAll("circle")
+//                .data(Parties.find().fetch(), function (party) { return party._id; });
+
+//            var labels = d3.select(self.node).select(".labels").selectAll("text")
+//                .data(Parties.find().fetch(), function (party) { return party._id; });
+//
+//            updateLabels(labels.enter().append("text"));
+//            updateLabels(labels.transition().duration(250).ease("cubic-out"));
+//            labels.exit().remove();
 
 
         });
@@ -80,3 +139,40 @@ Template.map.destroyed = function () {
     this.handle && this.handle.stop();
 };
 
+
+//Template.mapPage.rendered = function(){
+//    var width = 960,
+//        height = 500;
+//
+//    var rateById = d3.map();
+//
+//    var quantize = d3.scale.quantize()
+//        .domain([0, .15])
+//        .range(d3.range(9).map(function(i) { return "q" + i + "-9"; }));
+//
+//    var path = d3.geo.path();
+//
+//    var svg = d3.select("#choropleth").append("svg")
+//        .attr("width", width)
+//        .attr("height", height);
+//
+//    queue()
+//        .defer(d3.json, "/mbostock/raw/4090846/us.json")
+//        .defer(d3.tsv, "unemployment.tsv", function(d) { rateById.set(d.id, +d.rate); })
+//        .await(ready);
+//
+//    function ready(error, us) {
+//        svg.append("g")
+//            .attr("class", "counties")
+//            .selectAll("path")
+//            .data(topojson.feature(us, us.objects.counties).features)
+//            .enter().append("path")
+//            .attr("class", function(d) { return quantize(rateById.get(d.id)); })
+//            .attr("d", path);
+//
+//        svg.append("path")
+//            .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+//            .attr("class", "states")
+//            .attr("d", path);
+//    }
+//};

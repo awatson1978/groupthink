@@ -22,7 +22,7 @@
     <file path="/page.post.html" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377421753165" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/programs/client/packages/bootstrap-3/bootstrap-3/css/bootstrap.css" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377446677239" ignored="false" />
     <file path="/page.map.html" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377453454499" ignored="false" />
-    <file path="/page.map.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377460694577" ignored="false" />
+    <file path="/page.map.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377461232763" ignored="false" />
     <file path="/page.map.less" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377453249285" ignored="false" />
     <file path="/model.js" changelist="256d3486-f2f2-454c-a7b3-53e11b30a99f" time="1377457119508" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +43,7 @@
     <favorites_list name="meteor-forum" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7241936">
+    <splitter split-orientation="horizontal" split-proportion="0.608871">
       <split-first>
         <leaf>
           <file leaf-file-name="initialize.posts.js" pinned="false" current="false" current-in-tab="false">
@@ -64,28 +64,19 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name=".page.map.firsttry.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/.page.map.firsttry.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="46" selection-start="633628" selection-end="633628" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="page.map.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/controllers/page.map.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="46" selection-start="634200" selection-end="634200" vertical-scroll-proportion="0.4380368">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="us.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/controllers/d3/us.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="-0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="subscriptions.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/subscriptions.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+                <state line="23" column="25" selection-start="633790" selection-end="633790" vertical-scroll-proportion="0.42331287">
                   <folding />
                 </state>
               </provider>
@@ -107,16 +98,7 @@
           <file leaf-file-name="page.map.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/templates/page.map.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="11" selection-start="301" selection-end="301" vertical-scroll-proportion="0.29296875">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="d3.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/controllers/d3/core/d3.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="16032" selection-start="144326" selection-end="144326" vertical-scroll-proportion="0.0">
+                <state line="11" column="27" selection-start="229" selection-end="239" vertical-scroll-proportion="0.20522387">
                   <folding />
                 </state>
               </provider>
@@ -152,10 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/controllers/page.forum.js" />
-        <option value="$PROJECT_DIR$/client/templates/app.navbars.html" />
-        <option value="$PROJECT_DIR$/client/stylesheets/app.navbar.less" />
-        <option value="$PROJECT_DIR$/server/zipsdata.js" />
         <option value="$PROJECT_DIR$/server/zips.js" />
         <option value="$PROJECT_DIR$/client/controllers/d3/queue.v1.min.js" />
         <option value="$PROJECT_DIR$/client/controllers/d3/topojson.v1.min.js" />
@@ -167,6 +145,10 @@
         <option value="$PROJECT_DIR$/model.js" />
         <option value="$PROJECT_DIR$/client/stylesheets/page.map.less" />
         <option value="$PROJECT_DIR$/client/templates/page.map.html" />
+        <option value="$PROJECT_DIR$/client/controllers/d3/choropleth.js" />
+        <option value="$PROJECT_DIR$/client/controllers/d3/page.map.js" />
+        <option value="$PROJECT_DIR$/client/controllers/d3/core/d3.chart.js" />
+        <option value="$PROJECT_DIR$/client/controllers/d3/graphs/core/d3.chart.js" />
         <option value="$PROJECT_DIR$/client/controllers/page.map.js" />
       </list>
     </option>
@@ -246,7 +228,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meteor-forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="d3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,14 +317,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/stylesheets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/data" />
+      <recent name="$PROJECT_DIR$/client/controllers" />
+      <recent name="$PROJECT_DIR$/client/controllers/d3" />
+      <recent name="$PROJECT_DIR$/client/controllers/d3/graphs" />
       <recent name="$PROJECT_DIR$/client/controllers/d3/core" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/client" />
-      <recent name="$PROJECT_DIR$/client/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -383,41 +439,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/syntax.colors.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/unemployment.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="12" selection-start="0" selection-end="34738" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/zipdata-good.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/zipsdata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="474" selection-end="474" vertical-scroll-proportion="-2.9411764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="67" selection-start="1444" selection-end="1444" vertical-scroll-proportion="-16.875">
@@ -439,20 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/d3/us.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/initialize.posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/initialize.zipcodes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="52" selection-end="249" vertical-scroll-proportion="-0.5882353">
@@ -467,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/d3/core/d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16032" selection-start="144326" selection-end="144326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/page.map.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="2" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.8">
@@ -481,16 +481,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/.page.map.firsttry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="633628" selection-end="633628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/page.map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="11" selection-start="301" selection-end="301" vertical-scroll-proportion="0.29296875">
+        <state line="11" column="27" selection-start="229" selection-end="239" vertical-scroll-proportion="0.20522387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/d3/graphs/core/d3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="16032" selection-start="144326" selection-end="144326" vertical-scroll-proportion="0.07575758">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/us_counties_20m_topo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="39" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/d3/graphs/d3.chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="425" selection-end="425" vertical-scroll-proportion="0.35403726">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/unemployment_2011.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/d3/choropleth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="60" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.43560606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/d3/us.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="42" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="46" selection-start="634200" selection-end="634200" vertical-scroll-proportion="0.4380368">
+        <state line="23" column="25" selection-start="633790" selection-end="633790" vertical-scroll-proportion="0.42331287">
           <folding />
         </state>
       </provider>
