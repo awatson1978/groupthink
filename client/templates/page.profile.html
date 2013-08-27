@@ -1,0 +1,79 @@
+<template name="profilePage">
+    <div id="profilePage">
+        {{#if isLoggedIn }}
+            <div class="container">
+                <div class="profile panel {{getPreferredProfileTheme}}">
+                    <div class="panel-heading">
+                        User Profile
+                    </div>
+                    <div class="row">
+                        <div class="col col-lg-4">
+                            {{{ getAvatarImage }}}
+                        </div>
+                        <div class="col col-lg-8">
+                            <label for="userProfileEmail">Email</label>
+                            <input id="userProfileEmail" name="userProfileEmail" placeholder="email" type="text" class="fullwidth profile-input" value="{{ getEmail }}"></input>
+
+                            <label for="userProfileUsername">Username</label>
+                            <input id="userProfileUsername" name="userProfileUsername" placeholder="username" type="text" class="fullwidth profile-input" value="{{ getUsername }}"></input>
+
+                            <label for="userProfileAvatarInput">Avatar Url</label>
+                            <input id="userProfileAvatarInput" name="userProfileAvatarInput" placeholder="avatar image" type="text" class="fullwidth profile-input" value="{{ getAvatarUrl }}"></input>
+
+                            <label for="userProfileTriggerFilterInput">Trigger Filters</label>
+                            <input id="userProfileTriggerFilterInput" name="userProfileTriggerFilterInput" placeholder="triggers [i.e. pregnancy, assault, rape, TERF, peanut butter, etc]" type="text" class="fullwidth profile-input" value="{{ getTriggers }}"></input>
+
+                            <label for="userProfileIgnoreListInput">Ignore List</label>
+                            <input id="userProfileIgnoreListInput" name="userProfileIgnoreListInput" placeholder="list usernames you want to ignore, separated by commas" type="text" class="fullwidth profile-input" value="{{ getIgnoreList }}"></input>
+
+                            <label for="themePreference">Theme Preference</label>
+                            <p id="themePreference">{{ getThemePreference }}</p>
+
+                            <label for="sortPreference">Sort Preference</label>
+                            <p id="sortPreference">{{ getSortPreference }}</p>
+
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="noThemeButton btn btn-default">None</div>
+                        <div class="pinkThemeButton btn btn-danger">Pink</div>
+                        <div class="greenThemeButton btn btn-success">Green</div>
+                        <div class="blueThemeButton btn btn-info">Blue</div>
+
+                        <div class="pull-right saveButton btn btn-default">Save</div>
+                    </div>
+                </div>
+                <div class="panel {{ getPreferredProfileTheme }}">
+                    <div class="panel-heading">
+                        Select Wallpaper
+                    </div>
+
+                    <div class="panel-footer">
+                        <ul class="inline">
+                            <li class="clickable unselectable wallpaperSample thumbnail noWallpaper"></li>
+                            <li class="clickable unselectable wallpaperSample thumbnail pinkWallpaper"></li>
+                            <li class="clickable unselectable wallpaperSample thumbnail greenWallpaper"></li>
+                            <li class="clickable unselectable wallpaperSample thumbnail blueWallpaper"></li>
+                            <li class="clickable unselectable wallpaperSample thumbnail rainbowWallpaper"></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        {{else}}
+        <div class="centered container">
+            <!--<div class="centered login panel panel-default">-->
+                <!--<h2 class="centered gray">Derp!  Somebody needs to login!</h2>-->
+                <!--<img src="/images/derpy-uhoh.png">-->
+            <!--</div>-->
+
+            <div class="col col-lg-6">
+                <h2 class="gray">Derp!  Somebody needs to login!</h2>
+            </div>
+            <div class="col col-lg-6">
+                <img src="/images/Access-Denied.jpg">
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</template>

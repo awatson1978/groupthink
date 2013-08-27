@@ -2,6 +2,14 @@
 // we create a separate bootstrap.users.js file
 // because we'll be wanting to set up a number of patient-scenario test users
 
+Meteor.publish('posts', function(){
+    try{
+        return Posts.find();
+    }catch(error){
+        console.log(error);
+    }
+});
+
 
 
 Meteor.startup(function () {

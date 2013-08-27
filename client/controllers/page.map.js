@@ -1,4 +1,12 @@
-Template.map.rendered = function () {
+Template.mapPage.getPreferredProfileTheme = function(){
+    return getPreferredTheme();
+};
+Template.mapPage.getPreferredButtonTheme = function(){
+    return getPreferredButtonTheme();
+};
+
+
+Template.mapPage.rendered = function () {
     var self = this;
     self.node = self.find("#usaMap");
 
@@ -51,7 +59,7 @@ Template.map.rendered = function () {
     }
 };
 
-Template.map.destroyed = function () {
+Template.mapPage.destroyed = function () {
     this.handle && this.handle.stop();
 };
 

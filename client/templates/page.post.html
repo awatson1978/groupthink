@@ -1,6 +1,6 @@
 <template name="postInputPage">
     <div id="postInputPage" class="container">
-        <div class="panel panel-info">
+        <div class="panel {{ getPreferredProfileTheme }}">
             <div class="panel-heading">
                 Write a Post
             </div>
@@ -58,18 +58,19 @@
                 <!--<input type="text" data-edit="inserttext" id="voiceBtn" x-webkit-speech="" style="position: absolute; top: 280px; left: 1222px;">-->
             </div>
 
-            <div id="editor" class="wysiwyg-editor"></div>
+            <div id="editor" class="wysiwyg-editor">{{{ text }}}</div>
 
-            <div class="row">
-                <input class="fullwidth" type="text" placeholder="website"></input>
-                <input class="fullwidth" type="text" placeholder="image"></input>
+            <div class="horizontally-padded">
+                <input id="weblinkInput" class="fullwidth" type="text" placeholder="Add a link to a website.  eg.  http://www.wikipedia.org/"></input>
+                <input id="imageInput" class="fullwidth" type="text" placeholder="Add a link to an image.  eg.  http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png"></input>
             </div>
             <!--<p id="textArea" class="editable" data-type="textarea" data-placeholder="Enter text" data-emptytext="Click to enter text" data-rows="4">{{textArea}}</p>-->
 
 
             <div class="panel-footer">
-                <div class="btn btn-warning cancel-post-btn">Cancel</div>
-                <div class="btn btn-info submit-post-btn">Submit</div>
+                <div class="btn cancel-post-btn {{getPreferredButtonTheme}}">Cancel</div>
+                <div class="btn submit-post-btn {{getPreferredButtonTheme}}">Submit</div>
+                <div class="btn update-post-btn {{getPreferredButtonTheme}}">Update</div>
                 <input id="postTags" type="text" class="pull-right" placeholder="no tags"></input>
             </div>
         </div>
