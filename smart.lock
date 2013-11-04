@@ -6,18 +6,24 @@
       "iron-router": {},
       "bootstrap-wysiwyg": {},
       "roles": {},
-      "font-awesome": {}
+      "font-awesome": {},
+      "event-hooks": {},
+      "font-awesome-4": {},
+      "accounts-entry-js": {
+        "git": "https://github.com/awatson1978/accounts-entry-js.git",
+        "branch": "master"
+      }
     },
     "packages": {
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v0.3.3",
-        "commit": "bbb5b5eb3e36aff6a740889a965c8bdb8586ef14"
+        "tag": "v0.3.5",
+        "commit": "47996f67f3987c9f82117394effcbe1586a4fe29"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.5.4",
-        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+        "tag": "v0.6.1",
+        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
       },
       "bootstrap-wysiwyg": {
         "git": "https://github.com/mcrider/meteor-bootstrap-wysiwyg.git",
@@ -33,6 +39,21 @@
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
         "tag": "v3.2.1",
         "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
+      },
+      "event-hooks": {
+        "git": "https://github.com/BenjaminRH/meteor-event-hooks.git",
+        "tag": "v1.4.3",
+        "commit": "ba4f3d7887748458618d29615492906f0c88d31c"
+      },
+      "font-awesome-4": {
+        "git": "https://github.com/michaelbishop/meteor-font-awesome-4.git",
+        "tag": "v4.0.0",
+        "commit": "c28b5a0f2a2bd233c495642b40a167eda95172f5"
+      },
+      "accounts-entry-js": {
+        "git": "https://github.com/awatson1978/accounts-entry-js.git",
+        "branch": "master",
+        "commit": "d522fe53873c0a60519804f43959db2815d36818"
       }
     }
   }

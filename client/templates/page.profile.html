@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="profile panel {{getPreferredProfileTheme}}">
                     <div class="panel-heading">
-                        User Profile
+                        User Profile {{ time }}
                     </div>
                     <div class="row">
                         <div class="col col-lg-4">
@@ -31,6 +31,9 @@
 
                             <label for="sortPreference">Sort Preference</label>
                             <p id="sortPreference">{{ getSortPreference }}</p>
+
+                            <label for="wallpaperPreference">Wallpaper Preference</label>
+                            <p id="wallpaperPreference">{{ getWallpaperPreference }}</p>
 
                         </div>
                     </div>

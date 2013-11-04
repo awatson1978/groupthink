@@ -4,6 +4,11 @@
     "iron-router": {},
     "bootstrap-wysiwyg": {},
     "roles": {},
-    "font-awesome": {}
+    "font-awesome": {},
+    "event-hooks": {},
+    "font-awesome-4": {},
+    "accounts-entry-js": {
+      "git": "https://github.com/awatson1978/accounts-entry-js.git"
+    }
   }
 }

@@ -12,24 +12,34 @@ Template.profilePage.events({
         Meteor.users.update(Meteor.userId(), {$set: {
             'profile.theme': 'none'
         }});
+        removeWallpapers();
     },
     'click .pinkThemeButton':function(){
         console.count('click .pinkThemeButton');
         Meteor.users.update(Meteor.userId(), {$set: {
-            'profile.theme': 'pink'
+            'profile.theme': 'pink',
+            'profile.wallpaper': 'pinkWallpaper'
         }});
+        removeWallpapers();
+        $('html').addClass('pinkWallpaper');
     },
     'click .greenThemeButton':function(){
         console.count('click .greenThemeButton');
         Meteor.users.update(Meteor.userId(), {$set: {
-            'profile.theme':'green'
+            'profile.theme':'green',
+            'profile.wallpaper':'greenWallpaper'
         }});
+        removeWallpapers();
+        $('html').addClass('greenWallpaper');
     },
     'click .blueThemeButton':function(){
         console.count('click .blueThemeButton');
         Meteor.users.update(Meteor.userId(), {$set: {
-            'profile.theme': 'blue'
+            'profile.theme': 'blue',
+            'profile.wallpaper': 'blueWallpaper'
         }});
+        removeWallpapers();
+        $('html').addClass('blueWallpaper');
     },
     'click .saveButton':function(){
         console.count('click .saveButton');
@@ -44,69 +54,49 @@ Template.profilePage.events({
         console.count('click .noWallpaper');
 
         removeWallpapers();
+        Meteor.users.update(Meteor.userId(), {$set: {
+            'profile.wallpaper': 'noWallpaper'
+        }});
         $('html').addClass('noWallpaper');
-
-//        Meteor.users.update(Meteor.userId(), {$set: {
-//            'profile.avatar': $('#userProfileAvatarInput').val(),
-//            'profile.username': $('#userProfileUsername').val()
-//        }});
     },
     'click .pinkWallpaper':function(){
         console.count('click .pinkWallpaper');
 
         removeWallpapers();
+        Meteor.users.update(Meteor.userId(), {$set: {
+            'profile.wallpaper': 'pinkWallpaper'
+        }});
         $('html').addClass('pinkWallpaper');
-
-//        Meteor.users.update(Meteor.userId(), {$set: {
-//            'profile.avatar': $('#userProfileAvatarInput').val(),
-//            'profile.username': $('#userProfileUsername').val()
-//        }});
     },
     'click .greenWallpaper':function(){
         console.count('click .greenWallpaper');
 
         removeWallpapers();
+        Meteor.users.update(Meteor.userId(), {$set: {
+            'profile.wallpaper': 'greenWallpaper'
+        }});
         $('html').addClass('greenWallpaper');
-
-//        Meteor.users.update(Meteor.userId(), {$set: {
-//            'profile.avatar': $('#userProfileAvatarInput').val(),
-//            'profile.username': $('#userProfileUsername').val()
-//        }});
     },
     'click .blueWallpaper':function(){
         console.count('click .blueWallpaper');
 
         removeWallpapers();
+        Meteor.users.update(Meteor.userId(), {$set: {
+            'profile.wallpaper': 'blueWallpaper'
+        }});
         $('html').addClass('blueWallpaper');
-
-//        Meteor.users.update(Meteor.userId(), {$set: {
-//            'profile.avatar': $('#userProfileAvatarInput').val(),
-//            'profile.username': $('#userProfileUsername').val()
-//        }});
     },
     'click .rainbowWallpaper':function(){
         console.count('click .rainbowWallpaper');
 
         removeWallpapers();
+        Meteor.users.update(Meteor.userId(), {$set: {
+            'profile.wallpaper': 'rainbowWallpaper'
+        }});
         $('html').addClass('rainbowWallpaper');
-
-//        Meteor.users.update(Meteor.userId(), {$set: {
-//            'profile.avatar': $('#userProfileAvatarInput').val(),
-//            'profile.username': $('#userProfileUsername').val()
-//        }});
     }
-
-
-
 });
 
-removeWallpapers = function(){
-    $('html').removeClass('noWallpaper');
-    $('html').removeClass('greenWallpaper');
-    $('html').removeClass('pinkWallpaper');
-    $('html').removeClass('blueWallpaper');
-    $('html').removeClass('rainbowWallpaper');
-}
 
 Template.profilePage.getAvatarImage = function(){
     console.log('Template.profilePage.getAvatarImage');
@@ -162,6 +152,13 @@ Template.profilePage.getThemePreference = function(){
 Template.profilePage.getSortPreference = function(){
     if(Meteor.user() && Meteor.user().profile.sort){
         return Meteor.user().profile.sort;
+    }else{
+        return 'none';
+    }
+};
+Template.profilePage.getWallpaperPreference = function(){
+    if(Meteor.user() && Meteor.user().profile.wallpaper){
+        return Meteor.user().profile.wallpaper;
     }else{
         return 'none';
     }

@@ -267,6 +267,46 @@
   position: fixed;
 }
 
+//-----------------------------------------
+// Lists
+
+ul.horizontal{
+  display: inline;
+  margin: 0px;
+  li{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    a{
+      color: white;
+    }
+  }
+}
+#main-scroller li{
+  display: inline;
+  padding-right: 20px;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid gray;
+}
+.plain{
+  list-style-type: none;
+  margin: 0px !important;
+  padding: 0px !important;
+  li{
+    list-style-type: none;
+  }
+}
+.auto-height{
+  float: left;
+  width: 100%;
+}
+
+
 //----------------------------------------------
 
 // TODO:  decide if we want to keep the bookends

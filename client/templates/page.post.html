@@ -4,7 +4,13 @@
             <div class="panel-heading">
                 Write a Post
             </div>
-            <!--<div class="btn-toolbar" data-role="editor-toolbar" data-target="#editor"></div>-->
+            {{#if isNewTopic }}
+                <br>
+                <div class="horizontally-padded">
+                    <input id="topicInput" class="fullwidth" type="text" placeholder="Topic ipsum here...."></input>
+                </div>
+            {{/if}}
+
             <div class="btn-toolbar" data-role="editor-toolbar" data-target="#editor">
                 <div class="btn-group">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" title="" data-original-title="Font"><i class="icon-font"></i><b class="caret"></b></a>
@@ -57,7 +63,6 @@
                 </div>
                 <!--<input type="text" data-edit="inserttext" id="voiceBtn" x-webkit-speech="" style="position: absolute; top: 280px; left: 1222px;">-->
             </div>
-
             <div id="editor" class="wysiwyg-editor">{{{ text }}}</div>
 
             <div class="horizontally-padded">
@@ -69,7 +74,8 @@
 
             <div class="panel-footer">
                 <div class="btn cancel-post-btn {{getPreferredButtonTheme}}">Cancel</div>
-                <div class="btn submit-post-btn {{getPreferredButtonTheme}}">Submit</div>
+                <div class="btn create-post-btn {{getPreferredButtonTheme}}">Create</div>
+                <div class="btn submit-post-btn {{getPreferredButtonTheme}}">Post</div>
                 <div class="btn update-post-btn {{getPreferredButtonTheme}}">Update</div>
                 <input id="postTags" type="text" class="pull-right" placeholder="no tags"></input>
             </div>

@@ -2,14 +2,28 @@
 // we create a separate bootstrap.users.js file
 // because we'll be wanting to set up a number of patient-scenario test users
 
-Meteor.publish('posts', function(){
+//Meteor.publish('posts', function(){
+//    try{
+//        return Posts.find();
+//    }catch(error){
+//        console.log(error);
+//    }
+//});
+
+
+
+Meteor.publish('posts', function (forum_topic_id ) {
     try{
-        return Posts.find();
+        return Posts.find({topicId: forum_topic_id});
+
+//        return Dictionary.find({
+//            Word: { $regex: '^' + dictionary_search, $options: 'i' },
+//            Status: { $regex: '^' + status_search, $options: 'i' }
+//        },{limit: 20, sort:{ Word: 1}});
     }catch(error){
         console.log(error);
     }
 });
-
 
 
 Meteor.startup(function () {

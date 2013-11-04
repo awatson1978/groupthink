@@ -17,13 +17,31 @@
             <div class="panel-heading">
                 Topics
             </div>
-            ...
             <ul class="list-group">
-
+                {{#each topics}}
+                {{> topicItem }}
+                {{/each }}
             </ul>
             <div class="panel-footer">
-                <a href="/post" class="btn {{ getPreferredButtonTheme }}">Create Topic</a>
+                <div id="createTopicButton" class="btn {{ getPreferredButtonTheme }}">Create Topic</div>
             </div>
         </div>
     </div>
 </template>
+
+<template name="topicItem">
+    <li class="list-group-item">
+        {{ topic }}
+    </li>
+</template>
+
+<!--<template name="addTopic">-->
+    <!--{{#if addTopicIsVisible }}-->
+    <!--<div class="panel {{ getPreferredProfileTheme }}">-->
+        <!--<div class="panel-heading">-->
+            <!--Add Topic-->
+        <!--</div>-->
+        <!--<input name="topicInput" id="topicInput" type="text" placeholder="topic...">-->
+    <!--</div>-->
+    <!--{{/if }}-->
+<!--</template>-->

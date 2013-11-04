@@ -15,7 +15,11 @@
 
         <div class="panel {{ getPreferredProfileTheme }}">
             <div class="panel-heading">
-                Forum Posts
+                <ul class="inline">
+                    <li class='bold topic-title'> {{ getForumTopic }} </li>
+                    <li class='pull-right topic-id'> {{ getForumTopicId }} </li>
+                </ul>
+
             </div>
             <ul class="list-group">
                 {{#each posts}}

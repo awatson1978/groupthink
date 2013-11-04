@@ -12,11 +12,9 @@ Posts.allow({
     }
 });
 
+Topics  = new Meteor.Collection("topics");
 
-
-ZipCodes  = new Meteor.Collection("zipcodes");
-
-ZipCodes.allow({
+Topics.allow({
     insert: function(){
         return true;
     },
@@ -27,7 +25,6 @@ ZipCodes.allow({
         return true;
     }
 });
-
 
 
 UsersDirectory =    new Meteor.Collection("usersDirectory");
