@@ -22,96 +22,95 @@
     <favorites_list name="meteor-forum" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2992021">
+    <splitter split-orientation="horizontal" split-proportion="0.61993927">
       <split-first>
         <leaf>
-          <file leaf-file-name="signUp.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-up/signUp.html">
+          <file leaf-file-name="initialize.posts.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/initialize.posts.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="37" selection-start="1757" selection-end="1757" vertical-scroll-proportion="-14.387755" vertical-offset="0" max-vertical-offset="1245">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="smart.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/smart.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.entry.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/app.entry.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="3" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.navbars.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="1" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27975133" vertical-offset="0" max-vertical-offset="1126">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signIn.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-in/signIn.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="765">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="forgotPassword.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/forgot-password/forgotPassword.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="25" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+                <state line="37" column="23" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1095">
                   <folding>
-                    <marker date="1383538983000" expanded="true" signature="457:740" placeholder="..." />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/README.md">
+          <file leaf-file-name="page.post.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="28" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+                <state line="32" column="10" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1365">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="accountButtons.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/shared/accountButtons.js">
+          <file leaf-file-name="page.post.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.post.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="0" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+                <state line="52" column="0" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-23.75" vertical-offset="210" max-vertical-offset="1380">
+                  <folding>
+                    <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="57" column="30" selection-start="2415" selection-end="2415" vertical-scroll-proportion="-17.375" vertical-offset="438" max-vertical-offset="1200">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="helper.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/helper.js">
+          <file leaf-file-name="page.admin.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.admin.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                <state line="16" column="12" selection-start="606" selection-end="606" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="762">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="signIn.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-in/signIn.js">
+          <file leaf-file-name="page.forum.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.forum.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="0" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+                <state line="42" column="32" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-13.125" vertical-offset="315" max-vertical-offset="1260">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.topics.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/templates/page.topics.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="24" selection-start="739" selection-end="739" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="960">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.forum.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/stylesheets/page.forum.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="3" selection-start="520" selection-end="520" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1275">
                   <folding />
                 </state>
               </provider>
@@ -121,91 +120,46 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+          <file leaf-file-name="page.profile.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+                <state line="120" column="31" selection-start="3957" selection-end="3957" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2835">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="page.landing.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/templates/page.landing.html">
+          <file leaf-file-name="page.forum.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="101" selection-start="642" selection-end="642" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="750">
+                <state line="30" column="20" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1320">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.layout.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/stylesheets/app.layout.less">
+          <file leaf-file-name="page.topics.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="0" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-28.75" vertical-offset="0" max-vertical-offset="780">
+                <state line="17" column="8" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/package.js">
+          <file leaf-file-name="page.topics.less" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/stylesheets/page.topics.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="14" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+                <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.27559054" vertical-offset="0" max-vertical-offset="762">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.navbars.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
+          <file leaf-file-name="app.navbars.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="46" selection-start="2250" selection-end="2255" vertical-scroll-proportion="0.5764304" vertical-offset="0" max-vertical-offset="1171">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="smart.json" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/smart.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="3" selection-start="390" selection-end="390" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="entry.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/entry.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="2715">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="forgotPassword.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/forgot-password/forgotPassword.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signIn.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-in/signIn.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signUp.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-up/signUp.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
+                <state line="16" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
                   <folding />
                 </state>
               </provider>
@@ -223,30 +177,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/packages/accounts-entry/sign-up/signUp.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/sign-in/signIn.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/shared/social.js" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/README.md" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/sign-up/signUp.less" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/entry.less" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/sign-in/signIn.html" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/forgot-password/forgotPassword.html" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry/sign-up/signUp.html" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry-js/sign-up/signUp.html" />
-        <option value="$PROJECT_DIR$/smart.json" />
-        <option value="$PROJECT_DIR$/packages/accounts-entry-js/smart.json" />
-        <option value="$PROJECT_DIR$/client/templates/page.landing.html" />
-        <option value="$PROJECT_DIR$/client/app.entry.js" />
-        <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
+        <option value="$PROJECT_DIR$/client/app.routes.js" />
+        <option value="$PROJECT_DIR$/client/controllers/app.roles.js" />
+        <option value="$PROJECT_DIR$/server/authenticate.roles.js" />
+        <option value="$PROJECT_DIR$/server/app.roles.js" />
+        <option value="$PROJECT_DIR$/client/templates/app.layout.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/app.navbar.less" />
+        <option value="$PROJECT_DIR$/server/initialize.posts.js" />
+        <option value="$PROJECT_DIR$/client/templates/page.admin.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/page.topics.less" />
         <option value="$PROJECT_DIR$/client/templates/app.navbars.html" />
+        <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
+        <option value="$PROJECT_DIR$/client/templates/page.topics.html" />
+        <option value="$PROJECT_DIR$/client/controllers/page.topics.js" />
+        <option value="$PROJECT_DIR$/client/controllers/page.forum.js" />
+        <option value="$PROJECT_DIR$/client/stylesheets/page.forum.less" />
+        <option value="$PROJECT_DIR$/client/templates/page.forum.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="22" />
-    <option name="width" value="1816" />
-    <option name="height" value="1354" />
+    <option name="x" value="182" />
+    <option name="y" value="497" />
+    <option name="width" value="2288" />
+    <option name="height" value="909" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -331,38 +285,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts-entry-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -399,6 +321,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -417,18 +357,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/controllers" />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/images/icons" />
+      <recent name="$PROJECT_DIR$/client/controllers" />
       <recent name="$PROJECT_DIR$/public/backgrounds" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/public/images/groupthink" />
       <recent name="$PROJECT_DIR$/packages" />
       <recent name="$PROJECT_DIR$/client/controllers" />
       <recent name="$PROJECT_DIR$/client/stylesheets" />
-      <recent name="$PROJECT_DIR$/packages/d3-choropleth" />
-      <recent name="$PROJECT_DIR$/public/backgrounds" />
     </key>
   </component>
   <component name="RunManager">
@@ -473,7 +413,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="22" width="1816" height="1354" extended-state="0" />
+    <frame x="182" y="497" width="2288" height="909" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -489,7 +429,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17180617" sideWeight="0.6711676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13636364" sideWeight="0.6711676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -511,116 +451,133 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-in/signIn.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.navbar.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1700" selection-end="1700" vertical-scroll-proportion="-28.125" vertical-offset="0" max-vertical-offset="765">
+        <state line="18" column="34" selection-start="255" selection-end="255" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/forgot-password/forgotPassword.html">
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+        <state line="17" column="3" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.topics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.posts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="23" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1095">
           <folding>
-            <marker date="1383538983000" expanded="true" signature="457:740" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/entry.less">
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="2715">
+        <state line="32" column="10" selection-start="872" selection-end="872" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/sign-up/signUp.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/page.post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="37" selection-start="1757" selection-end="1757" vertical-scroll-proportion="-14.387755" vertical-offset="0" max-vertical-offset="1245">
-          <folding />
+        <state line="52" column="0" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-23.75" vertical-offset="210" max-vertical-offset="1380">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/package.js">
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="14" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/app.layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/smart.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="390" selection-end="390" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="101" selection-start="642" selection-end="642" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/page.rules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="1766" selection-end="1768" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/.build/os/packages/accounts-entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/accounts-entry-js/shared/social.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="409" selection-end="409" vertical-scroll-proportion="0.27975133" vertical-offset="0" max-vertical-offset="1126">
+        <state line="120" column="31" selection-start="3957" selection-end="3957" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="2835">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="46" selection-start="2250" selection-end="2255" vertical-scroll-proportion="0.5764304" vertical-offset="0" max-vertical-offset="1171">
+        <state line="57" column="30" selection-start="2415" selection-end="2415" vertical-scroll-proportion="-17.375" vertical-offset="438" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="20" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.topics.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.27559054" vertical-offset="0" max-vertical-offset="762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/page.forum.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="520" selection-end="520" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="739" selection-end="739" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.forum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="32" selection-start="1261" selection-end="1261" vertical-scroll-proportion="-13.125" vertical-offset="315" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/page.admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="606" selection-end="606" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="762">
           <folding />
         </state>
       </provider>

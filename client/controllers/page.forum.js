@@ -9,14 +9,18 @@ Session.setDefault('forum_topic', '');
 
 
 Template.forumPage.getPreferredProfileTheme = function(){
+  if(Meteor.userId()){
     return getPreferredTheme();
+  }else{
+    return 'panel-default';
+  }
 };
 Template.forumPage.getPreferredButtonTheme = function(){
     return getPreferredButtonTheme();
 };
 
 Template.forumPage.posts = function(){
-    return Posts.find();
+    return Posts.find({'topicId': Session.get('forum_topic_id')});
 };
 Template.forumPage.getForumTopic = function(){
     return Session.get('forum_topic');
@@ -24,6 +28,13 @@ Template.forumPage.getForumTopic = function(){
 Template.forumPage.getForumTopicId = function(){
     return Session.get('forum_topic_id');
 };
+Template.forumPage.showSearchPanel = function(){
+  if(Session.get('show_search_panel')){
+    return true;
+  }else{
+    false;
+  }
+}
 
 Template.postItem.events({
     'click .delete-btn': function(){

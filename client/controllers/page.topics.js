@@ -1,8 +1,8 @@
 Template.topicsPage.getPreferredProfileTheme = function(){
-    return getPreferredTheme();
+  return getPreferredTheme();
 };
 Template.topicsPage.getPreferredButtonTheme = function(){
-    return getPreferredButtonTheme();
+  return getPreferredButtonTheme();
 };
 
 //Template.topicsPage.addTopicIsVisible = function(){
@@ -10,24 +10,44 @@ Template.topicsPage.getPreferredButtonTheme = function(){
 //}
 
 Template.topicsPage.topics = function(){
-    return Topics.find();
+  return Topics.find();
+}
+Template.topicsPage.showSearchPanel = function(){
+  if(Session.get('show_search_panel')){
+    return true;
+  }else{
+    false;
+  }
 }
 
 Session.setDefault('is_add_topic_visible', false);
 Template.topicsPage.events({
-    'click #createTopicButton': function(){
-        Session.set('user_intent', 'newtopic');
-        Router.go('/post');
-    }
+  'click #createTopicButton': function(){
+    Session.set('user_intent', 'newtopic');
+    Router.go('/post');
+  },
+  'click .delete-topic-btn': function(){
+    Topics.remove(this._id);
+    //alert('deleting: ' + this._id);
+  }
 })
 
 Template.topicsPage.events({
-    'click .list-group-item':function(){
-        Session.set('forum_topic_id', this._id);
-        Session.set('forum_topic', this.topic);
-        Router.go('/forum');
-    }
+  'click .list-group-item':function(){
+    //alert(this._id);
+    Session.set('forum_topic_id', this._id);
+    Session.set('forum_topic', this.topic);
+    Router.go('/forum');
+  }
 })
+
+Template.topicItem.isAdmin = function(){
+  if(Session.get('is_admin')){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 //toggleSession = function(variable){
 //    if(Session.get(variable)){

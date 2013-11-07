@@ -7,7 +7,7 @@ Meteor.startup(function() {
     termsUrl: '/terms-of-use',
     homeRoute: '/',
     dashboardRoute: '/forum',
-    profileRoute: 'profile',
+    profileRoute: '/profile',
     showSignupCode: false
   });
 });

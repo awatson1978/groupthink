@@ -101,7 +101,7 @@ Template.profilePage.events({
 Template.profilePage.getAvatarImage = function(){
     console.log('Template.profilePage.getAvatarImage');
     console.log(Meteor.user());
-    if(Meteor.user()){
+    if(Meteor.userId()){
         if(Meteor.user().profile){
             if(Meteor.user().profile.avatar != ""){
                 return '<img class="profile-avatar with-vertical-padding" src="' + Meteor.user().profile.avatar + '">';

@@ -1,72 +1,75 @@
 <template name="forumPage">
-    <div id="forumPage" class="container">
+  <div id="forumPage" class="container">
 
-        <div class="panel {{ getPreferredProfileTheme }}">
-            <div class="panel-heading">
-                Forum Search
-            </div>
-            <div class="haptic panel-footer">
-                <input type="text" placeholder="search topic"></input>
-                <input type="text" placeholder="tags"></input>
-                <input type="text" placeholder="exclude topic" class="red"></input>
-                <input type="text" placeholder="triggers" class="red"></input>
-            </div>
-        </div>
-
-        <div class="panel {{ getPreferredProfileTheme }}">
-            <div class="panel-heading">
-                <ul class="inline">
-                    <li class='bold topic-title'> {{ getForumTopic }} </li>
-                    <li class='pull-right topic-id'> {{ getForumTopicId }} </li>
-                </ul>
-
-            </div>
-            <ul class="list-group">
-                {{#each posts}}
-                    {{> postItem }}
-                {{/each }}
-            </ul>
-            <div class="panel-footer">
-                <a href="/post" class="btn {{ getPreferredButtonTheme }}">Create Post</a>
-            </div>
-        </div>
+    {{#if showSearchPanel }}
+    <div class="panel {{ getPreferredProfileTheme }}">
+      <div class="panel-heading">
+        Forum Search
+      </div>
+      <div class="haptic panel-footer">
+        <input type="text" placeholder="search topic"></input>
+        <input type="text" placeholder="tags"></input>
+        <input type="text" placeholder="exclude topic" class="red"></input>
+        <input type="text" placeholder="triggers" class="red"></input>
+      </div>
     </div>
+    {{/if}}
+
+    <div class="panel {{ getPreferredProfileTheme }}">
+      <div class="panel-heading">
+        <ul class="inline">
+          <li class='bold topic-title'> {{ getForumTopic }} </li>
+          <li class='pull-right topic-id'> {{ getForumTopicId }} </li>
+        </ul>
+
+      </div>
+      <ul class="list-group">
+        {{#each posts}}
+        {{> postItem }}
+        {{/each }}
+      </ul>
+      <div class="panel-footer">
+        <a href="/post" class="btn {{ getPreferredButtonTheme }}">Create Post</a>
+      </div>
+    </div>
+  </div>
 </template>
 
 
 <template name="postItem">
-    <li class="list-group-item">
-        <div class="media">
-            <div class="pull-left">
-                <img class="media-object" src="{{ getPostAvatar }}" alt="user avatar">
-                <div class="fullwidth centered gray">{{ creatorName }}</div>
-                <div class="fullwidth centered">
-                    <i class="gray icon-star-empty"></i>
-                    <i class="gray icon-star-empty"></i>
-                    <i class="gray icon-star-empty"></i>
-                    <i class="gray icon-star-empty"></i>
-                    <i class="gray icon-star-empty"></i>
-                </div>
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">
-                    <ul class="inline">
-                        <li class='bold creator-id'>{{ getTopic }}</li>
-                        <li class="pull-right unselectable clickable downvote-btn label label-default"><i class="icon-thumbs-down"></i></li>
-                        <li class="pull-right unselectable clickable upvote-btn label label-default"><i class="icon-thumbs-up"></i></li>
-                        <li class="pull-right unselectable clickable edit-btn label label-default">edit</li>
-                        <li class="pull-right unselectable clickable delete-btn label label-warning">delete</li>
-                        <!--<li class='pull-right lightgray post-id'>{{_id}}</li>-->
-                    </ul>
-                </h4>
-                <p class="text">{{{text}}}</p>
-                <ul class="inline">
-                    <li class="blue website-link">{{ getWebsite }}</li>
-                    <li class='pull-right lightgray post-id'>[ tags ]</li>
-                </ul>
-            </div>
-        </div>
-    </li>
+  <li class="list-group-item">
+    <div class="media">
+      <div class="pull-left">
+        <img class="media-object" src="{{ getPostAvatar }}" alt="user avatar">
+
+        <div class="fullwidth centered gray">{{ creatorName }}</div>
+        <!--<div class="fullwidth centered">-->
+        <!--<i class="gray icon-star-empty"></i>-->
+        <!--<i class="gray icon-star-empty"></i>-->
+        <!--<i class="gray icon-star-empty"></i>-->
+        <!--<i class="gray icon-star-empty"></i>-->
+        <!--<i class="gray icon-star-empty"></i>-->
+        <!--</div>-->
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+          <ul class="inline">
+            <li class='bold creator-id'>{{ getTopic }}</li>
+            <li class="pull-right unselectable clickable downvote-btn label label-default"><i class="icon-thumbs-down"></i></li>
+            <li class="pull-right unselectable clickable upvote-btn label label-default"><i class="icon-thumbs-up"></i></li>
+            <li class="pull-right unselectable clickable edit-btn label label-default">edit</li>
+            <li class="pull-right unselectable clickable delete-btn label label-warning">delete</li>
+            <!--<li class='pull-right lightgray post-id'>{{_id}}</li>-->
+          </ul>
+        </h4>
+        <p class="text">{{{text}}}</p>
+        <ul class="inline">
+          <li class="blue website-link">{{ getWebsite }}</li>
+          <li class='pull-right lightgray post-id'>[ tags ]</li>
+        </ul>
+      </div>
+    </div>
+  </li>
 </template>
 
 

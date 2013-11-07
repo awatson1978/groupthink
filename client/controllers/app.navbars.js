@@ -20,3 +20,29 @@ Template.navbarHeader.navbarBrandName = function(){
     return 'Group Think';
   }
 }
+
+Template.navbarFooter.isAdmin = function(){
+  if(Session.get('is_admin')){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+Template.navbarFooter.events({
+  'click .admin-panel':function(){
+    toggleSession('is_admin');
+  },
+  'click .search-panel':function(){
+    toggleSession('show_search_panel');
+  }
+});
+
+
+toggleSession = function(variable){
+  if(Session.get(variable)){
+    Session.set(variable, false);
+  }else{
+    Session.set(variable, true);
+  }
+}

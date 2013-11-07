@@ -35,7 +35,7 @@ Meteor.startup(function () {
         // crate our administrator
         postId = Posts.insert({
             creatorId: 'ada',
-            threadId: 'ada',
+            topicId: 'ada',
             text: 'Lorem ipsum...',
             image: '',
             tags: []
@@ -45,7 +45,7 @@ Meteor.startup(function () {
         // crate our administrator
         postId = Posts.insert({
             creatorId: 'ada',
-            threadId: 'ada',
+          topicId: 'ada',
             text: 'The quick brown fox...',
             image: '',
             tags: []
@@ -56,7 +56,7 @@ Meteor.startup(function () {
         // crate our administrator
         postId = Posts.insert({
             creatorId: 'ada',
-            threadId: 'ada',
+          topicId: 'ada',
             text: 'A tisket a tasket...',
             image: '',
             tags: []

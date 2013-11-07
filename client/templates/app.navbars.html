@@ -20,7 +20,7 @@
                   <li><a href="/rules">Rules</a></li>
                   <li><a href="/topics">Topics</a></li>
                   <li><a href="/forum">Forum</a></li>
-                  <li><a href="/post">Post</a></li>
+                  <!--<li><a href="/post">Post</a></li>-->
 
                   <!--<li><a href="/sign-up">Sign-Up</a></li>-->
 
@@ -51,5 +51,24 @@
     </nav>
 </template>
 
+
+
+
+
+<template name="navbarFooter">
+  <nav id="navbarFooter" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+    <div class="navbar-footer">
+      <ul class="nav navbar-nav">
+          {{#if isAdmin }}
+            <li class="admin-panel"><a href="#">Admin</a></li>
+            <li><a href="/admin">Control Panel</a></li>
+          {{else}}
+            <li class="admin-panel"><a href="#">Admin</a></li>
+            <li class="search-panel"><a href="#">Search</a></li>
+          {{/if}}
+      </ul>
+    </div>
+  </nav>
+</template>
 
 
