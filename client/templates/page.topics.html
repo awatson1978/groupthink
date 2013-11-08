@@ -15,6 +15,22 @@
     </div>
     {{/if}}
 
+    {{#if creatingNewTopic }}
+    <div id="newTopicPanel" class="padded new-topic panel {{ getPreferredProfileTheme }}">
+      <div class="row">
+        <div class="col col-lg-8 col-md-8 col-sm-12 with-bottom-margin">
+          <input id="newTopicInput" type="text" class="form-control" placeholder="Describe the topic...."></input>
+        </div>
+        <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
+          <button id="newTopicSave" class="fullwidth btn btn-danger">Save</button>
+        </div>
+        <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
+          <button id="newTopicCancel" class="fullwidth btn btn-default">Cancel</button>
+        </div>
+      </div>
+    </div>
+    {{/if}}
+
     <div class="panel {{ getPreferredProfileTheme }}">
       <div class="panel-heading">
         Topics
@@ -24,10 +40,12 @@
         {{> topicItem }}
         {{/each }}
       </ul>
-      <div class="panel-footer">
-        <div id="createTopicButton" class="btn {{ getPreferredButtonTheme }}">Create Topic</div>
-      </div>
     </div>
+    <button id="createTopicButton" class="btn {{ getPreferredButtonTheme }} pull-left unselectable"><i class="fa fa-pencil-square-o"></i>  Create Topic</button>
+
+
+
+
   </div>
 </template>
 

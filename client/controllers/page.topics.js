@@ -23,14 +23,26 @@ Template.topicsPage.showSearchPanel = function(){
 Session.setDefault('is_add_topic_visible', false);
 Template.topicsPage.events({
   'click #createTopicButton': function(){
-    Session.set('user_intent', 'newtopic');
-    Router.go('/post');
+    if(Session.get('is_creating_new_topic')){
+      Session.set('is_creating_new_topic', false);
+    }else{
+      Session.set('is_creating_new_topic', true);
+    }
+    //Session.set('user_intent', 'newtopic');
+    //Router.go('/post');
   },
   'click .delete-topic-btn': function(){
     Topics.remove(this._id);
     //alert('deleting: ' + this._id);
+  },
+  'click #newTopicSave, tap #newtopicSave':function(){
+    Topics.insert({topic: $('#newTopicInput').val()})
+    Session.set('is_creating_new_topic', false);
+  },
+  'click #newTopicCancel, tap #newTopicCancel':function(){
+    Session.set('is_creating_new_topic', false);
   }
-})
+});
 
 Template.topicsPage.events({
   'click .list-group-item':function(){
@@ -39,7 +51,7 @@ Template.topicsPage.events({
     Session.set('forum_topic', this.topic);
     Router.go('/forum');
   }
-})
+});
 
 Template.topicItem.isAdmin = function(){
   if(Session.get('is_admin')){
@@ -49,10 +61,7 @@ Template.topicItem.isAdmin = function(){
   }
 }
 
-//toggleSession = function(variable){
-//    if(Session.get(variable)){
-//        Session.set(variable, false);
-//    }else{
-//        Session.set(variable, true);
-//    }
-//}
+Session.setDefault('is_creating_new_topic', false);
+Template.topicsPage.creatingNewTopic = function(){
+  return Session.get('is_creating_new_topic');
+}
