@@ -8,8 +8,9 @@
     "event-hooks": {},
     "font-awesome-4": {},
     "bootstrap3-less": {},
-    "fork-me":{
+    "fork-me": {
       "git": "https://github.com/awatson1978/fork-me.git"
-    }
+    },
+    "moment": {}
   }
 }

@@ -29,19 +29,23 @@
         </div>
       </div>
     </div>
+    {{else}}
+    <div class="new-topic-btn row">
+      <button id="createTopicButton" class="unselectable btn {{ getPreferredButtonTheme }} pull-left unselectable"><i class="fa fa-pencil-square-o"></i>  Create Topic</button>
+    </div>
     {{/if}}
+
 
     <div class="panel {{ getPreferredProfileTheme }}">
       <div class="panel-heading">
         Topics
       </div>
-      <ul class="list-group">
+      <ul class="media-list">
         {{#each topics}}
         {{> topicItem }}
         {{/each }}
       </ul>
     </div>
-    <button id="createTopicButton" class="btn {{ getPreferredButtonTheme }} pull-left unselectable"><i class="fa fa-pencil-square-o"></i>  Create Topic</button>
 
 
 
@@ -50,18 +54,39 @@
 </template>
 
 <template name="topicItem">
-  <li class="list-group-item">
-    <ul class="pull-left plain">
-      <li>
-        <i class="largish fa fa-pencil-square-o"></i> <span class="topic-name">{{ topic }}</span>
-      </li>
-    </ul>
-    {{#if isAdmin }}
-    <ul class="plain pull-right">
-      <li><div class="btn btn-danger delete-topic-btn"><i class="fa fa-times-circle"></i></div></li>
-    </ul>
-    {{/if}}
+  <li class="media">
+    <div class="col col-lg-8 col-md-8 col-sm-8">
+      <a class="pull-left" href="#">
+        <i class="largish media-object fa fa-pencil-square-o"></i>
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">{{ topic }}</h4>
+        <i class="fa fa-user"></i> {{ getTopicOwner }} <span class="lightgray with-left-padding"> <i class="fa fa-calendar"></i> {{getTopicDate}}</span>
+      </div>
+      {{#if isAdmin }}
+      <ul class="plain pull-right">
+        <li><div class="btn btn-danger delete-topic-btn"><i class="fa fa-times-circle"></i></div></li>
+      </ul>
+      {{/if}}
+    </div>
+    <div class="col col-lg-2 col-md-2 col-sm-2">
+      <div class="media-body">
+        <h4 class="media-heading"><i class="fa fa-tachometer"></i> {{ getNumberReplies }}</h4>
+        <h4 class="media-heading"><i class="fa fa-eye"></i> {{ getNumberViews }}</h4>
+      </div>
+
+    </div>
+    <div class="col col-lg-2 col-md-2 col-sm-2">
+      <div class="media-body">
+        <span class="gray"><i class="fa fa-user"></i>  {{ getLastUpdatedBy }}</span><br>
+        <span class="gray"><i class="fa fa-calendar"></i>  {{ getLastUpdate }}</span>
+      </div>
+
+    </div>
   </li>
+
+
+
 </template>
 
 <!--<template name="addTopic">-->

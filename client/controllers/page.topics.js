@@ -5,13 +5,31 @@ Template.topicsPage.getPreferredButtonTheme = function(){
   return getPreferredButtonTheme();
 };
 
-//Template.topicsPage.addTopicIsVisible = function(){
-//    return Session.get('is_add_topic_visible');
-//}
 
 Template.topicsPage.topics = function(){
   return Topics.find();
-}
+};
+Template.topicItem.getTopicOwner = function(){
+  return 'System Admin';
+};
+Template.topicItem.getTopicDate = function(){
+  return moment(new Date()).format('YYYY-MM-DD, hh:mm');
+};
+Template.topicItem.getNumberReplies = function(){
+  return 0;
+};
+Template.topicItem.getNumberViews = function(){
+  return 0;
+};
+Template.topicItem.getLastUpdatedBy = function(){
+  return 'System Admin';
+};
+Template.topicItem.getLastUpdate = function(){
+  return moment(new Date()).format('YYYY-MM-DD, hh:mm');
+};
+
+
+
 Template.topicsPage.showSearchPanel = function(){
   if(Session.get('show_search_panel')){
     return true;
@@ -45,7 +63,7 @@ Template.topicsPage.events({
 });
 
 Template.topicsPage.events({
-  'click .list-group-item':function(){
+  'click .media':function(){
     //alert(this._id);
     Session.set('forum_topic_id', this._id);
     Session.set('forum_topic', this.topic);
@@ -53,13 +71,7 @@ Template.topicsPage.events({
   }
 });
 
-Template.topicItem.isAdmin = function(){
-  if(Session.get('is_admin')){
-    return true;
-  }else{
-    return false;
-  }
-}
+
 
 Session.setDefault('is_creating_new_topic', false);
 Template.topicsPage.creatingNewTopic = function(){

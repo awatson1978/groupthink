@@ -7,9 +7,12 @@
           <ul class="nav navbar-nav">
             <li><a id="headerTitle" class="navbar-brand" href="{{ navbarBrandLink }}">{{navbarBrandName}}</a></li>
           {{#if isLoggedIn }}
-            <li><a href="/rules">Rules</a></li>
+            <li><a href="/guidelines">Guidelines</a></li>
             <li><a href="/topics">Topics</a></li>
-            <li><a href="/forum">Forum</a></li>
+            <!--<li><a href="/forum">Forum</a></li>-->
+            {{#if isAdmin }}
+            <li><a href="/admin">Admin Panel</a></li>
+            {{/if}}
           {{/if}}
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -45,11 +48,8 @@
     <div class="navbar-footer">
       <div class="container">
         {{#if isLoggedIn }}
-          <ul class="nav navbar-nav">
-            {{#if isAdmin }}
-            <li><a href="/admin">Admin Panel</a></li>
-            {{/if}}
-          </ul>
+          <!--<ul class="nav navbar-nav">-->
+          <!--</ul>-->
         {{else}}
           <div class="centered">
             <ul class="centered inline nav navbar">

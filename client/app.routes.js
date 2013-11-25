@@ -3,9 +3,9 @@ Router.map(function() {
     path: '/',
     template: 'landingPage'
   });
-  this.route('rulesRoute', {
-    path: '/rules',
-    template: 'rulesPage'
+  this.route('guidelinesRoute', {
+    path: '/guidelines',
+    template: 'guidelinesPage'
   });
 
   this.route('topicsRoute', {

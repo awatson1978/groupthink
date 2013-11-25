@@ -5,3 +5,10 @@ Handlebars.registerHelper('isLoggedIn', function() {
     return false;
   }
 });
+Handlebars.registerHelper('isAdmin', function() {
+  if(Meteor.user().role === "Admin"){
+    return true
+  }else{
+    return false;
+  }
+});

@@ -1,3 +1,24 @@
+Meteor.publish('topics', function(){
+  try{
+    return Topics.find();
+  }catch(error){
+    console.log(error);
+  }
+});
+Meteor.publish('posts', function (forum_topic_id ) {
+  try{
+    return Posts.find({topicId: forum_topic_id});
+
+//        return Dictionary.find({
+//            Word: { $regex: '^' + dictionary_search, $options: 'i' },
+//            Status: { $regex: '^' + status_search, $options: 'i' }
+//        },{limit: 20, sort:{ Word: 1}});
+  }catch(error){
+    console.log(error);
+  }
+});
+
+
 Meteor.publish('userProfile', function (userId) {
   try{
     return Meteor.users.find({_id: this.userId}, {fields: {
