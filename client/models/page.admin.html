@@ -1,0 +1,40 @@
+<template name="adminPage">
+  <div id="adminPage" class="page">
+    <div class="container">
+      <div class="col col-lg-6 col-md-6 col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Admin Preferences
+          </div>
+          <div class="padded">
+            <label for="siteNameInput">Site Name</label>
+            <input id="siteNameInput" class="form-control with-bottom-margin" placeholder="Site Name..." value="{{siteNameInput}}"></input>
+
+            <!--<label for="randomInput">Random Input</label>-->
+            <!--<input id="randomInput" class="form-control" placeholder="bar"></input>-->
+
+            <div class="row">
+              <div class="col col-lg-6 col-md-6 col-sm-6">
+                <div id="forkMeButton" class="fullwidth btn {{getForkMeColor}}">{{getForkMeText}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-6 col-md-6 col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Users Administration
+          </div>
+          <div class="padded">
+            <ul class="list-group">
+              {{#each usersList}}
+              <li class="list-group-item">{{ profile.name }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

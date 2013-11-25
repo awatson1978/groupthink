@@ -6,7 +6,6 @@
 standard-app-packages
 preserve-inputs
 less
-bootstrap-3
 iron-router
 accounts-password
 accounts-ui
@@ -16,6 +15,7 @@ roles
 event-hooks
 
 font-awesome-4
-font-awesome
+bootstrap-3
+fork-me
 
-accounts-entry-js
+bootstrap3-less

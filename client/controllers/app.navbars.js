@@ -1,10 +1,4 @@
-Template.navbarHeader.isLoggedIn = function(){
-    if(Meteor.userId()){
-        return true
-    }else{
-        return false;
-    }
-};
+
 
 Template.navbarHeader.navbarBrandLink = function(){
   if(Meteor.userId()){
@@ -14,15 +8,25 @@ Template.navbarHeader.navbarBrandLink = function(){
   }
 }
 Template.navbarHeader.navbarBrandName = function(){
-  if(Meteor.userId()){
-    return 'Custom Forum Name';
+  if(Session.get('settingsLoaded')){
+    return Session.get('siteName');
   }else{
-    return 'Group Think';
+    return 'Site not ready...';
   }
-}
+};
+Template.navbarHeader.events({
+  'click #signUpButton':function(){
+    Router.go('/sign-up');
+  },
+  'click #headerTitle':function(){
+    Router.go('/');
+  }
+});
+
 
 Template.navbarFooter.isAdmin = function(){
-  if(Session.get('is_admin')){
+  console.log(Meteor.user().role);
+  if(Meteor.user().role === "Admin"){
     return true;
   }else{
     return false;
