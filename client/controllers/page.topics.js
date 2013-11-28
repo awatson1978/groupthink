@@ -1,3 +1,5 @@
+Session.setDefault('forum_topic_id', false);
+
 Template.topicsPage.getPreferredProfileTheme = function(){
   return getPreferredTheme();
 };
@@ -46,12 +48,9 @@ Template.topicsPage.events({
     }else{
       Session.set('is_creating_new_topic', true);
     }
-    //Session.set('user_intent', 'newtopic');
-    //Router.go('/post');
   },
   'click .delete-topic-btn': function(){
     Topics.remove(this._id);
-    //alert('deleting: ' + this._id);
   },
   'click #newTopicSave, tap #newtopicSave':function(){
     Topics.insert({topic: $('#newTopicInput').val()})
@@ -64,16 +63,15 @@ Template.topicsPage.events({
 
 Template.topicsPage.events({
   'click .media':function(){
-    //alert(this._id);
     Session.set('forum_topic_id', this._id);
     Session.set('forum_topic', this.topic);
-    Router.go('/forum');
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.currentTopic': this._id }});
+    Router.go('/forum/' + this._id);
   }
 });
-
 
 
 Session.setDefault('is_creating_new_topic', false);
 Template.topicsPage.creatingNewTopic = function(){
   return Session.get('is_creating_new_topic');
-}
+};

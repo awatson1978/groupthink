@@ -8,11 +8,6 @@ Meteor.publish('topics', function(){
 Meteor.publish('posts', function (forum_topic_id ) {
   try{
     return Posts.find({topicId: forum_topic_id});
-
-//        return Dictionary.find({
-//            Word: { $regex: '^' + dictionary_search, $options: 'i' },
-//            Status: { $regex: '^' + status_search, $options: 'i' }
-//        },{limit: 20, sort:{ Word: 1}});
   }catch(error){
     console.log(error);
   }
@@ -29,6 +24,7 @@ Meteor.publish('userProfile', function (userId) {
       'profile.name': true,
       'profile.avatar': true,
       'profile.username': true,
+      'profile.currentTopic': true,
 
       'emails': true,
       'emails[0].address': true
@@ -100,6 +96,7 @@ Meteor.publish("settings", function () {
       'live': true,
       'maintenance': true,
       'forkme': true,
+      'landingImage': true,
       'theme': true,
       'theme.cover': true,
       'theme.color': true,

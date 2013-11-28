@@ -8,6 +8,8 @@ Session.setDefault('forum_topic_id', '');
 Session.setDefault('forum_topic', '');
 
 
+
+
 Template.forumPage.getPreferredProfileTheme = function(){
   if(Meteor.userId()){
     return getPreferredTheme();
@@ -23,7 +25,12 @@ Template.forumPage.posts = function(){
     return Posts.find({'topicId': Session.get('forum_topic_id')});
 };
 Template.forumPage.getForumTopic = function(){
-    return Session.get('forum_topic');
+  var record = Topics.findOne({_id: Session.get('forum_topic_id')});
+  if(record){
+    return record.topic;
+  }else{
+    return '---';
+  }
 };
 Template.forumPage.getForumTopicId = function(){
     return Session.get('forum_topic_id');

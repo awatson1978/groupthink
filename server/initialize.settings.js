@@ -10,6 +10,7 @@ Meteor.startup(function () {
       keyword: 'sysadmin',
       name: 'GroupThink',
       logo: '',
+      landingImage: '/images/groupthink/fish-groupthink.jpg',
       tagline: 'Forums for the 21st century...',
       installed: false,
       live: false,

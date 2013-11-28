@@ -1,20 +1,30 @@
 Meteor.subscribe('topics');
 
 Meteor.subscribe('usersDirectory');
-Meteor.subscribe('userProfile', Meteor.userId());
+Meteor.subscribe('userProfile', Meteor.userId(), function(){
+  if(Meteor.userId()){
+    user = Meteor.users.findOne(Meteor.userId());
+    Session.set('forum_topic_id', user.profile.currentTopic);
+  }
+});
 
 
 Meteor.autorun(function(){
   Meteor.subscribe('posts', Session.get('forum_topic_id'));
-
 });
 
 
 settingsId = null;
 Meteor.subscribe('settings', function(){
-  Session.set('settingsLoaded',true);
-  Session.set('systemConfigs', Settings.find().fetch()[0]);
-  Session.set('siteName', Session.get('systemConfigs').name);
+  Session.set('settingsLoaded', true);
+  configFile = Settings.find().fetch()[0];
+
+  console.log(configFile);
+
+  Session.set('systemConfigs', configFile);
+  Session.set('siteName', configFile.name);
+  Session.set('landingImage', configFile.landingImage);
+
   settingsId = Session.get('systemConfigs')._id;
 
   displayForkMeBanner(Session.get('systemConfigs'));

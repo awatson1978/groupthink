@@ -1,55 +1,53 @@
 <template name="topicsPage">
-  <div id="topicsPage" class="container">
+  <div id="topicsPage" class="page">
+    <div class="container with-top-and-bottom-spacing">
 
-    {{#if showSearchPanel }}
-    <div class="panel {{ getPreferredProfileTheme }}">
-      <div class="panel-heading">
-        Search Topics
-      </div>
-      <div class="haptic panel-footer">
-        <input type="text" placeholder="search topics"></input>
-        <input type="text" placeholder="tags"></input>
-        <input type="text" placeholder="exclude topic" class="red"></input>
-        <input type="text" placeholder="triggers" class="red"></input>
-      </div>
-    </div>
-    {{/if}}
-
-    {{#if creatingNewTopic }}
-    <div id="newTopicPanel" class="padded new-topic panel {{ getPreferredProfileTheme }}">
-      <div class="row">
-        <div class="col col-lg-8 col-md-8 col-sm-12 with-bottom-margin">
-          <input id="newTopicInput" type="text" class="form-control" placeholder="Describe the topic...."></input>
+      {{#if showSearchPanel }}
+        <div class="panel {{ getPreferredProfileTheme }}">
+          <div class="panel-heading">
+            Search Topics
+          </div>
+          <div class="haptic panel-footer">
+            <input type="text" placeholder="search topics"></input>
+            <input type="text" placeholder="tags"></input>
+            <input type="text" placeholder="exclude topic" class="red"></input>
+            <input type="text" placeholder="triggers" class="red"></input>
+          </div>
         </div>
-        <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
-          <button id="newTopicSave" class="fullwidth btn btn-danger">Save</button>
+      {{/if}}
+
+      {{#if creatingNewTopic }}
+        <div id="newTopicPanel" class="padded new-topic panel {{ getPreferredProfileTheme }}">
+          <div class="row">
+            <div class="col col-lg-8 col-md-8 col-sm-12 with-bottom-margin">
+              <input id="newTopicInput" type="text" class="form-control" placeholder="Describe the topic...."></input>
+            </div>
+            <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
+              <button id="newTopicSave" class="fullwidth btn btn-danger">Save</button>
+            </div>
+            <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
+              <button id="newTopicCancel" class="fullwidth btn btn-default">Cancel</button>
+            </div>
+          </div>
         </div>
-        <div class="col col-lg-2 col-md-2 col-sm-6 with-bottom-margin">
-          <button id="newTopicCancel" class="fullwidth btn btn-default">Cancel</button>
+      {{else}}
+        <div class="new-topic-btn row">
+          <button id="createTopicButton" class="unselectable btn {{ getPreferredButtonTheme }} pull-left unselectable"><i class="fa fa-pencil-square-o"></i>  Create Topic</button>
         </div>
+      {{/if}}
+
+
+      <div class="panel {{ getPreferredProfileTheme }}">
+        <div class="panel-heading">
+          Topics
+        </div>
+        <ul class="media-list">
+          {{#each topics}}
+          {{> topicItem }}
+          {{/each }}
+        </ul>
       </div>
     </div>
-    {{else}}
-    <div class="new-topic-btn row">
-      <button id="createTopicButton" class="unselectable btn {{ getPreferredButtonTheme }} pull-left unselectable"><i class="fa fa-pencil-square-o"></i>  Create Topic</button>
-    </div>
-    {{/if}}
-
-
-    <div class="panel {{ getPreferredProfileTheme }}">
-      <div class="panel-heading">
-        Topics
-      </div>
-      <ul class="media-list">
-        {{#each topics}}
-        {{> topicItem }}
-        {{/each }}
-      </ul>
-    </div>
-
-
-
-
   </div>
 </template>
 
@@ -63,11 +61,6 @@
         <h4 class="media-heading">{{ topic }}</h4>
         <i class="fa fa-user"></i> {{ getTopicOwner }} <span class="lightgray with-left-padding"> <i class="fa fa-calendar"></i> {{getTopicDate}}</span>
       </div>
-      {{#if isAdmin }}
-      <ul class="plain pull-right">
-        <li><div class="btn btn-danger delete-topic-btn"><i class="fa fa-times-circle"></i></div></li>
-      </ul>
-      {{/if}}
     </div>
     <div class="col col-lg-2 col-md-2 col-sm-2">
       <div class="media-body">
@@ -84,18 +77,5 @@
 
     </div>
   </li>
-
-
-
 </template>
 
-<!--<template name="addTopic">-->
-  <!--{{#if addTopicIsVisible }}-->
-    <!--<div class="panel {{ getPreferredProfileTheme }}">-->
-      <!--<div class="panel-heading">-->
-       <!--Add Topic-->
-      <!--</div>-->
-      <!--<input name="topicInput" id="topicInput" type="text" placeholder="topic...">-->
-    <!--</div>-->
-  <!--{{/if }}-->
-<!--</template>-->

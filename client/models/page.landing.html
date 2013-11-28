@@ -1,12 +1,11 @@
 <template name="landingPage">
-  <img class="background-fish" src="/images/groupthink/fish-groupthink.jpg">
-
-
-    <div class="container">
+  <div id="landingPage" class="page">
+    <img class="background-fish" src="{{ landingPageBackgroundImage }}">
+    <div class="container with-top-and-bottom-spacing">
       <div class="col col-lg-6 with-bottom-spacer">
         <div class="panel panel-default">
           <div class="panel-heading">
-              <h4>Welcome</h4>
+            <h4>Welcome</h4>
           </div>
           <div class="padded">
             GroupThink is a real-time bulletin-board system, written in Meteor.js.  It's open-source, themeable, and supports tagging and voting, and many other features.
@@ -39,4 +38,5 @@
         </div>
       </div>
     </div>
+  </div>
 </template>

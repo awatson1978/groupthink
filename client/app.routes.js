@@ -1,11 +1,17 @@
 Router.map(function() {
   this.route('landingRoute', {
     path: '/',
-    template: 'landingPage'
+    template: 'landingPage',
+    before: function(){
+      Session.set('current_page', 'Landing');
+    }
   });
   this.route('guidelinesRoute', {
     path: '/guidelines',
-    template: 'guidelinesPage'
+    template: 'guidelinesPage',
+    before: function(){
+      Session.set('current_page', 'Guidelines');
+    }
   });
 
   this.route('topicsRoute', {
@@ -16,6 +22,7 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Topics');
     }
   });
   this.route('forumRoute', {
@@ -26,6 +33,24 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Forum');
+    }
+  });
+  this.route('specificForumRoute', {
+    path: '/forum/:_id',
+    template:'forumPage',
+    before: function(){
+      if(!Meteor.userId()){
+        this.render("entrySignIn");
+        this.stop();
+      }else{
+        Session.set('forum_topic_id', this.params._id);
+      }
+      Session.set('current_page', 'Forum');
+    },
+    waitOn: function(){
+      return Meteor.subscribe('posts');
+      return Meteor.subscribe('topics');
     }
   });
 
@@ -37,6 +62,7 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Profile');
     }
   });
   this.route('adminRoute', {
@@ -47,6 +73,7 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Admin');
     }
   });
 
@@ -58,6 +85,7 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Post');
     }
   });
 
@@ -70,6 +98,7 @@ Router.map(function() {
         this.render("entrySignIn");
         this.stop();
       }
+      Session.set('current_page', 'Post');
     }
   });
 

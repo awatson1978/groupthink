@@ -1,7 +1,7 @@
 
 
 <template name="navbarHeader">
-    <nav id="navbarHeader" class="navbar navbar-default" role="navigation">
+    <nav id="navbarHeader" class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
@@ -48,8 +48,17 @@
     <div class="navbar-footer">
       <div class="container">
         {{#if isLoggedIn }}
-          <!--<ul class="nav navbar-nav">-->
-          <!--</ul>-->
+          {{#if isAdmin }}
+            {{#if isTopicsPage }}
+              {{> topicsAdminFooter}}
+            {{/if}}
+            {{#if isForumPage }}
+              {{> forumAdminFooter}}
+            {{/if}}
+            {{#if isPostPage }}
+              {{> postAdminFooter}}
+            {{/if}}
+        {{/if}}
         {{else}}
           <div class="centered">
             <ul class="centered inline nav navbar">
@@ -64,3 +73,32 @@
 </template>
 
 
+<template name="topicsAdminFooter">
+  <ul class="nav nabvar-nav inline">
+    <li id="deleteTopicButton"><a href="#"><i class="fa fa-lock"></i> Lock</a></li>
+    <li id="deleteTopicButton"><a href="#"><i class="fa fa-times-circle"></i> Delete</a></li>
+  </ul>
+</template>
+<template name="forumAdminFooter">
+  <ul class="nav nabvar-nav inline">
+    <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit</a></li>
+    <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete</a></li>
+  </ul>
+</template>
+
+<template name="postAdminFooter">
+  <ul class="nav nabvar-nav inline">
+    <li id="goBackButton"><a href="#"><i class="fa fa-lock"></i> Cancel</a></li>
+    <li id="updateButton"><a href="#"><i class="fa fa-times-circle"></i> Update</a></li>
+  </ul>
+</template>
+<template name="topicsUserFooter">
+
+</template>
+
+<template name="forumUserFooter">
+
+</template>
+<template name="postUserFooter">
+
+</template>

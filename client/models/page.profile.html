@@ -1,7 +1,7 @@
 <template name="profilePage">
-    <div id="profilePage">
+    <div id="profilePage" class="page">
         {{#if isLoggedIn }}
-            <div class="container">
+            <div class="container with-top-and-bottom-spacing">
                 <div class="profile panel {{getPreferredProfileTheme}}">
                     <div class="panel-heading">
                         User Profile {{ time }}
@@ -62,17 +62,27 @@
                         </ul>
                     </div>
                 </div>
+              <div class="panel {{ getPreferredProfileTheme }}">
+                <div class="panel-heading">
+                  Select Avatar
+                </div>
+
+                <div class="panel-footer">
+                  <ul class="inline avatar-selection">
+                    <li class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Female_1.png"></li>
+                    <li class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Female_2.png"></li>
+                    <li class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_User.png"></li>
+                    <li class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Male_2.png"></li>
+                    <li class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Male_1.png"></li>
+                  </ul>
+                </div>
+              </div>
 
             </div>
         {{else}}
         <div class="centered container">
-            <!--<div class="centered login panel panel-default">-->
-                <!--<h2 class="centered gray">Derp!  Somebody needs to login!</h2>-->
-                <!--<img src="/images/derpy-uhoh.png">-->
-            <!--</div>-->
-
             <div class="col col-lg-6">
-                <h2 class="gray">Derp!  Somebody needs to login!</h2>
+                <h2 class="gray">Ouch!  Somebody needs to login!</h2>
             </div>
             <div class="col col-lg-6">
                 <img src="/images/Access-Denied.jpg">

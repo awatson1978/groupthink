@@ -1,16 +1,26 @@
 Session.setDefault('site_name', 'Custom Forum Name');
+Session.setDefault('landingImage', '/images/groupthink/fish-groupthink.jpg');
+
 Template.adminPage.siteNameInput = function(){
   if(Session.get('systemConfigs')){
     return Session.get('systemConfigs').name;
   }else{
     return '---';
   }
-}
+};
+Template.adminPage.landingPageBackgroundImage = function(){
+  return Session.get('landingImage');
+};
 
 Template.adminPage.events({
   'keyup #siteNameInput':function(){
     Session.set('siteName', $('#siteNameInput').val());
     Settings.update(settingsId, {$set: {name: Session.get('siteName') }})
+    Meteor.flush();
+  },
+  'keyup #landingPageBackgroundInput':function(){
+    Session.set('landingImage', $('#landingPageBackgroundInput').val());
+    Settings.update(settingsId, {$set: {landingImage: Session.get('landingImage') }})
     Meteor.flush();
   },
   'click #forkMeButton':function(){
