@@ -97,7 +97,28 @@ Template.profilePage.events({
       'profile.wallpaper': 'rainbowWallpaper'
     }});
     $('html').addClass('rainbowWallpaper');
+  },
+  'click #girlOneAvatarButton': function(){
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Female_1.png'}});
+  },
+  'click #girlTwoAvatarButton': function(){
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Female_2.png'}});
+  },
+  'click #defaultUserAvatarButton': function(){
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_User.png'}});
+  },
+  'click #boyTwoAvatarButton': function(){
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Male_2.png'}});
+  },
+  'click #boyOneAvatarButton': function(){
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Male_1.png'}});
   }
+
+
+
+
+
+
 });
 
 

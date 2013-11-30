@@ -17,7 +17,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             {{#if isLoggedIn }}
-            <li><a href="/profile">Profile</a></li>
+            <li><a href="/profile">{{ userName }}</a></li>
             <li><a href="/sign-out">Sign-Out</a></li>
             <!--<li><a href="/forgot-password">Forgot Password</a></li>-->
             {{else}}
@@ -75,14 +75,13 @@
 
 <template name="topicsAdminFooter">
   <ul class="nav nabvar-nav inline">
-    <li id="deleteTopicButton"><a href="#"><i class="fa fa-lock"></i> Lock</a></li>
-    <li id="deleteTopicButton"><a href="#"><i class="fa fa-times-circle"></i> Delete</a></li>
+    <li id="toggleForumAdminButton"><a href="#"><i class="largish fa fa-lock"></i></a></li>
   </ul>
 </template>
 <template name="forumAdminFooter">
   <ul class="nav nabvar-nav inline">
-    <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit</a></li>
-    <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete</a></li>
+    <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit Post</a></li>
+    <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete Post</a></li>
   </ul>
 </template>
 

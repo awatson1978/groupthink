@@ -16,7 +16,7 @@ Meteor.startup(function () {
       email: 'sysadmin@test.org',
       profile: {
         name: 'System Administrator',
-        avatar: '/images/icons/Default_User.jpg'
+        avatar: '/images/icons/Default_User.png'
       }
     });
     console.info('Account created: ' + sysadminId);
@@ -29,7 +29,7 @@ Meteor.startup(function () {
       profile: {
         name: 'Jane Doe',
         role: 'User',
-        avatar: '/images/icons/Default_User.jpg'
+        avatar: '/images/icons/Default_Female_2.png'
       }
     });
     console.info('Account created: ' + janedoeId);
@@ -43,7 +43,7 @@ Meteor.startup(function () {
       profile: {
         name: 'John Doe',
         role: 'User',
-        avatar: '/images/icons/Default_User.jpg'
+        avatar: '/images/icons/Default_Male_2.png'
       }
     });
     console.info('Account created: ' + johndoeId);
@@ -58,9 +58,11 @@ Meteor.startup(function () {
       creatorId: sysadminId,
       createdBy: 'The Dev Team',
       cratedAt: new Date(),
-      posts: 3,
+      replies: 3,
       views: 0,
+      locked: false,
       lastPostId: johndoeId,
+      lastPostBy: 'The Dev Team',
       lastPostAt: new Date()
     });
     console.info('topicId: ' + topicId);
@@ -77,7 +79,7 @@ Meteor.startup(function () {
       topicId: topicId,
       text: 'Lorem ipsum...',
       image: '',
-      tags: []
+      tags: ['welcome', 'intro']
     });
     console.info('postId: ' + postId);
 
@@ -87,7 +89,7 @@ Meteor.startup(function () {
       topicId: topicId,
       text: 'The quick brown fox...',
       image: '',
-      tags: []
+      tags: ['interesting', 'informative']
     });
     console.info('postId: ' + postId);
 
@@ -98,7 +100,7 @@ Meteor.startup(function () {
       topicId: topicId,
       text: 'A tisket, a tasket...',
       image: '',
-      tags: []
+      tags: ['vulgar', 'inflamatory' ]
     });
     console.info('postId: ' + postId);
 

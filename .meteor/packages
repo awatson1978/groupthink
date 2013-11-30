@@ -10,7 +10,6 @@ iron-router
 accounts-password
 accounts-ui
 bootstrap-wysiwyg
-roles
 
 event-hooks
 

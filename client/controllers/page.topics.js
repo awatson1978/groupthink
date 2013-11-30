@@ -1,44 +1,26 @@
 Session.setDefault('forum_topic_id', false);
 
+//-------------------------------------------------------------
+// TopicsPage
+
 Template.topicsPage.getPreferredProfileTheme = function(){
   return getPreferredTheme();
 };
 Template.topicsPage.getPreferredButtonTheme = function(){
   return getPreferredButtonTheme();
 };
-
-
-Template.topicsPage.topics = function(){
-  return Topics.find();
-};
-Template.topicItem.getTopicOwner = function(){
-  return 'System Admin';
-};
-Template.topicItem.getTopicDate = function(){
-  return moment(new Date()).format('YYYY-MM-DD, hh:mm');
-};
-Template.topicItem.getNumberReplies = function(){
-  return 0;
-};
-Template.topicItem.getNumberViews = function(){
-  return 0;
-};
-Template.topicItem.getLastUpdatedBy = function(){
-  return 'System Admin';
-};
-Template.topicItem.getLastUpdate = function(){
-  return moment(new Date()).format('YYYY-MM-DD, hh:mm');
-};
-
-
-
 Template.topicsPage.showSearchPanel = function(){
   if(Session.get('show_search_panel')){
     return true;
   }else{
     false;
   }
-}
+};
+
+Template.topicsPage.topics = function(){
+  return Topics.find();
+};
+
 
 Session.setDefault('is_add_topic_visible', false);
 Template.topicsPage.events({
@@ -50,10 +32,10 @@ Template.topicsPage.events({
     }
   },
   'click .delete-topic-btn': function(){
-    Topics.remove(this._id);
+
   },
   'click #newTopicSave, tap #newtopicSave':function(){
-    Topics.insert({topic: $('#newTopicInput').val()})
+    Topics.insert({topic: $('#newTopicInput').val(), createdBy: Meteor.user().profile.name, createdAt: new Date(), creatorId: Meteor.userId() })
     Session.set('is_creating_new_topic', false);
   },
   'click #newTopicCancel, tap #newTopicCancel':function(){
@@ -63,10 +45,13 @@ Template.topicsPage.events({
 
 Template.topicsPage.events({
   'click .media':function(){
-    Session.set('forum_topic_id', this._id);
-    Session.set('forum_topic', this.topic);
-    Meteor.users.update(Meteor.userId(), {$set: {'profile.currentTopic': this._id }});
-    Router.go('/forum/' + this._id);
+    if(Session.get('forum_admin_buttons') === false){
+      Session.set('forum_topic_id', this._id);
+      Session.set('forum_topic', this.topic);
+      Meteor.users.update(Meteor.userId(), {$set: {'profile.currentTopic': this._id }});
+      Topics.update(this._id, {$inc: { views: 1 }, $set: { lastPostId: Meteor.userId(), lastPostBy: Meteor.user().profile.name }});
+      Router.go('/forum/' + this._id);
+    }
   }
 });
 
@@ -75,3 +60,52 @@ Session.setDefault('is_creating_new_topic', false);
 Template.topicsPage.creatingNewTopic = function(){
   return Session.get('is_creating_new_topic');
 };
+
+//-------------------------------------------------------------
+// TopicItem
+
+Template.topicItem.getTopicOwner = function(){
+  return this.createdBy;
+};
+Template.topicItem.getTopicDate = function(){
+  return this.createdAt;
+};
+Template.topicItem.getNumberReplies = function(){
+  return this.replies;
+};
+Template.topicItem.getNumberViews = function(){
+  return this.views;
+};
+Template.topicItem.getLastUpdatedBy = function(){
+  return this.lastPostId;
+};
+Template.topicItem.getLastUpdate = function(){
+  return moment(this.lastPostAt).format('YYYY-MM-DD');
+};
+Template.topicItem.showForumAdminButtons = function(){
+ return Session.get('forum_admin_buttons');
+};
+Template.topicItem.getLockButtonText = function(){
+  if(this.locked){
+    return "Unlock";
+  }else{
+    return "Lock";
+  }
+};
+Template.topicItem.events({
+  'click #promoteTopicButton':function(event){
+    event.preventDefault();
+    alert('promote');
+  },
+  'click #lockTopicButton':function(event){
+    if(this.locked){
+      Topics.update(this._id, {$set: {locked: false }});
+    }else{
+      Topics.update(this._id, {$set: {locked: true }});
+    }
+  },
+  'click #deleteTopicButton':function(event){
+    Topics.remove(this._id);
+  }
+});
+

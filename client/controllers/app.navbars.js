@@ -26,7 +26,9 @@ Template.navbarHeader.events({
     Router.go('/');
   }
 });
-
+Template.navbarHeader.userName = function(){
+  return Meteor.user().profile.name;
+}
 
 Template.navbarFooter.isAdmin = function(){
   console.log(Meteor.user().role);
@@ -37,12 +39,26 @@ Template.navbarFooter.isAdmin = function(){
   }
 }
 
+Session.setDefault('forum_admin_buttons', false);
 Template.navbarFooter.events({
   'click .admin-panel':function(){
     toggleSession('is_admin');
   },
   'click .search-panel':function(){
     toggleSession('show_search_panel');
+  },
+  'click #toggleForumAdminButton': function(){
+    if(Session.get('forum_admin_buttons')){
+     Session.set('forum_admin_buttons', false);
+    }else{
+      Session.set('forum_admin_buttons', true);
+    }
+  },
+  'click #editPostButton':function(){
+    Router.go('/posts/' + Session.get('selected_post_id'));
+  },
+  'click #deletePostButton':function(){
+    Posts.remove(Session.get('selected_post_id'));
   }
 });
 
@@ -55,7 +71,11 @@ Template.navbarFooter.isTopicsPage = function(){
 };
 Template.navbarFooter.isForumPage = function(){
   if(Session.get('current_page') == 'Forum'){
-    return true;
+    if(Session.get('selected_post_id')){
+      return true;
+    }else{
+      return false;
+    }
   }else{
     return false;
   }

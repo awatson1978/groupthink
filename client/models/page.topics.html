@@ -42,9 +42,13 @@
           Topics
         </div>
         <ul class="media-list">
-          {{#each topics}}
-          {{> topicItem }}
-          {{/each }}
+          {{#if topics}}
+            {{#each topics}}
+            {{> topicItem }}
+            {{/each }}
+          {{else}}
+          <li>this is an empty list!  why don't you create a post?</li>
+          {{/if}}
         </ul>
       </div>
     </div>
@@ -53,7 +57,7 @@
 
 <template name="topicItem">
   <li class="media">
-    <div class="col col-lg-8 col-md-8 col-sm-8">
+    <div class="col col-lg-7 col-md-7 col-sm-7">
       <a class="pull-left" href="#">
         <i class="largish media-object fa fa-pencil-square-o"></i>
       </a>
@@ -65,16 +69,23 @@
     <div class="col col-lg-2 col-md-2 col-sm-2">
       <div class="media-body">
         <h4 class="media-heading"><i class="fa fa-tachometer"></i> {{ getNumberReplies }}</h4>
-        <h4 class="media-heading"><i class="fa fa-eye"></i> {{ getNumberViews }}</h4>
+        <h4 class="gray media-heading"><i class="gray fa fa-eye"></i> {{ getNumberViews }}</h4>
       </div>
 
     </div>
-    <div class="col col-lg-2 col-md-2 col-sm-2">
+    <div class="col col-lg-3 col-md-3 col-sm-3">
+      {{#if showForumAdminButtons }}
+      <div class="media-body">
+        <div id="promoteTopicButton" class="btn btn-success">Promote</div>
+        <div id="lockTopicButton" class="btn btn-warning">{{getLockButtonText}}</div>
+        <div id="deleteTopicButton" class="btn btn-danger">Delete</div>
+      </div>
+      {{else}}
       <div class="media-body">
         <span class="gray"><i class="fa fa-user"></i>  {{ getLastUpdatedBy }}</span><br>
         <span class="gray"><i class="fa fa-calendar"></i>  {{ getLastUpdate }}</span>
       </div>
-
+      {{/if}}
     </div>
   </li>
 </template>

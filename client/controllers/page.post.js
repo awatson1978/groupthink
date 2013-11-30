@@ -44,15 +44,16 @@ Template.postInputPage.events({
     console.log('Meteor.userId(): ' + Meteor.userId());
     console.log(Meteor.user());
 
-    console.log('Meteor.user().profile.username: ' + Meteor.user().profile.username);
+    console.log('Meteor.user().profile.username: ' + Meteor.user().profile.name);
     Posts.insert({
-      creatorName: Meteor.user().profile.username,
+      createdBy: Meteor.user().profile.name,
       text: $('#editor').cleanHtml(),
       image: $('#imageInput').val(),
       weblink: $('#weblinkInput').val(),
       creatorId: Meteor.userId(),
       topicId: Session.get('forum_topic_id')
     });
+    Topics.update(Session.get('forum_topic_id'), {$inc: {replies: 1 }});
     Router.go('/forum');
   },
   'click .update-post-btn':function(){
