@@ -76,6 +76,7 @@ Meteor.startup(function () {
     // crate our administrator
     postId = Posts.insert({
       creatorId: janedoeId,
+      createdBy: 'Jane Doe',
       topicId: topicId,
       text: 'Lorem ipsum...',
       image: '',
@@ -86,6 +87,7 @@ Meteor.startup(function () {
     // crate our administrator
     postId = Posts.insert({
       creatorId: johndoeId,
+      createdBy: 'John Doe',
       topicId: topicId,
       text: 'The quick brown fox...',
       image: '',
@@ -97,6 +99,7 @@ Meteor.startup(function () {
     // crate our administrator
     postId = Posts.insert({
       creatorId: janedoeId,
+      createdBy: 'Jane Doe',
       topicId: topicId,
       text: 'A tisket, a tasket...',
       image: '',

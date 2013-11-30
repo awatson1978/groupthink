@@ -56,9 +56,11 @@ Template.postItem.events({
       Session.set('selected_post_id', this._id);
     }
   },
+  'dblclick .list-group-item':function(){
+    Router.go('/posts/' + this._id);
+  },
   'click .delete-btn': function(){
     Posts.remove(this._id);
-    Topics.update(Session.get('forum_topic_id'), {$set: {replies:  Posts.find(Session.get('forum_topic_id')).fetch().count() }});
   },
   'click .edit-btn': function(){
     //alert('edit! ' + this._id);
@@ -118,3 +120,30 @@ Template.postItem.creatorName = function(){
     return '---';
   }
 };
+
+Template.postItem.tagObjects = function(){
+  return _.map(this.tags || [], function (tag) {
+    return {todo_id: this._id, tag: tag};
+  });
+};
+Template.postItem.addingTag = function () {
+  return Session.equals('editing_addtag', this._id);
+};
+Template.postItem.events({
+  'click .addtag': function (evt, tmpl) {
+//    Session.set('editing_addtag', this._id);
+//    Meteor.flush(); // update DOM before focus
+//    activateInput(tmpl.find("#edittag-input"));
+  },
+  'click .remove': function (evt) {
+//    var tag = this.tag;
+//    var id = this.todo_id;
+//
+//    evt.target.parentNode.style.opacity = 0;
+//    // wait for CSS animation to finish
+//    Meteor.setTimeout(function () {
+//      Todos.update({_id: id}, {$pull: {tags: tag}});
+//    }, 300);
+//    Meteor.flush();
+  }
+});

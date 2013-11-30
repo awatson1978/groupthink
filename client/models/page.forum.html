@@ -55,22 +55,31 @@
 
 <template name="postItem">
   <li class="{{isSelectedItem}} unselectable list-group-item">
-    <div class="media">
+    <div class="media post-header">
       <div class="pull-left image-sidebar">
-        <img class="media-object" src="{{ getPostAvatar }}" alt="user avatar">
-        <div class="fullwidth centered gray">{{ creatorName }}</div>
+        <div class="bold gray">{{ creatorName }}</div>
       </div>
       <div class="media-body">
-        <!--<h4 class="media-heading">-->
-        <ul class="inline">
-          <!--<li class='post-name'>{{ creatorName }}</li>-->
-          <li class='lightgray pull-right'>[ tags ]</li>
-        </ul>
-        <!--</h4>-->
-        <p class="padded text">{{{text}}}</p>
-        <ul class="inline">
-          <li class="blue website-link">{{ getWebsite }}</li>
-        </ul>
+        <div class="fullwidth">
+          <ul class="pull-right inline">
+            {{#each tagObjects}}
+            <li class="gray tags"><i class="fa fa-tag"></i> {{tag}}</div></li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="media">
+      <div class="pull-left image-sidebar">
+        <div class="media-object-container">
+          <img class="media-object" src="{{ getPostAvatar }}" alt="user avatar">
+        </div>
+        <!--<div class="gray ">{{ creatorName }}</div>-->
+      </div>
+      <div class="media-body">
+        <p class="card-padding text">{{{text}}}</p>
       </div>
     </div>
   </li>

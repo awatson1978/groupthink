@@ -47,18 +47,12 @@ Template.navbarFooter.events({
   'click .search-panel':function(){
     toggleSession('show_search_panel');
   },
-  'click #toggleForumAdminButton': function(){
-    if(Session.get('forum_admin_buttons')){
-     Session.set('forum_admin_buttons', false);
-    }else{
-      Session.set('forum_admin_buttons', true);
-    }
-  },
   'click #editPostButton':function(){
     Router.go('/posts/' + Session.get('selected_post_id'));
   },
   'click #deletePostButton':function(){
     Posts.remove(Session.get('selected_post_id'));
+    Topics.update(Session.get('forum_topic_id'), {$inc: {replies:  -1 }});
   }
 });
 

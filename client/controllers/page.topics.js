@@ -52,6 +52,13 @@ Template.topicsPage.events({
       Topics.update(this._id, {$inc: { views: 1 }, $set: { lastPostId: Meteor.userId(), lastPostBy: Meteor.user().profile.name }});
       Router.go('/forum/' + this._id);
     }
+  },
+  'click #toggleForumAdminButton': function(){
+    if(Session.get('forum_admin_buttons')){
+      Session.set('forum_admin_buttons', false);
+    }else{
+      Session.set('forum_admin_buttons', true);
+    }
   }
 });
 
@@ -59,6 +66,13 @@ Template.topicsPage.events({
 Session.setDefault('is_creating_new_topic', false);
 Template.topicsPage.creatingNewTopic = function(){
   return Session.get('is_creating_new_topic');
+};
+Template.topicsPage.getLockIcon = function(){
+  if(Session.get('forum_admin_buttons')){
+    return 'fa-unlock';
+  }else{
+    return 'fa-lock';
+  }
 };
 
 //-------------------------------------------------------------
@@ -77,7 +91,7 @@ Template.topicItem.getNumberViews = function(){
   return this.views;
 };
 Template.topicItem.getLastUpdatedBy = function(){
-  return this.lastPostId;
+  return this.lastPostBy;
 };
 Template.topicItem.getLastUpdate = function(){
   return moment(this.lastPostAt).format('YYYY-MM-DD');

@@ -27,7 +27,7 @@ Router.map(function() {
   });
   this.route('forumRoute', {
     path: '/forum',
-    template:'forumPage',
+    template:'topicsPage',
     before: function(){
       if(!Meteor.userId()){
         this.render("entrySignIn");
@@ -49,7 +49,7 @@ Router.map(function() {
       Session.set('current_page', 'Forum');
     },
     waitOn: function(){
-      return Meteor.subscribe('posts');
+      Meteor.subscribe('posts');
       return Meteor.subscribe('topics');
     }
   });
@@ -97,14 +97,20 @@ Router.map(function() {
       if(!Meteor.userId()){
         this.render("entrySignIn");
         this.stop();
+      }else{
+        Session.set('selected_post_id', this.params._id);
+        Session.set('user_intent', 'updatepost');
+        Session.set('current_page', 'Post');
       }
-      Session.set('current_page', 'Post');
+      console.log('router....');
+      console.log(Session.get('selected_post_id'));
+    },
+    waitOn: function(){
+      Meteor.subscribe('topics');
+      return Meteor.subscribe('onePost', this.params._id);
     }
   });
-
 });
-
-
 
 
 

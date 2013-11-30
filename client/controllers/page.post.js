@@ -18,6 +18,40 @@ Template.postInputPage.rendered = function(){
   $('#editor').wysiwyg();
 };
 
+Session.setDefault('selected_post_id', false);
+Template.postInputPage.post = function(){
+  console.log(Session.get('selected_post_id'));
+
+    if(Session.get('selected_post_id')){
+      return Posts.findOne(Session.get('selected_post_id'));
+    }else{
+      var foo = {
+        creatorId: '',
+        createdBy: 'Jane Doe',
+        topicId: '',
+        text: 'Lorem ipsum...',
+        image: '',
+        tags: []
+      };
+      console.log(foo);
+      return foo;
+    }
+};
+Template.postInputPage.getText = function(){
+  console.log('getText...');
+  console.log(Session.get('selected_post_id'));
+  if(Session.get('selected_post_id')){
+    var post = Posts.findOne(Session.get('selected_post_id'));
+    console.log(post);
+    if(post){
+      return post.text;
+    }else{
+      return '...';
+    }
+  }else{
+    return '....';
+  }
+};
 Template.postInputPage.events({
   'click .create-post-btn':function(){
     console.count('click .create-post-btn');
@@ -33,11 +67,12 @@ Template.postInputPage.events({
       text: $('#editor').cleanHtml(),
       image: $('#imageInput').val(),
       weblink: $('#weblinkInput').val(),
+      tags: $('#postTagsInput').val(),
       creatorId: Meteor.userId(),
       topicId: topicId
     });
     Session.set('user_intent', 'createpost');
-    Router.go('/forum');
+    Router.go('/forum/' + Session.get('forum_topic_id'));
   },
   'click .submit-post-btn':function(){
     console.count('click .submit-post-btn');
@@ -54,7 +89,7 @@ Template.postInputPage.events({
       topicId: Session.get('forum_topic_id')
     });
     Topics.update(Session.get('forum_topic_id'), {$inc: {replies: 1 }});
-    Router.go('/forum');
+    Router.go('/forum/' + Session.get('forum_topic_id'));
   },
   'click .update-post-btn':function(){
     console.count('click .update-post-btn');
@@ -62,19 +97,28 @@ Template.postInputPage.events({
     console.log(Meteor.user());
 
     console.log('Meteor.user().profile.username: ' + Meteor.user().profile.username);
-    Posts.update(this._id,{$set: {
-      creatorName: Meteor.user().profile.username,
-      text: $('#editor').cleanHtml(),
-      image: $('#imageInput').val(),
-      weblink: $('#weblinkInput').val(),
-      creatorId: Meteor.userId()
-    }});
+
+    Posts.update(Session.get('selected_post_id'),{
+      $set: {
+        creatorName: Meteor.user().profile.username,
+        text: $('#editor').cleanHtml(),
+        image: $('#imageInput').val(),
+        weblink: $('#weblinkInput').val(),
+        creatorId: Meteor.userId()
+      },
+      $addToSet:{
+        tags: $('#postTagsInput').val()
+      }
+    });
 
     Session.set('user_intent', 'updatepost');
-    Router.go('/forum');
+    Router.go('/forum/' + Session.get('forum_topic_id'));
   },
   'click .cancel-post-btn': function(){
-    Router.go('/forum');
+    Router.go('/forum/' + Session.get('forum_topic_id'));
+  },
+  'click .fa-times':function(){
+    Posts.update(Session.get('selected_post_id'), {$pull: {tags: this.tag }});
   }
 })
 
@@ -84,4 +128,12 @@ Template.postInputPage.getPreferredProfileTheme = function(){
 };
 Template.postInputPage.getPreferredButtonTheme = function(){
   return getPreferredButtonTheme();
+};
+Template.postInputPage.tagObjects = function(){
+  return _.map(this.tags || [], function (tag) {
+      return {todo_id: Session.get('selected_post_id'), tag: tag};
+  });
+};
+Template.postInputPage.getTags = function(){
+  return this.tags;
 };

@@ -38,8 +38,11 @@
 
 
       <div class="panel {{ getPreferredProfileTheme }}">
-        <div class="panel-heading">
+        <div class="unselectable panel-heading">
           Topics
+          <ul class="pull-right inline">
+            <li id="toggleForumAdminButton"><i class="fa {{ getLockIcon }}"></i></li>
+          </ul>
         </div>
         <ul class="media-list">
           {{#if topics}}

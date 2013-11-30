@@ -12,6 +12,13 @@ Meteor.publish('posts', function (forum_topic_id ) {
     console.log(error);
   }
 });
+Meteor.publish('onePost', function (post_id ) {
+  try{
+    return Posts.find({_id: post_id});
+  }catch(error){
+    console.log(error);
+  }
+});
 
 
 Meteor.publish('userProfile', function (userId) {
