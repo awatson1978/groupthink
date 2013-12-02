@@ -1,7 +1,7 @@
 groupthink
 ==========
 
-Meteor bulletin-board style forum.
+Meteor bulletin-board system.
 
 
 ------------------------
