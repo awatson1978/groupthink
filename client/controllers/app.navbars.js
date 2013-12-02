@@ -30,14 +30,6 @@ Template.navbarHeader.userName = function(){
   return Meteor.user().profile.name;
 }
 
-Template.navbarFooter.isAdmin = function(){
-  console.log(Meteor.user().role);
-  if(Meteor.user().role === "Admin"){
-    return true;
-  }else{
-    return false;
-  }
-}
 
 Session.setDefault('forum_admin_buttons', false);
 Template.navbarFooter.events({
@@ -56,6 +48,17 @@ Template.navbarFooter.events({
   }
 });
 
+Template.navbarFooter.canEdit = function(){
+  if(Session.get('selected_post_creator_id') === Meteor.userId()){
+    return true;
+  }else{
+    if(Meteor.user().role === "Admin"){
+      return true;
+    }else{
+      return false;
+    }
+  }
+};
 Template.navbarFooter.isTopicsPage = function(){
   if(Session.get('current_page') == 'Topics'){
     return true;

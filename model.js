@@ -1,3 +1,6 @@
+
+
+
 Settings =    new Meteor.Collection("settings");
 Settings.allow({
   insert: function(){

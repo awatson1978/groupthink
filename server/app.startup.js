@@ -1,4 +1,6 @@
 
+
+
 Meteor.methods({
   getSystemConfiguration: function(){
     console.log('getSystemConfiguration...');

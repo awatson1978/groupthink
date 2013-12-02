@@ -1,17 +1,6 @@
 
 
-AccountsEntry = {
-  settings: {
-    wrapLinks: true,
-    homeRoute: 'home',
-    dashboardRoute: 'dashboard'
-  },
-  config: function(appConfig) {
-    return this.settings = _.extend(this.settings, appConfig);
-  }
-};
 
-this.AccountsEntry = AccountsEntry;
 
 Handlebars.registerHelper('capitalize', function(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);

@@ -13,11 +13,11 @@ bootstrap-wysiwyg
 
 event-hooks
 
+font-awesome
 font-awesome-4
 bootstrap-3
 fork-me
 
 bootstrap3-less
-font-awesome
 
 moment

@@ -6,9 +6,14 @@ Handlebars.registerHelper('isLoggedIn', function() {
   }
 });
 Handlebars.registerHelper('isAdmin', function() {
-  if(Meteor.user().role === "Admin"){
-    return true
-  }else{
-    return false;
-  }
+  Meteor.call('isAdmin', Meteor.userId(), function(error, result){
+    if(error){
+      console.log(error);
+      return false;
+    }
+    if(result){
+      console.log(result);
+      return true;
+    }
+  });
 });

@@ -45,32 +45,41 @@ Template.forumPage.showSearchPanel = function(){
 //----------------------------------------------------
 // postItem
 
+// SECURITY HOLE:  this function can be hacked by users in the terminal
+canEdit = function(postId){
+  var post = Posts.findOne(postId);
+  if(post.creatorId === Meteor.userId()){
+    return true;
+  }else{
+    if(Meteor.user().role === "Admin"){
+      return true;
+    }else{
+      return false;
+    }
+  }
+};
 Session.setDefault('selected_post_id', false);
 Template.postItem.events({
   'click .list-group-item':function(){
     if(Session.get('selected_post_id') === this._id){
       Session.set('selected_post_id', false);
+      Session.set('selected_post_creator_id', false);
     }else if(Session.get('selected_post_id')){
-      Session.set('selected_post_id', this._id);
+      if(canEdit(this._id)){
+        Session.set('selected_post_id', this._id);
+        Session.set('selected_post_creator_id', this.creatorId);
+      }
     }else{
-      Session.set('selected_post_id', this._id);
+      if(canEdit(this._id)){
+        Session.set('selected_post_id', this._id);
+        Session.set('selected_post_creator_id', this.creatorId);
+      }
     }
   },
   'dblclick .list-group-item':function(){
-    Router.go('/posts/' + this._id);
-  },
-  'click .delete-btn': function(){
-    Posts.remove(this._id);
-  },
-  'click .edit-btn': function(){
-    //alert('edit! ' + this._id);
-    Router.go('/posts/' + this._id);
-  },
-  'click .downvote-btn': function(){
-    alert('downvote! ' + this._id);
-  },
-  'click .upvote-btn': function(){
-    alert('upvote! ' + this._id);
+    if(this.creatorId === Meteor.userId()){
+      Router.go('/posts/' + this._id);
+    }
   }
 });
 Template.postItem.isSelectedItem = function(){

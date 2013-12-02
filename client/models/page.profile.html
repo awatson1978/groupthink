@@ -9,17 +9,14 @@
                     <div class="row">
                         <div class="col col-lg-4">
                             {{{ getAvatarImage }}}
-                            <div id="forgotPasswordButton" class="fullwidth btn btn-default">Forgot Password</div>
+                            <div id="forgotPasswordButton" class="fullwidth btn btn-default with-bottom-margin">Forgot Password</div>
                         </div>
                         <div class="col col-lg-8">
                             <label for="userProfileEmail">Email</label>
                             <input id="userProfileEmail" name="userProfileEmail" placeholder="email" type="text" class="fullwidth profile-input" value="{{ getEmail }}"></input>
 
-                            <label for="userProfileUsername">Username</label>
-                            <input id="userProfileUsername" name="userProfileUsername" placeholder="username" type="text" class="fullwidth profile-input" value="{{ getUsername }}"></input>
-
-                            <label for="userProfileAvatarInput">Avatar Url</label>
-                            <input id="userProfileAvatarInput" name="userProfileAvatarInput" placeholder="avatar image" type="text" class="fullwidth profile-input" value="{{ getAvatarUrl }}"></input>
+                            <!--<label for="userProfileUsername">Username</label>-->
+                            <!--<input id="userProfileUsername" name="userProfileUsername" placeholder="username" type="text" class="fullwidth profile-input" value="{{ getUsername }}"></input>-->
 
                             <label for="userProfileTriggerFilterInput">Keyword Filters</label>
                             <input id="userProfileTriggerFilterInput" name="userProfileTriggerFilterInput" placeholder="list keywords you want to filter out of posts" type="text" class="fullwidth profile-input" value="{{ getTriggers }}"></input>
@@ -27,8 +24,8 @@
                             <label for="userProfileIgnoreListInput">Ignore Users List</label>
                             <input id="userProfileIgnoreListInput" name="userProfileIgnoreListInput" placeholder="list usernames you want to ignore, separated by commas" type="text" class="fullwidth profile-input" value="{{ getIgnoreList }}"></input>
 
-                            <label for="themePreference">Theme Preference</label>
-                            <p id="themePreference">{{ getThemePreference }}</p>
+                            <!--<label for="themePreference">Theme Preference</label>-->
+                            <!--<p id="themePreference">{{ getThemePreference }}</p>-->
 
                             <label for="sortPreference">Sort Preference</label>
                             <p id="sortPreference">{{ getSortPreference }}</p>
@@ -60,6 +57,9 @@
                             <li class="clickable unselectable wallpaperSample thumbnail blueWallpaper"></li>
                             <li class="clickable unselectable wallpaperSample thumbnail rainbowWallpaper"></li>
                         </ul>
+                      <!--<label for="userProfileBackgroundInput">Custom Background Url</label>-->
+                      <!--<input id="userProfileBackgroundInput" name="userProfileBackgroundInput" placeholder="avatar image" type="text" class="fullwidth profile-input" value="{{ getAvatarUrl }}"></input>-->
+
                     </div>
                 </div>
               <div class="panel {{ getPreferredProfileTheme }}">
@@ -75,6 +75,9 @@
                     <li id="boyTwoAvatarButton" class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Male_2.png"></li>
                     <li id="boyOneAvatarButton" class="clickable unselectable avatarSample thumbnail"><img class="thumbnail" src="/images/icons/Default_Male_1.png"></li>
                   </ul>
+                  <label for="userProfileAvatarInput">Custom Avatar Url</label>
+                  <input id="userProfileAvatarInput" name="userProfileAvatarInput" placeholder="avatar image" type="text" class="fullwidth profile-input" value="{{ getAvatarUrl }}"></input>
+
                 </div>
               </div>
 

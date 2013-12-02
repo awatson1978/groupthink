@@ -22,115 +22,44 @@
     <favorites_list name="meteor-forum" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.6512141">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/app.routes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="27" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1830">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.navbars.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="4" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1455">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.topics.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/views/page.topics.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="3" selection-start="806" selection-end="806" vertical-scroll-proportion="-12.375" vertical-offset="408" max-vertical-offset="945">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.forum.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/models/page.forum.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="30" selection-start="2679" selection-end="2679" vertical-scroll-proportion="-11.75" vertical-offset="918" max-vertical-offset="1455">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.forum.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2310">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.post.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="7" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="1187" max-vertical-offset="2175">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="37" selection-start="260" selection-end="260" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1620">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.topics.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/models/page.topics.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="43" column="72" selection-start="1940" selection-end="1940" vertical-scroll-proportion="-15.625" vertical-offset="270" max-vertical-offset="1515">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page.topics.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="19" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.28832117" vertical-offset="937" max-vertical-offset="1965">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="page.profile.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="28" selection-start="795" selection-end="795" vertical-scroll-proportion="16.25" vertical-offset="615" max-vertical-offset="1485">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Dropbox/Apps/codejs/Meteor Tag Pattern/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="60" selection-start="1017" selection-end="1063" vertical-scroll-proportion="0.5338078" vertical-offset="315" max-vertical-offset="1290">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="page.profile.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="31" selection-start="3108" selection-end="3108" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.navbar.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/app.navbar.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="-25.583334" vertical-offset="316" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.navbars.less" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/bootstrap.navbars.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="20" selection-start="433" selection-end="433" vertical-scroll-proportion="0.17564403" vertical-offset="150" max-vertical-offset="8025">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1650">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -140,28 +69,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/controllers/app.layout.js" />
-        <option value="$PROJECT_DIR$/server/initialize.forum.js" />
-        <option value="$PROJECT_DIR$/client/views/page.forum.less" />
-        <option value="$PROJECT_DIR$/client/models/page.forum.html" />
-        <option value="$USER_HOME$/Dropbox/Apps/codejs/Meteor Tag Pattern/script.js" />
+        <option value="$PROJECT_DIR$/client/views/page.profile.less" />
+        <option value="$PROJECT_DIR$/client/app.entry.js" />
+        <option value="$PROJECT_DIR$/server/app.startup.js" />
+        <option value="$PROJECT_DIR$/model.js" />
+        <option value="$PROJECT_DIR$/client/accounts/shared/start.js" />
+        <option value="$PROJECT_DIR$/model.entry.js" />
+        <option value="$PROJECT_DIR$/server/server.entry.js" />
         <option value="$PROJECT_DIR$/server/publish.js" />
-        <option value="$PROJECT_DIR$/client/models/page.post.html" />
-        <option value="$PROJECT_DIR$/client/views/page.post.less" />
-        <option value="$PROJECT_DIR$/client/app.routes.js" />
-        <option value="$PROJECT_DIR$/client/controllers/page.post.js" />
-        <option value="$PROJECT_DIR$/client/controllers/page.forum.js" />
+        <option value="$PROJECT_DIR$/client/models/app.layout.html" />
+        <option value="$PROJECT_DIR$/client/controllers/page.profile.js" />
+        <option value="$PROJECT_DIR$/client/models/page.profile.html" />
         <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
-        <option value="$PROJECT_DIR$/client/views/page.topics.less" />
-        <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
-        <option value="$PROJECT_DIR$/client/models/page.topics.html" />
-        <option value="$PROJECT_DIR$/client/controllers/page.topics.js" />
+        <option value="$PROJECT_DIR$/client/views/app.navbar.less" />
+        <option value="$PROJECT_DIR$/client/models/bootstrap.navbars.less.html" />
+        <option value="$PROJECT_DIR$/client/models/bootstrap.navbars.less" />
+        <option value="$PROJECT_DIR$/client/views/bootstrap.navbars.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1073" />
-    <option name="y" value="486" />
+    <option name="x" value="1058" />
+    <option name="y" value="423" />
     <option name="width" value="1475" />
     <option name="height" value="1001" />
   </component>
@@ -275,6 +204,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,7 +369,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="forgot-password" />
+              <option name="myItemId" value="sign-in" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,6 +404,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -443,11 +417,11 @@
       <recent name="$PROJECT_DIR$/public/backgrounds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/views" />
       <recent name="$PROJECT_DIR$/client/controllers" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/public/images/groupthink" />
       <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/client/stylesheets" />
     </key>
   </component>
   <component name="RunManager">
@@ -499,7 +473,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1073" y="486" width="1475" height="1001" extended-state="0" />
+    <frame x="1058" y="423" width="1475" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,7 +489,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18576272" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18644068" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -542,7 +516,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26592797" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18576272" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -562,134 +536,114 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="28" selection-start="795" selection-end="795" vertical-scroll-proportion="16.25" vertical-offset="615" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/page.forum.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1460" selection-end="1460" vertical-scroll-proportion="19.791666" vertical-offset="1450" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="61" selection-start="6037" selection-end="6037" vertical-scroll-proportion="-6.8333335" vertical-offset="841" max-vertical-offset="1575">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/page.post.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="450">
-          <folding>
-            <marker date="1385800861000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1385800861000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/Apps/codejs/Meteor Tag Pattern/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="60" selection-start="1017" selection-end="1063" vertical-scroll-proportion="0.5338078" vertical-offset="315" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="28" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="260" selection-end="260" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/page.forum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="30" selection-start="2679" selection-end="2679" vertical-scroll-proportion="-11.75" vertical-offset="918" max-vertical-offset="1455">
+        <state line="43" column="0" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2310">
+        <state line="41" column="2" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.landing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="27" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1830">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="7" selection-start="2541" selection-end="2541" vertical-scroll-proportion="0.0" vertical-offset="1187" max-vertical-offset="2175">
+        <state line="44" column="22" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
+    <entry file="file://$PROJECT_DIR$/server/app.startup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="4" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1455">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/page.topics.less">
+    <entry file="file://$PROJECT_DIR$/server/app.roles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="3" selection-start="806" selection-end="806" vertical-scroll-proportion="-12.375" vertical-offset="408" max-vertical-offset="945">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/page.topics.html">
+    <entry file="file://$PROJECT_DIR$/server/hooks.accounts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="72" selection-start="1940" selection-end="1940" vertical-scroll-proportion="-15.625" vertical-offset="270" max-vertical-offset="1515">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
+    <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="19" selection-start="2212" selection-end="2212" vertical-scroll-proportion="0.28832117" vertical-offset="937" max-vertical-offset="1965">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publish.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/app.layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="122" selection-end="143" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="25" selection-start="3838" selection-end="3838" vertical-scroll-proportion="-16.2" vertical-offset="1500" max-vertical-offset="3450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="31" selection-start="3108" selection-end="3108" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/app.navbar.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="-25.583334" vertical-offset="316" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/bootstrap.navbars.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="433" selection-end="433" vertical-scroll-proportion="0.17564403" vertical-offset="150" max-vertical-offset="8025">
           <folding />
         </state>
       </provider>

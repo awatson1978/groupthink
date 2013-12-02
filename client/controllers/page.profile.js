@@ -10,6 +10,8 @@ Template.profilePage.events({
   'click #forgotPasswordButton':function(){
     Router.go('/forgot-password');
   },
+
+
   'click .noThemeButton':function(){
     console.count('click .noThemeButton');
     Meteor.users.update(Meteor.userId(), {$set: {
@@ -98,6 +100,8 @@ Template.profilePage.events({
     }});
     $('html').addClass('rainbowWallpaper');
   },
+
+
   'click #girlOneAvatarButton': function(){
     Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Female_1.png'}});
   },
@@ -112,14 +116,27 @@ Template.profilePage.events({
   },
   'click #boyOneAvatarButton': function(){
     Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': '/images/icons/Default_Male_1.png'}});
+  },
+
+
+
+  'keyup #userProfileBackgroundInput': function(){
+    removeWallpapers();
+    Meteor.users.update(Meteor.userId(), {$set: {
+      'profile.wallpaper': $('#userProfileBackgroundInput').val()
+    }});
+    $('html').addClass('pinkWallpaper');
+    Session.set('userProfileBackgroundImage', $('#userProfileBackgroundInput').val());
+  },
+  'keyup #userProfileAvatarInput': function(){
+    Session.set('userProfileAvatarInput', $('#userProfileBackgroundInput').val());
+    Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': Session.get('userProfileAvatarInput') }});
   }
-
-
-
-
-
-
 });
+
+Template.layout.customBackgroundImage = function(){
+  return Session.get('userProfileBackgroundImage');
+};
 
 
 Template.profilePage.getAvatarImage = function(){

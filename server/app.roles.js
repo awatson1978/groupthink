@@ -4,7 +4,8 @@ Meteor.methods({
     try{
       console.log('checking if user ' + userId + ' is an Admin...');
       var user = Meteor.users.findOne(userId);
-      if(user.profile.role === "Admin"){
+      console.log(user.role);
+      if(user.role === "Admin"){
         return true;
       }else{
         return false;
