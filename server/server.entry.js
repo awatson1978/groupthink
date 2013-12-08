@@ -10,7 +10,7 @@ Meteor.methods({
   	check(password, PasswordPattern);
 
     //Default to gravatar
-    var avatar = "http://www.gravatar.com/avatar/" + Crypto_MD5(email);
+    var avatar = "http://www.gravatar.com/avatar/" + Crypto_MD5(email) + '?s=300';
 
     Accounts.createUser({
             username: username,
