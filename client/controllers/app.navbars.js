@@ -27,8 +27,9 @@ Template.navbarHeader.events({
   }
 });
 Template.navbarHeader.userName = function(){
-  if(Meteor.user()){
-    return Meteor.user().profile.name;
+  var user = Meteor.user()
+  if(user){
+    return user && user.profile && user.profile.name;
   }else{
     return "---";
   }

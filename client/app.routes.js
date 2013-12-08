@@ -1,9 +1,18 @@
+var setPageTitle = function(newTitle) {
+  //Seperate method for internationalization;
+  var siteName = (Session.get('systemConfigs') || {}).name;
+  document.title = newTitle + " - " + siteName;
+}
+
 Router.map(function() {
   this.route('landingRoute', {
     path: '/',
     template: 'landingPage',
     before: function(){
       Session.set('current_page', 'Landing');
+    },
+    after: function() {
+      setPageTitle("Home");
     }
   });
   this.route('guidelinesRoute', {
@@ -11,6 +20,9 @@ Router.map(function() {
     template: 'guidelinesPage',
     before: function(){
       Session.set('current_page', 'Guidelines');
+    },
+    after:function() {
+      setPageTitle("Guidelines");
     }
   });
 
@@ -23,6 +35,9 @@ Router.map(function() {
         this.stop();
       }
       Session.set('current_page', 'Topics');
+    },
+    after: function() {
+      setPageTitle("Topics");
     }
   });
   this.route('forumRoute', {
@@ -34,6 +49,9 @@ Router.map(function() {
         this.stop();
       }
       Session.set('current_page', 'Forum');
+    },
+    after: function() {
+      setPageTitle("List of topics");
     }
   });
   this.route('specificForumRoute', {
@@ -51,6 +69,9 @@ Router.map(function() {
     waitOn: function(){
       Meteor.subscribe('posts');
       return Meteor.subscribe('topics');
+    },
+    after: function() {
+      setPageTitle("Forum");
     }
   });
 
@@ -63,6 +84,9 @@ Router.map(function() {
         this.stop();
       }
       Session.set('current_page', 'Profile');
+    },
+    after: function() {
+      setPageTitle("Your Profile");
     }
   });
   this.route('adminRoute', {
@@ -74,6 +98,9 @@ Router.map(function() {
         this.stop();
       }
       Session.set('current_page', 'Admin');
+    },
+    after: function() {
+      setPageTitle("Admin");
     }
   });
 
@@ -86,6 +113,8 @@ Router.map(function() {
         this.stop();
       }
       Session.set('current_page', 'Post');
+    }, after: function() {
+      setPageTitle("New Post");
     }
   });
 
@@ -108,6 +137,9 @@ Router.map(function() {
     waitOn: function(){
       Meteor.subscribe('topics');
       return Meteor.subscribe('onePost', this.params._id);
+    },
+    after: function() {
+      setPageTitle("Viewing Post");
     }
   });
 });
