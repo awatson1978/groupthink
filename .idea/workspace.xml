@@ -23,10 +23,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="initialize.forum.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="109" column="7" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.profile.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="0" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="3450">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.subscriptions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="page.profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="31" selection-start="3108" selection-end="3108" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1530">
+            <state line="78" column="51" selection-start="5476" selection-end="5498" vertical-scroll-proportion="-16.875" vertical-offset="765" max-vertical-offset="1530">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.entry.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.entry.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -35,26 +80,43 @@
       <file leaf-file-name="app.navbar.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/app.navbar.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="-25.583334" vertical-offset="316" max-vertical-offset="1185">
+            <state line="28" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.navbars.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/bootstrap.navbars.less">
+      <file leaf-file-name="page.forum.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/page.forum.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="433" selection-end="433" vertical-scroll-proportion="0.17564403" vertical-offset="150" max-vertical-offset="8025">
+            <state line="43" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="-22.5" vertical-offset="105" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
+      <file leaf-file-name="page.post.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1650">
-              <folding />
+            <state line="7" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.19195612" vertical-offset="0" max-vertical-offset="1575">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,30 +131,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/views/page.profile.less" />
-        <option value="$PROJECT_DIR$/client/app.entry.js" />
-        <option value="$PROJECT_DIR$/server/app.startup.js" />
-        <option value="$PROJECT_DIR$/model.js" />
-        <option value="$PROJECT_DIR$/client/accounts/shared/start.js" />
         <option value="$PROJECT_DIR$/model.entry.js" />
         <option value="$PROJECT_DIR$/server/server.entry.js" />
         <option value="$PROJECT_DIR$/server/publish.js" />
         <option value="$PROJECT_DIR$/client/models/app.layout.html" />
-        <option value="$PROJECT_DIR$/client/controllers/page.profile.js" />
         <option value="$PROJECT_DIR$/client/models/page.profile.html" />
-        <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
-        <option value="$PROJECT_DIR$/client/views/app.navbar.less" />
         <option value="$PROJECT_DIR$/client/models/bootstrap.navbars.less.html" />
         <option value="$PROJECT_DIR$/client/models/bootstrap.navbars.less" />
         <option value="$PROJECT_DIR$/client/views/bootstrap.navbars.less" />
+        <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
+        <option value="$PROJECT_DIR$/client/views/app.navbar.less" />
+        <option value="$PROJECT_DIR$/client/models/page.admin.html" />
+        <option value="$PROJECT_DIR$/client/controllers/page.profile.js" />
+        <option value="$PROJECT_DIR$/client/views/page.forum.less" />
+        <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
+        <option value="$PROJECT_DIR$/server/initialize.forum.js" />
+        <option value="$PROJECT_DIR$/client/models/page.post.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1058" />
-    <option name="y" value="423" />
-    <option name="width" value="1475" />
-    <option name="height" value="1001" />
+    <option name="x" value="1087" />
+    <option name="y" value="697" />
+    <option name="width" value="1437" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -164,82 +226,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,72 +315,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sign-up" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sign-in" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accounts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -473,7 +393,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1058" y="423" width="1475" height="1001" extended-state="0" />
+    <frame x="1087" y="697" width="1437" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -489,7 +409,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18644068" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18302017" sideWeight="0.67172897" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -536,115 +456,132 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.admin.js">
+    <entry file="file://$PROJECT_DIR$/client/accounts/accounts.entry.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1450381" vertical-offset="2060" max-vertical-offset="2715">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="2" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.landing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+        <state line="117" column="55" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0" vertical-offset="1364" max-vertical-offset="1965">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.startup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.roles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/hooks.accounts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/initialize.settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="1251" selection-end="1251" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="1815">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/app.layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="122" selection-end="143" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="25" selection-start="3838" selection-end="3838" vertical-scroll-proportion="-16.2" vertical-offset="1500" max-vertical-offset="3450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="31" selection-start="3108" selection-end="3108" vertical-scroll-proportion="-13.75" vertical-offset="375" max-vertical-offset="1530">
+        <state line="11" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2175">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1571" selection-end="1571" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="1650">
+        <state line="7" column="29" selection-start="334" selection-end="334" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/page.admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="1122" selection-end="1122" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/page.topics.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="3" selection-start="239" selection-end="239" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="2" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="0" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="3450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/page.profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="51" selection-start="5476" selection-end="5498" vertical-scroll-proportion="-16.875" vertical-offset="765" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/app.navbar.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="5" selection-start="914" selection-end="914" vertical-scroll-proportion="-25.583334" vertical-offset="316" max-vertical-offset="1185">
+        <state line="28" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/bootstrap.navbars.less">
+    <entry file="file://$PROJECT_DIR$/client/views/page.forum.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="433" selection-end="433" vertical-scroll-proportion="0.17564403" vertical-offset="150" max-vertical-offset="8025">
+        <state line="43" column="23" selection-start="971" selection-end="971" vertical-scroll-proportion="-22.5" vertical-offset="105" max-vertical-offset="1995">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="7" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.19195612" vertical-offset="0" max-vertical-offset="1575">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#8;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#9;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#10;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#11;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#12;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#13;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

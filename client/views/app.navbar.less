@@ -1,71 +1,48 @@
-//HEADER
-.navbar-header{
-  z-index: 1000;
-  cursor: pointer;
-}
-.navbar-ex1-collapse{
-  padding-top: 6px;
-  margin-left: 126px;
-  z-index: 100;
-}
-
-#login-dropdown-list {
-  left: -120px;
-}
 
 
-// FOOTER
+
+// --------------------------------------------------
+// Header
+
+
+.navbar .container{
+  margin-right: auto;
+  margin-left:  auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 5px;
+  .navbar-right{
+    margin-top: 6px;
+  }
+}
+
+// --------------------------------------------------
+// Footer
+
 .navbar-fixed-bottom{
   border-top: 1px solid lightgray;
 }
-#navbarFooter{
-  a{
-    font-size: 125%;
-    top: 3px;
+
+
+// --------------------------------------------------
+// Media Sizes
+
+// landscape orientation
+@media only screen and (min-width: 768px) {
+  #guestPage{
+
   }
 }
 
+// portrait orientation
+@media only screen and (max-width: 768px) {
+  #guestPage{
 
-//@media only screen and (max-width: 979px){
-//  .navbar-fixed-top, .navbar-fixed-bottom {
-//    position: fixed;
-//  }
-//}
-
-
-
-#headerTitle{
-  cursor:pointer;
-}
-.navbar{
-//  @media (min-width: 992px){
-//    .container {
-//      width: 970px;
-//    }
-//  }
-  @media (min-width: 768px){
-    .container {
-      width: 750px;
-    }
   }
-  .container{
-    width: 1170px;
-    //padding-right: 15px;
-    //padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    .navbar-header{
-      margin-left: 15px;
-      z-index: 100 !important;
-    }
-    .navbar-collapse{
-      z-index: 10;
-    }
-    .navbar-right{
-      left: inherit;
-      right: -10px;
-      top: -4px;
-    }
+}
+@media only screen and (max-width: 480px) {
+  #guestPage{
+
   }
 }
 

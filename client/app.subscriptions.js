@@ -40,7 +40,7 @@ displayForkMeBanner = function(session){
       repo: 'groupthink',
       ribbon: {
         color: 'orange',
-        position: 'right'
+        position: 'left'
       }
     });
   }

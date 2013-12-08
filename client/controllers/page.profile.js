@@ -128,8 +128,8 @@ Template.profilePage.events({
     $('html').addClass('pinkWallpaper');
     Session.set('userProfileBackgroundImage', $('#userProfileBackgroundInput').val());
   },
-  'keyup #userProfileAvatarInput': function(){
-    Session.set('userProfileAvatarInput', $('#userProfileBackgroundInput').val());
+  'change #userProfileAvatarInput': function(){
+    Session.set('userProfileAvatarInput', $('#userProfileAvatarInput').val());
     Meteor.users.update(Meteor.userId(), {$set: {'profile.avatar': Session.get('userProfileAvatarInput') }});
   }
 });
