@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.profile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/controllers/page.profile.js">
+      <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="0" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="3450">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+      <file leaf-file-name="app.navbars.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+            <state line="28" column="39" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6934931" vertical-offset="15" max-vertical-offset="1560">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.post.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.38391224" vertical-offset="0" max-vertical-offset="1575">
+            <state line="29" column="35" selection-start="2753" selection-end="2753" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1575">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -121,6 +121,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="46" selection-start="697" selection-end="705" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -131,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/model.entry.js" />
         <option value="$PROJECT_DIR$/server/server.entry.js" />
         <option value="$PROJECT_DIR$/server/publish.js" />
         <option value="$PROJECT_DIR$/client/models/app.layout.html" />
@@ -147,12 +155,13 @@
         <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
         <option value="$PROJECT_DIR$/server/initialize.forum.js" />
         <option value="$PROJECT_DIR$/client/models/page.post.html" />
+        <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1087" />
-    <option name="y" value="697" />
+    <option name="x" value="1083" />
+    <option name="y" value="683" />
     <option name="width" value="1437" />
     <option name="height" value="730" />
   </component>
@@ -393,7 +402,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1087" y="697" width="1437" height="730" extended-state="0" />
+    <frame x="1083" y="683" width="1437" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -456,13 +465,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/accounts/accounts.entry.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.1450381" vertical-offset="2060" max-vertical-offset="2715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/page.topics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="55" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0" vertical-offset="1364" max-vertical-offset="1965">
@@ -473,13 +475,6 @@
     <entry file="file://$PROJECT_DIR$/client/controllers/page.post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2175">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="334" selection-end="334" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
@@ -563,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.38391224" vertical-offset="0" max-vertical-offset="1575">
+        <state line="29" column="35" selection-start="2753" selection-end="2753" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="1575">
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -582,6 +577,20 @@
             <element signature="n#style#0;n#a#0;n#li#14;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="46" selection-start="697" selection-end="705" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="39" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6934931" vertical-offset="15" max-vertical-offset="1560">
+          <folding />
         </state>
       </provider>
     </entry>
