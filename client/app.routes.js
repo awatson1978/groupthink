@@ -1,6 +1,7 @@
 var setPageTitle = function(newTitle) {
   //Seperate method for internationalization;
-  document.title = newTitle;
+  var siteName = (Session.get('systemConfigs') || {}).name;
+  document.title = newTitle + " - " + siteName;
 }
 
 Router.map(function() {
@@ -11,7 +12,7 @@ Router.map(function() {
       Session.set('current_page', 'Landing');
     },
     after: function() {
-      setPageTitle("Home - Groupthink");
+      setPageTitle("Home");
     }
   });
   this.route('guidelinesRoute', {
