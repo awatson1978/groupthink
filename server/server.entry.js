@@ -12,13 +12,17 @@ Meteor.methods({
   	check(email, String);
   	check(password, PasswordPattern);
 
+    //Default to gravatar
+    var avatar = "http://www.gravatar.com/avatar/" + Crypto_MD5(email);
+
     Accounts.createUser({
             username: username,
             email: email,
             password: password,
             profile : {
               username: username,
-              name: username
+              name: username,
+              avatar: avatar
             }
     });
     return true;
