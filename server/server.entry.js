@@ -17,7 +17,8 @@ Meteor.methods({
             email: email,
             password: password,
             profile : {
-              username: username
+              username: username,
+              name: username
             }
     });
     return true;
