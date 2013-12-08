@@ -98,7 +98,7 @@
       <file leaf-file-name="page.post.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.19195612" vertical-offset="0" max-vertical-offset="1575">
+            <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.38391224" vertical-offset="0" max-vertical-offset="1575">
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -563,7 +563,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/models/page.post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="286" selection-end="286" vertical-scroll-proportion="0.19195612" vertical-offset="0" max-vertical-offset="1575">
+        <state line="14" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="0.38391224" vertical-offset="0" max-vertical-offset="1575">
           <folding>
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
