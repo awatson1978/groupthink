@@ -6,7 +6,7 @@ Meteor.methods({
   },
   accountsCreateUser: function(username, email, password){
   	check(username, String);
-  	check(email, String);
+  	check(email, EmailPattern);
   	check(password, PasswordPattern);
 
     //Default to gravatar
