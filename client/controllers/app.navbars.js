@@ -56,8 +56,12 @@ Template.navbarFooter.canEdit = function(){
   if(Session.get('selected_post_creator_id') === Meteor.userId()){
     return true;
   }else{
-    if(Meteor.user().role === "Admin"){
-      return true;
+    if(Meteor.user()){
+      if(Meteor.user().role === "Admin"){
+        return true;
+      }else{
+        return false;
+      }
     }else{
       return false;
     }

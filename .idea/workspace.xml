@@ -44,7 +44,7 @@
       <file leaf-file-name="app.navbars.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="39" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6934931" vertical-offset="15" max-vertical-offset="1560">
+            <state line="65" column="19" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.5890411" vertical-offset="631" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -589,7 +589,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/app.navbars.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="39" selection-start="584" selection-end="584" vertical-scroll-proportion="0.6934931" vertical-offset="15" max-vertical-offset="1560">
+        <state line="65" column="19" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.5890411" vertical-offset="631" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
