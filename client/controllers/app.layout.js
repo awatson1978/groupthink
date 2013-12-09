@@ -1,16 +1,27 @@
-Session.setDefault('wallpaper', 'notparsed');
-Template.profilePage.time = function(){
-  if(Session.get('wallpaper') == 'notparsed'){
-    if(Meteor.userId()){
-      //removeWallpapers();
-      if(Meteor.userId().profile && eteor.userId().profile.wallpaper){
-        $('html').addClass(Meteor.userId().profile.wallpaper);
-        Session.set('wallpaper', Meteor.userId().profile.wallpaper);
-      }
+Meteor.startup(function(){
+  if(Meteor.userId()){
+    if(Meteor.user().profile && Meteor.user().profile.wallpaper){
+      $('html').addClass(Meteor.user().profile.wallpaper);
     }
+  }else{
+    removeWallpapers();
   }
-  return new Date();
-};
+});
+
+//Session.setDefault('wallpaper', 'notparsed');
+//Template.profilePage.time = function(){
+//  if(Session.get('wallpaper') === 'notparsed'){
+//    if(Meteor.userId()){
+//      if(Meteor.userId().profile && Meteor.userId().profile.wallpaper){
+//        $('html').addClass(Meteor.userId().profile.wallpaper);
+//        Session.set('wallpaper', Meteor.userId().profile.wallpaper);
+//      }
+//    }else{
+//      removeWallpapers();
+//    }
+//  }
+//  return new Date();
+//};
 
 removeWallpapers = function(){
   $('html').removeClass('noWallpaper');
@@ -19,3 +30,7 @@ removeWallpapers = function(){
   $('html').removeClass('blueWallpaper');
   $('html').removeClass('rainbowWallpaper');
 };
+
+
+
+

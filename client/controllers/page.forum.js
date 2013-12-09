@@ -20,7 +20,7 @@ Template.forumPage.getPreferredButtonTheme = function(){
 };
 
 Template.forumPage.posts = function(){
-  return Posts.find({'topicId': Session.get('forum_topic_id')});
+  return Posts.find({'topicId': Session.get('forum_topic_id')},{$sort:{ createdAt: -1 }});
 };
 Template.forumPage.getForumTopic = function(){
   var record = Topics.findOne({_id: Session.get('forum_topic_id')});
@@ -80,6 +80,10 @@ Template.postItem.events({
     if(this.creatorId === Meteor.userId()){
       Router.go('/posts/' + this._id);
     }
+  },
+  'click #createPostButton':function(){
+    Session.set('user_intent', 'newpost');
+    Router.go('/posts/' + this._id);
   }
 });
 Template.postItem.isSelectedItem = function(){

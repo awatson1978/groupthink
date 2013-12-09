@@ -28,6 +28,7 @@ Template.postInputPage.post = function(){
       var foo = {
         creatorId: '',
         createdBy: 'Jane Doe',
+        createdAt: new Date(),
         topicId: '',
         text: 'Lorem ipsum...',
         image: '',
@@ -46,35 +47,36 @@ Template.postInputPage.getText = function(){
     if(post){
       return post.text;
     }else{
-      return '...';
+      return '';
     }
   }else{
-    return '....';
+    return '';
   }
 };
 Template.postInputPage.events({
-  'click .create-post-btn':function(){
-    console.count('click .create-post-btn');
-    console.log('Meteor.userId(): ' + Meteor.userId());
-    console.log(Meteor.user());
-    console.log('Meteor.user().profile.username: ' + Meteor.user().profile.username);
-
-    var topicId = Topics.insert({
-      topic: $('#topicInput').val()
-    });
-    Posts.insert({
-      creatorName: Meteor.user().profile.username,
-      text: $('#editor').cleanHtml(),
-      image: $('#imageInput').val(),
-      weblink: $('#weblinkInput').val(),
-      tags: $('#postTagsInput').val(),
-      creatorId: Meteor.userId(),
-      topicId: topicId
-    });
-    Session.set('user_intent', 'createpost');
-    Router.go('/forum/' + Session.get('forum_topic_id'));
-  },
-  'click .submit-post-btn':function(){
+//  'click .createPostButton':function(){
+//    console.count('click .create-post-btn');
+//    console.log('Meteor.userId(): ' + Meteor.userId());
+//    console.log(Meteor.user());
+//    console.log('Meteor.user().profile.username: ' + Meteor.user().profile.username);
+//
+//    var topicId = Topics.insert({
+//      topic: $('#topicInput').val()
+//    });
+//    Posts.insert({
+//      creatorName: Meteor.user().profile.username,
+//      text: $('#editor').cleanHtml(),
+//      image: $('#imageInput').val(),
+//      weblink: $('#weblinkInput').val(),
+//      tags: $('#postTagsInput').val(),
+//      creatorId: Meteor.userId(),
+//      createdAt: new Date(),
+//      topicId: topicId
+//    });
+//    Session.set('user_intent', 'createpost');
+//    Router.go('/forum/' + Session.get('forum_topic_id'));
+//  },
+  'click .submitPostButton':function(){
     console.count('click .submit-post-btn');
     console.log('Meteor.userId(): ' + Meteor.userId());
     console.log(Meteor.user());
@@ -86,12 +88,13 @@ Template.postInputPage.events({
       image: $('#imageInput').val(),
       weblink: $('#weblinkInput').val(),
       creatorId: Meteor.userId(),
+      createdAt: new Date(),
       topicId: Session.get('forum_topic_id')
     });
     Topics.update(Session.get('forum_topic_id'), {$inc: {replies: 1 }});
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
-  'click .update-post-btn':function(){
+  'click .updatePostButton':function(){
     console.count('click .update-post-btn');
     console.log('Meteor.userId(): ' + Meteor.userId());
     console.log(Meteor.user());
@@ -104,7 +107,8 @@ Template.postInputPage.events({
         text: $('#editor').cleanHtml(),
         image: $('#imageInput').val(),
         weblink: $('#weblinkInput').val(),
-        creatorId: Meteor.userId()
+        creatorId: Meteor.userId(),
+        lastModifiedAt: new Date()
       },
       $addToSet:{
         tags: $('#postTagsInput').val()

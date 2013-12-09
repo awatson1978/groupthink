@@ -128,8 +128,10 @@ Router.map(function() {
         this.stop();
       }else{
         Session.set('selected_post_id', this.params._id);
-        Session.set('user_intent', 'updatepost');
         Session.set('current_page', 'Post');
+        if(Session.get('user_intent') != "createpost"){
+          Session.set('user_intent', 'updatepost');
+        }
       }
       console.log('router....');
       console.log(Session.get('selected_post_id'));
