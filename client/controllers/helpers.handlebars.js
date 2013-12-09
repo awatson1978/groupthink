@@ -17,3 +17,7 @@ Handlebars.registerHelper('isAdmin', function() {
     }
   });
 });
+Handlebars.registerHelper('landingPageBackgroundImage', function() {
+  return Session.get('landingImage');
+});
+

@@ -25,40 +25,65 @@
     <splitter split-orientation="horizontal" split-proportion="0.81601363">
       <split-first>
         <leaf>
-          <file leaf-file-name=".initialize.forum.old.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/.initialize.forum.old.js">
+          <file leaf-file-name="app.startup.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/app.startup.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
+                <state line="2" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="initialize.forum.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
+          <file leaf-file-name="server.helpers.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/server.helpers.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="34" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.7362729" vertical-offset="0" max-vertical-offset="3555">
-                  <folding>
-                    <marker date="1386569355000" expanded="true" signature="4984:5026" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5082:5124" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5178:5220" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5272:5314" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5365:5407" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5459:5501" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5552:5594" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5644:5686" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5736:5778" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="5828:5870" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7286:7328" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7385:7427" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7483:7525" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7577:7619" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7669:7711" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7759:7801" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7848:7890" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="7946:7988" placeholder="..." />
-                    <marker date="1386569355000" expanded="true" signature="8039:8081" placeholder="..." />
-                  </folding>
+                <state line="11" column="1" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="model.entry.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/model.entry.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.signIn.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/accounts/sign-in/page.signIn.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="4" selection-start="149" selection-end="149" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="825">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.signUp.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/accounts/sign-up/page.signUp.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="57" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1275">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="landingPage.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="helpers.handlebars.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/controllers/helpers.handlebars.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.28395063" vertical-offset="0" max-vertical-offset="1215">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -66,7 +91,25 @@
           <file leaf-file-name="landingPage.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="37" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-15.0" vertical-offset="375" max-vertical-offset="1125">
+                <state line="2" column="0" selection-start="68" selection-end="140" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1125">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pattern.validations.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/pattern.validations.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="initialize.settings.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/initialize.settings.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
                   <folding />
                 </state>
               </provider>
@@ -85,10 +128,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="publications.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="publications.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/server/publications.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="0" selection-start="1200" selection-end="1222" vertical-scroll-proportion="0.1653944" vertical-offset="645" max-vertical-offset="1830">
+                <state line="56" column="0" selection-start="1200" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1830">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.entry.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/server/server.entry.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
                   <folding />
                 </state>
               </provider>
@@ -124,14 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/controllers/page.profile.js" />
-        <option value="$PROJECT_DIR$/client/views/page.forum.less" />
-        <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
-        <option value="$PROJECT_DIR$/client/controllers/helpers.themes.js" />
-        <option value="$PROJECT_DIR$/client/models/page.forum.html" />
-        <option value="$PROJECT_DIR$/client/controllers/page.forum.js" />
-        <option value="$PROJECT_DIR$/client/models/page.post.html" />
-        <option value="$PROJECT_DIR$/client/controllers/page.post.js" />
         <option value="$PROJECT_DIR$/client/app.entry.js" />
         <option value="$PROJECT_DIR$/client/app.events.js" />
         <option value="$PROJECT_DIR$/client/controllers/app.layout.js" />
@@ -140,6 +184,14 @@
         <option value="$PROJECT_DIR$/client/app.routes.js" />
         <option value="$PROJECT_DIR$/client/models/workflow/landingPage.html" />
         <option value="$PROJECT_DIR$/server/initialize.forum.js" />
+        <option value="$PROJECT_DIR$/server/app.startup.js" />
+        <option value="$PROJECT_DIR$/server/app.roles.js" />
+        <option value="$PROJECT_DIR$/server/hooks.accounts.js" />
+        <option value="$PROJECT_DIR$/server/server.helpers.js" />
+        <option value="$PROJECT_DIR$/client/accounts/sign-in/page.signIn.html" />
+        <option value="$PROJECT_DIR$/client/accounts/sign-up/page.signUp.html" />
+        <option value="$PROJECT_DIR$/client/controllers/workflow/landingPage.js" />
+        <option value="$PROJECT_DIR$/client/controllers/helpers.handlebars.js" />
       </list>
     </option>
   </component>
@@ -322,28 +374,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -407,6 +437,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="workflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sign-up" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupthink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sign-in" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,100 +643,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/postPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1253" selection-end="1253" vertical-scroll-proportion="-30.6" vertical-offset="0" max-vertical-offset="2235">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="61" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/workflow/profilePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.32125205" vertical-offset="0" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/app.layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/profilePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1200" selection-end="1222" vertical-scroll-proportion="0.1653944" vertical-offset="645" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="6" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="11" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-15.0" vertical-offset="375" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
@@ -658,28 +659,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="34" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.7362729" vertical-offset="0" max-vertical-offset="3555">
+        <state line="135" column="27" selection-start="3745" selection-end="3745" vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="3555">
           <folding>
-            <marker date="1386569355000" expanded="true" signature="4984:5026" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5082:5124" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5178:5220" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5272:5314" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5365:5407" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5459:5501" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5552:5594" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5644:5686" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5736:5778" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="5828:5870" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7286:7328" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7385:7427" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7483:7525" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7577:7619" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7669:7711" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7759:7801" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7848:7890" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="7946:7988" placeholder="..." />
-            <marker date="1386569355000" expanded="true" signature="8039:8081" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1386569355000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/user.accounts.methods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.startup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/initialize.settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1200" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1830">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pattern.validations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="68" selection-end="140" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/accounts/sign-in/page.signIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="149" selection-end="149" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/accounts/sign-up/page.signUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="57" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/helpers.handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.28395063" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
         </state>
       </provider>
     </entry>

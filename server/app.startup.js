@@ -1,5 +1,6 @@
-
-
+Meteor.startup(function(){
+  crypto = Npm.require('crypto');
+});
 
 Meteor.methods({
   getSystemConfiguration: function(){
