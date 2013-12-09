@@ -74,6 +74,21 @@ Router.map(function() {
       setPageTitle("Forum");
     }
   });
+  this.route('dogfoodRoute', {
+    path: '/sample',
+    template:'forumPage',
+    before: function(){
+      Session.set('forum_topic_id', 'CvydqH5rhpzNcjf7B');
+      Session.set('current_page', 'Forum');
+    },
+    waitOn: function(){
+      Meteor.subscribe('posts');
+      return Meteor.subscribe('topics');
+    },
+    after: function() {
+      setPageTitle("Forum");
+    }
+  });
 
   this.route('profileRoute', {
     path: '/profile',

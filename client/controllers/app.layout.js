@@ -1,27 +1,17 @@
 Meteor.startup(function(){
   if(Meteor.userId()){
-    if(Meteor.user().profile && Meteor.user().profile.wallpaper){
-      $('html').addClass(Meteor.user().profile.wallpaper);
-    }
+    setWallpaper();
   }else{
     removeWallpapers();
   }
 });
 
-//Session.setDefault('wallpaper', 'notparsed');
-//Template.profilePage.time = function(){
-//  if(Session.get('wallpaper') === 'notparsed'){
-//    if(Meteor.userId()){
-//      if(Meteor.userId().profile && Meteor.userId().profile.wallpaper){
-//        $('html').addClass(Meteor.userId().profile.wallpaper);
-//        Session.set('wallpaper', Meteor.userId().profile.wallpaper);
-//      }
-//    }else{
-//      removeWallpapers();
-//    }
-//  }
-//  return new Date();
-//};
+setWallpaper = function(){
+  var user = Meteor.user();
+  if(user.profile && user.profile.wallpaper){
+    $('html').addClass(Meteor.user().profile.wallpaper);
+  }
+};
 
 removeWallpapers = function(){
   $('html').removeClass('noWallpaper');

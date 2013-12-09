@@ -5,6 +5,7 @@ Meteor.subscribe('userProfile', Meteor.userId(), function(){
   if(Meteor.userId()){
     user = Meteor.users.findOne(Meteor.userId());
     Session.set('forum_topic_id', user && user.profile && user.profile.currentTopic);
+    setWallpaper();
   }
 });
 

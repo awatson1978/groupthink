@@ -30,7 +30,7 @@ Meteor.publish('userProfile', function (userId) {
       'profile': true,
       'profile.name': true,
       'profile.avatar': true,
-      'profile.background': true,
+      'profile.wallpaper': true,
       'profile.currentTopic': true,
 
       'emails': true,
@@ -51,6 +51,7 @@ Meteor.publish("usersDirectory", function () {
       'profile': true,
       'profile.name': true,
       'profile.avatar': true,
+      'profile.wallpaper': true,
       'profile.username': true,
 
       'emails': true,
