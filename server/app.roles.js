@@ -1,6 +1,9 @@
 
 Meteor.methods({
   isAdmin: function (userId) {
+
+    check(userId, String);
+
     try{
       console.log('checking if user ' + userId + ' is an Admin...');
       var user = Meteor.users.findOne(userId);
@@ -16,6 +19,8 @@ Meteor.methods({
     }
   },
   isModerator: function (userId) {
+    check(userId, String);
+
     try{
       console.log('checking if user ' + userId + ' is a Moderator...');
       var user = Meteor.users.findOne(userId);
@@ -30,6 +35,8 @@ Meteor.methods({
     }
   },
   isEditor: function (userId) {
+    check(userId, String);
+    
     try{
       console.log('checking if user ' + userId + ' is an Editor...');
       var user = Meteor.users.findOne(userId);

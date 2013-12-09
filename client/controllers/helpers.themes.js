@@ -1,12 +1,13 @@
 getPreferredTheme = function(){
-    if(Meteor.user() && Meteor.user().profile.theme){
-        if(Meteor.user().profile.theme == "pink"){
+    var user = Meteor.user();
+    if(user && user.profile && user.profile.theme){
+        if(user.profile.theme == "pink"){
             return 'panel-danger';
             //return 'btn-danger';
-        }else if(Meteor.user().profile.theme == "green"){
+        }else if(user.profile.theme == "green"){
             return 'panel-success';
             //return 'btn-success';
-        }else if(Meteor.user().profile.theme == "blue"){
+        }else if(user.profile.theme == "blue"){
             return 'panel-info';
         }else{
             return 'panel-default';
@@ -17,12 +18,13 @@ getPreferredTheme = function(){
 }
 
 getPreferredButtonTheme = function(){
-    if(Meteor.user() && Meteor.user().profile.theme){
-        if(Meteor.user().profile.theme == "pink"){
+    var user = Meteor.user();
+    if(user && user.profile && user.profile.theme){
+        if(user.profile.theme == "pink"){
             return 'btn-danger';
-        }else if(Meteor.user().profile.theme == "green"){
+        }else if(user.profile.theme == "green"){
             return 'btn-success';
-        }else if(Meteor.user().profile.theme == "blue"){
+        }else if(user.profile.theme == "blue"){
             return 'btn-info';
         }else{
             return 'btn-default';
