@@ -25,10 +25,10 @@ Meteor.startup(function () {
     janedoeId = Accounts.createUser({
       username: 'janedoe',
       password: 'janedoe',
+      role: 'User',
       email: 'janedoe@test.org',
       profile: {
         name: 'Jane Doe',
-        role: 'User',
         avatar: '/images/icons/Default_Female_2.png'
       }
     });
@@ -40,9 +40,9 @@ Meteor.startup(function () {
       username: 'johndoe',
       password: 'johndoe',
       email: 'johndoe@test.org',
+      role: 'User',
       profile: {
         name: 'John Doe',
-        role: 'User',
         avatar: '/images/icons/Default_Male_2.png'
       }
     });

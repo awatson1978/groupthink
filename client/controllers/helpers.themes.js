@@ -8,14 +8,11 @@ getPreferredTheme = function(){
             //return 'btn-success';
         }else if(Meteor.user().profile.theme == "blue"){
             return 'panel-info';
-            //return 'btn-info';
         }else{
             return 'panel-default';
-            //return 'btn-default';
         }
     }else{
         return 'panel-default';
-        //return 'btn-default';
     }
 }
 
