@@ -23,7 +23,7 @@ Template.adminPage.events({
     Settings.update(settingsId, {$set: {landingImage: Session.get('landingImage') }})
     Meteor.flush();
   },
-  'click #forkMeButton':function(){
+  'click #forkMeButton, tap #forkMeButton':function(){
     var currentForkMeValue = Settings.findOne(settingsId).forkme;
     if(currentForkMeValue){
       Settings.update(settingsId, {$set: {forkme: false }});

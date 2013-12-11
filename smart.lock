@@ -14,13 +14,17 @@
         "git": "https://github.com/awatson1978/fork-me.git",
         "branch": "master"
       },
+      "reactive-overlays": {
+        "git": "https://github.com/awatson1978/reactive-overlays.git",
+        "branch": "master"
+      },
       "moment": {}
     },
     "packages": {
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v0.3.6",
-        "commit": "711dbcabe333c8714298b2fd1de97fdcdae6efa7"
+        "tag": "v0.3.7",
+        "commit": "5dd0d142c870647b910be80bc777b96f0dd45e5e"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
@@ -34,8 +38,8 @@
       },
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.0.6",
-        "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
+        "tag": "v1.1.1",
+        "commit": "b6080b89885c02af228c62576f5ba48b95f715c6"
       },
       "font-awesome": {
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
@@ -54,13 +58,18 @@
       },
       "bootstrap3-less": {
         "git": "https://github.com/eprochasson/bootstrap3-less",
-        "tag": "v0.1.4",
-        "commit": "23ec918f8377b15b22cba33e13b717214235c88a"
+        "tag": "v0.1.5",
+        "commit": "5074432c020ffc7a676a812e92104ce0fa96080f"
       },
       "fork-me": {
         "git": "https://github.com/awatson1978/fork-me.git",
         "branch": "master",
         "commit": "ad7c0f1d52a7001e621a5b0a5a7955ce4b5bd837"
+      },
+      "reactive-overlays": {
+        "git": "https://github.com/awatson1978/reactive-overlays.git",
+        "branch": "master",
+        "commit": "3ea707348fa5f7eee16143ab3c058bdfefa235c7"
       },
       "moment": {
         "git": "https://github.com/acreeger/meteor-moment.git",

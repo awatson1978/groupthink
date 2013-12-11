@@ -24,14 +24,14 @@ Template.topicsPage.topics = function(){
 
 Session.setDefault('is_add_topic_visible', false);
 Template.topicsPage.events({
-  'click #createTopicButton': function(){
+  'click #createTopicButton, tap #createTopicButton': function(){
     if(Session.get('is_creating_new_topic')){
       Session.set('is_creating_new_topic', false);
     }else{
       Session.set('is_creating_new_topic', true);
     }
   },
-  'click .delete-topic-btn': function(){
+  'click .delete-topic-btn, tap .delete-topic-btn': function(){
 
   },
   'click #newTopicSave, tap #newtopicSave':function(){
@@ -44,7 +44,7 @@ Template.topicsPage.events({
 });
 
 Template.topicsPage.events({
-  'click .media':function(){
+  'click .media, tap .media':function(){
     if(Session.get('forum_admin_buttons') === false){
       Session.set('forum_topic_id', this._id);
       Session.set('forum_topic', this.topic);
@@ -53,7 +53,7 @@ Template.topicsPage.events({
       Router.go('/forum/' + this._id);
     }
   },
-  'click #toggleForumAdminButton': function(){
+  'click #toggleForumAdminButton, tap #toggleForumAdminButton': function(){
     if(Session.get('forum_admin_buttons')){
       Session.set('forum_admin_buttons', false);
     }else{
@@ -107,18 +107,18 @@ Template.topicItem.getLockButtonText = function(){
   }
 };
 Template.topicItem.events({
-  'click #promoteTopicButton':function(event){
+  'click #promoteTopicButton, tap #promoteTopicButton':function(event){
     event.preventDefault();
     alert('promote');
   },
-  'click #lockTopicButton':function(event){
+  'click #lockTopicButton, tap #lockTopicButton':function(event){
     if(this.locked){
       Topics.update(this._id, {$set: {locked: false }});
     }else{
       Topics.update(this._id, {$set: {locked: true }});
     }
   },
-  'click #deleteTopicButton':function(event){
+  'click #deleteTopicButton, tap #deleteTopicButton':function(event){
     Topics.remove(this._id);
   }
 });

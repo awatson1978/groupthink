@@ -76,7 +76,7 @@ Template.postInputPage.events({
 //    Session.set('user_intent', 'createpost');
 //    Router.go('/forum/' + Session.get('forum_topic_id'));
 //  },
-  'click .submitPostButton':function(){
+  'click .submitPostButton, tap .submitPostButton':function(){
     console.count('click .submit-post-btn');
     console.log('Meteor.userId(): ' + Meteor.userId());
     console.log(Meteor.user());
@@ -94,7 +94,7 @@ Template.postInputPage.events({
     Topics.update(Session.get('forum_topic_id'), {$inc: {replies: 1 }});
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
-  'click .updatePostButton':function(){
+  'click .updatePostButton, tap .updatePostButton':function(){
     console.count('click .update-post-btn');
     console.log('Meteor.userId(): ' + Meteor.userId());
     console.log(Meteor.user());
@@ -118,10 +118,10 @@ Template.postInputPage.events({
     Session.set('user_intent', 'updatepost');
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
-  'click .cancel-post-btn': function(){
+  'click .cancel-post-btn, tap .cancel-post-btn': function(){
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
-  'click .fa-times':function(){
+  'click .fa-times, tap .fa-times':function(){
     Posts.update(Session.get('selected_post_id'), {$pull: {tags: this.tag }});
   }
 })

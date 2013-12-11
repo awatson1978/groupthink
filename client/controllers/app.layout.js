@@ -1,3 +1,5 @@
+Session.setDefault('show_reactive_overlay', false);
+
 Meteor.startup(function(){
   if(Meteor.userId()){
     setWallpaper();

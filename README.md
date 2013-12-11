@@ -42,6 +42,18 @@ Default Users
     }
 ````
 
+
+TODO LIST
+------------------------
+- circle avatars
+- swipeleft/swiperight
+- admin: delete user
+- admin: graytext moderation
+- post: preview post
+- post: tone/grammar check
+
+
+
 Licensing
 ------------------------
 

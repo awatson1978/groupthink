@@ -11,6 +11,9 @@
     "fork-me": {
       "git": "https://github.com/awatson1978/fork-me.git"
     },
+    "reactive-overlays": {
+      "git": "https://github.com/awatson1978/reactive-overlays.git"
+    },
     "moment": {}
   }
 }

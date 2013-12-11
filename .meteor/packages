@@ -13,11 +13,14 @@ bootstrap-wysiwyg
 
 event-hooks
 
-font-awesome
 font-awesome-4
 bootstrap-3
 fork-me
 
-bootstrap3-less
 
 moment
+
+font-awesome
+bootstrap3-less
+roles
+reactive-overlays

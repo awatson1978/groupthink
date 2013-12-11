@@ -60,7 +60,7 @@ canEdit = function(postId){
 };
 Session.setDefault('selected_post_id', false);
 Template.postItem.events({
-  'click .list-group-item':function(){
+  'click .list-group-item, tap .list-group-item':function(){
     if(Session.get('selected_post_id') === this._id){
       Session.set('selected_post_id', false);
       Session.set('selected_post_creator_id', false);
@@ -81,7 +81,7 @@ Template.postItem.events({
       Router.go('/posts/' + this._id);
     }
   },
-  'click #createPostButton':function(){
+  'click #createPostButton, tap #createPostButton':function(){
     Session.set('user_intent', 'newpost');
     Router.go('/posts/' + this._id);
   }

@@ -19,10 +19,10 @@ Template.navbarHeader.navbarBrandName = function(){
   }
 };
 Template.navbarHeader.events({
-  'click #signUpButton':function(){
+  'click #signUpButton, tap #signUpButton':function(){
     Router.go('/sign-up');
   },
-  'click #headerTitle':function(){
+  'click #headerTitle, tap #headerTitle':function(){
     Router.go('/');
   }
 });
@@ -38,16 +38,16 @@ Template.navbarHeader.userName = function(){
 
 Session.setDefault('forum_admin_buttons', false);
 Template.navbarFooter.events({
-  'click .admin-panel':function(){
+  'click .admin-panel, tap .admin-panel':function(){
     toggleSession('is_admin');
   },
-  'click .search-panel':function(){
+  'click .search-panel, tap .search-panel':function(){
     toggleSession('show_search_panel');
   },
-  'click #editPostButton':function(){
+  'click #editPostButton, tap #editPostButton':function(){
     Router.go('/posts/' + Session.get('selected_post_id'));
   },
-  'click #deletePostButton':function(){
+  'click #deletePostButton, tap #deletePostButton':function(){
     Posts.remove(Session.get('selected_post_id'));
     Topics.update(Session.get('forum_topic_id'), {$inc: {replies:  -1 }});
   }
