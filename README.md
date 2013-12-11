@@ -51,7 +51,7 @@ TODO LIST
 - admin: graytext moderation
 - post: preview post
 - post: tone/grammar check
-
+- admin: add 'report a bug' url field
 
 
 Licensing
