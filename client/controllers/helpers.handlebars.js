@@ -1,8 +1,15 @@
 Handlebars.registerHelper('isLoggedIn', function() {
   if(Meteor.userId()){
-    return true
+    return true;
   }else{
     return false;
+  }
+});
+Handlebars.registerHelper('isGuest', function() {
+  if(Meteor.userId()){
+    return false;
+  }else{
+    return true;
   }
 });
 Handlebars.registerHelper('isAdmin', function() {

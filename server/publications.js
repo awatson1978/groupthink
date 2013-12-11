@@ -109,7 +109,8 @@ Meteor.publish("settings", function () {
       'theme.cover': true,
       'theme.color': true,
       'theme.color.primary': true,
-      'theme.color.secondary': true
+      'theme.color.secondary': true,
+      'publicThread': true
     }});
   }catch(error){
     console.log(error);

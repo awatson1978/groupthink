@@ -25,6 +25,7 @@ Meteor.subscribe('settings', function(){
   Session.set('systemConfigs', configFile);
   Session.set('siteName', configFile.name);
   Session.set('landingImage', configFile.landingImage);
+  Session.set('forum_topic_id', configFile.publicThread);
 
   settingsId = Session.get('systemConfigs')._id;
 

@@ -75,13 +75,14 @@ Router.map(function() {
     }
   });
   this.route('dogfoodRoute', {
-    path: '/sample',
+    path: '/public',
     template:'forumPage',
     before: function(){
-      Session.set('forum_topic_id', 'CvydqH5rhpzNcjf7B');
+      //Session.set('forum_topic_id', 'CvydqH5rhpzNcjf7B');
       Session.set('current_page', 'Forum');
     },
     waitOn: function(){
+      Meteor.subscribe('settings');
       Meteor.subscribe('posts');
       return Meteor.subscribe('topics');
     },

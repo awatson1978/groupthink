@@ -121,6 +121,33 @@ Meteor.startup(function () {
     console.info('topicId: ' + topicId);
   }
 
+  if (Settings.find().count() === 0) {
+    console.info('no settings in database!  creating a configuration file.');
+
+    var configurationId = null;
+
+    // crate our administrator
+    configurationId = Settings.insert({
+      keyword: 'sysadmin',
+      name: 'GroupThink',
+      logo: '',
+      landingImage: '/images/groupthink/fish-groupthink.jpg',
+      tagline: 'Forums for the 21st century...',
+      installed: false,
+      live: false,
+      maintenance: false,
+      forkme: true,
+      publicThread: topicId,
+      theme: {
+        cover: '',
+        color: {
+          primary: '#000000',
+          secondary: '#ffffff'
+        }
+      }
+    });
+    console.info('Configuration file created: ' + configurationId);
+  }
 
 //===============================================================================
 //===============================================================================
@@ -217,11 +244,11 @@ Meteor.startup(function () {
 
     for (var j = 0; j < data.length; j++) {
       postId = Posts.insert({
-        text: data.text,
-        createdBy: data.createdBy,
-        createdAt : data.createdAt,
-        topicId: data.topicId,
-        creatorId: data.creatorId
+        text: data[j].text,
+        createdBy: data[j].createdBy,
+        createdAt: data[j].createdAt,
+        topicId: data[j].topicId,
+        creatorId: data[j].creatorId
       });
       console.info('postId: ' + postId);
     }

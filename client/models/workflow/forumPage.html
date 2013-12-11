@@ -30,7 +30,9 @@
           {{/each }}
         </ul>
         <div class="panel-footer">
-          <a id="createPostButton" href="/post" class="btn {{ getPreferredButtonTheme }}">Create Post</a>
+          {{#if isLoggedIn }}
+            <a id="createPostButton" href="/post" class="btn {{ getPreferredButtonTheme }}">Create Post</a>
+          {{/if}}
         </div>
       </div>
     </div>
