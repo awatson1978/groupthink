@@ -23,91 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="landingPage.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="landingPage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="58" selection-start="700" selection-end="700" vertical-scroll-proportion="-3.9166667" vertical-offset="116" max-vertical-offset="930">
+            <state line="39" column="8" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.71955717" vertical-offset="0" max-vertical-offset="813">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.signIn.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/workflow.accounts/sign-in/page.signIn.html">
+      <file leaf-file-name="landingPage.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="88" selection-end="103" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.signIn.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/workflow.accounts/sign-in/page.signIn.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landingPage.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/workflow/landingPage.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="750">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.layout.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/app.layout.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overlay.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/reactive-overlays/overlay.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="246" selection-end="377" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.overlays.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/views/app.overlays.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0373599" vertical-offset="0" max-vertical-offset="803">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.navbar.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/app.navbar.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.navbars.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="43" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-19.083334" vertical-offset="532" max-vertical-offset="1335">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1140">
+            <state line="19" column="25" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -123,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/controllers/workflow/topicsPage.js" />
         <option value="$PROJECT_DIR$/client/controllers/app.navbars.js" />
         <option value="$PROJECT_DIR$/packages/reactive-overlays/overlay.less" />
         <option value="$PROJECT_DIR$/client/controllers/helpers.handlebars.js" />
@@ -135,16 +62,17 @@
         <option value="$PROJECT_DIR$/server/initialize.forum.js" />
         <option value="$PROJECT_DIR$/client/views/app.layout.less" />
         <option value="$PROJECT_DIR$/client/views/workflow/landingPage.less" />
-        <option value="$PROJECT_DIR$/client/models/workflow/landingPage.html" />
         <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/client/views/app.overlays.less" />
+        <option value="$PROJECT_DIR$/client/controllers/workflow/landingPage.js" />
+        <option value="$PROJECT_DIR$/client/models/workflow/landingPage.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1216" />
-    <option name="y" value="466" />
+    <option name="x" value="1254" />
+    <option name="y" value="346" />
     <option name="width" value="1233" />
     <option name="height" value="973" />
   </component>
@@ -174,7 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -465,6 +392,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,8 +401,8 @@
     <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -493,14 +421,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -509,6 +429,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -541,12 +469,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1216" y="466" width="1233" height="973" extended-state="0" />
+    <frame x="1254" y="346" width="1233" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32598424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -557,11 +484,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21492295" sideWeight="0.67198175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21492295" sideWeight="0.67198175" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32598424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -581,73 +509,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/models/workflow/forumPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="1090" selection-end="1090" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/publications.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
-          <folding />
-        </state>
+        <state line="14" column="47" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <folding />
-        </state>
+        <state line="14" column="3" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/app.routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="48" selection-start="600" selection-end="600" vertical-scroll-proportion="-12.6" vertical-offset="0" max-vertical-offset="2580">
-          <folding />
-        </state>
+        <state line="21" column="48" selection-start="600" selection-end="600" vertical-scroll-proportion="-12.6" vertical-offset="0" max-vertical-offset="2580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/initialize.settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding>
-            <marker date="1386743529000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/initialize.forum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="31" selection-start="9517" selection-end="9517" vertical-scroll-proportion="0.0" vertical-offset="3116" max-vertical-offset="3960">
-          <folding>
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1386743792000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="216" column="31" selection-start="9517" selection-end="9517" vertical-scroll-proportion="0.0" vertical-offset="3116" max-vertical-offset="3960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/workflow.accounts/sign-in/page.signIn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="88" selection-end="103" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="825">
+        <state line="2" column="31" selection-start="88" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
@@ -661,14 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/workflow/landingPage.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="58" selection-start="700" selection-end="700" vertical-scroll-proportion="-3.9166667" vertical-offset="116" max-vertical-offset="930">
+        <state line="6" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
@@ -682,7 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/models/app.navbars.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="43" selection-start="2141" selection-end="2141" vertical-scroll-proportion="-19.083334" vertical-offset="532" max-vertical-offset="1335">
+        <state line="66" column="43" selection-start="2141" selection-end="2141" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
@@ -696,21 +578,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/app.layout.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/reactive-overlays/overlay.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="246" selection-end="377" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="630">
+        <state line="44" column="0" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/views/app.overlays.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0373599" vertical-offset="0" max-vertical-offset="803">
+        <state line="2" column="1" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0373599" vertical-offset="0" max-vertical-offset="803" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/reactive-overlays/overlay.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="246" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="8" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.71955717" vertical-offset="0" max-vertical-offset="813">
           <folding />
         </state>
       </provider>
