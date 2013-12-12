@@ -35,7 +35,16 @@
       <file leaf-file-name="landingPage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="11" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
+            <state line="18" column="34" selection-start="526" selection-end="526" vertical-scroll-proportion="0.31764707" vertical-offset="0" max-vertical-offset="850">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.subscriptions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -56,7 +65,6 @@
         <option value="$PROJECT_DIR$/client/controllers/helpers.handlebars.js" />
         <option value="$PROJECT_DIR$/client/models/workflow/forumPage.html" />
         <option value="$PROJECT_DIR$/server/publications.js" />
-        <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
         <option value="$PROJECT_DIR$/client/app.routes.js" />
         <option value="$PROJECT_DIR$/server/initialize.settings.js" />
         <option value="$PROJECT_DIR$/server/initialize.forum.js" />
@@ -66,6 +74,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/client/views/app.overlays.less" />
         <option value="$PROJECT_DIR$/client/models/workflow/landingPage.html" />
+        <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
         <option value="$PROJECT_DIR$/client/controllers/workflow/landingPage.js" />
       </list>
     </option>
@@ -514,11 +523,6 @@
         <state line="14" column="47" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="3" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app.routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="48" selection-start="600" selection-end="600" vertical-scroll-proportion="-12.6" vertical-offset="0" max-vertical-offset="2580" />
@@ -602,9 +606,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
+        <state line="18" column="34" selection-start="526" selection-end="526" vertical-scroll-proportion="0.31764707" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>

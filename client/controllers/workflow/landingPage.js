@@ -17,10 +17,10 @@ Session.setDefault('screenshotIndex', 0);
 Meteor.startup(function () {
   var displayedScreenshotIndex = 0;
   Meteor.setInterval(function () {
-    if(displayedScreenshotIndex == 2){
+    if(displayedScreenshotIndex === 2){
       displayedScreenshotIndex = 0;
     }else{
-      displayedScreenshotIndex + 1;
+      displayedScreenshotIndex = displayedScreenshotIndex + 1;
     }
     Session.set('screenshotIndex', displayedScreenshotIndex);
   }, 3000);

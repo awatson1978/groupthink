@@ -20,7 +20,7 @@ Meteor.subscribe('settings', function(){
   Session.set('settingsLoaded', true);
   configFile = Settings.find().fetch()[0];
 
-  console.log(configFile);
+  //console.log(configFile);
 
   Session.set('systemConfigs', configFile);
   Session.set('siteName', configFile.name);
