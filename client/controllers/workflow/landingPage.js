@@ -17,12 +17,12 @@ Session.setDefault('screenshotIndex', 0);
 Meteor.startup(function () {
   var displayedScreenshotIndex = 0;
   Meteor.setInterval(function () {
-    Session.set('screenshotIndex', displayedScreenshotIndex);
     if(displayedScreenshotIndex == 2){
       displayedScreenshotIndex = 0;
     }else{
-      displayedScreenshotIndex++;
+      displayedScreenshotIndex + 1;
     }
+    Session.set('screenshotIndex', displayedScreenshotIndex);
   }, 3000);
 });
 

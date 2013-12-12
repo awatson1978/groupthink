@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="landingPage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landingPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="8" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.71955717" vertical-offset="0" max-vertical-offset="813">
+            <state line="23" column="14" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landingPage.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="landingPage.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="30" column="11" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
         <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/client/views/app.overlays.less" />
-        <option value="$PROJECT_DIR$/client/controllers/workflow/landingPage.js" />
         <option value="$PROJECT_DIR$/client/models/workflow/landingPage.html" />
+        <option value="$PROJECT_DIR$/client/controllers/workflow/landingPage.js" />
       </list>
     </option>
   </component>
@@ -595,16 +595,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
+    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+        <state line="23" column="14" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/models/workflow/landingPage.html">
+    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/landingPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.71955717" vertical-offset="0" max-vertical-offset="813">
+        <state line="30" column="11" selection-start="840" selection-end="840" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
