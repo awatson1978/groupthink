@@ -27,13 +27,10 @@ Meteor.publish('userProfile', function (userId) {
       '_id': true,
       'username': true,
       'role': true,
-      'profile': true,
       'profile.name': true,
       'profile.avatar': true,
       'profile.wallpaper': true,
       'profile.currentTopic': true,
-
-      'emails': true,
       'emails[0].address': true
     }});
 
@@ -48,14 +45,11 @@ Meteor.publish("usersDirectory", function () {
     return Meteor.users.find({}, {fields: {
       '_id': true,
       'username': true,
-      'profile': true,
       'profile.name': true,
       'profile.avatar': true,
       'profile.wallpaper': true,
       'profile.username': true,
 
-      'emails': true,
-      'emails[0].address': true,
       'emails.address': true
     }});
   }catch(error){
@@ -75,7 +69,6 @@ Meteor.publish("system", function () {
       'profile.avatar': true,
       'profile.username': true,
 
-      'configuration': true,
       'configuration.name': true,
       'configuration.logo': true,
       'configuration.tagline': true,
@@ -105,9 +98,7 @@ Meteor.publish("settings", function () {
       'maintenance': true,
       'forkme': true,
       'landingImage': true,
-      'theme': true,
       'theme.cover': true,
-      'theme.color': true,
       'theme.color.primary': true,
       'theme.color.secondary': true,
       'publicThread': true
