@@ -37,17 +37,17 @@
     <div class="navbar-footer">
       <div class="container">
         {{#if isLoggedIn }}
-        {{#if canEdit }}
-        {{#if isTopicsPage }}
-        {{> topicsAdminFooter}}
-        {{/if}}
-        {{#if isForumPage }}
-        {{> forumAdminFooter}}
-        {{/if}}
-        {{#if isPostPage }}
-        {{> postAdminFooter}}
-        {{/if}}
-        {{/if}}
+          {{#if canEdit }}
+            {{#if isTopicsPage }}
+              {{> topicsAdminFooter}}
+            {{/if}}
+            {{#if isForumPage }}
+              {{> forumAdminFooter}}
+            {{/if}}
+            {{#if isPostPage }}
+              {{> postAdminFooter}}
+            {{/if}}
+          {{/if}}
         {{else}}
         <div class="centered">
           <ul class="centered inline nav navbar">
@@ -70,6 +70,7 @@
 </template>
 <template name="forumAdminFooter">
   <ul class="nav nabvar-nav inline">
+    <li id="createPostButton"><a href="/post"><i class="fa fa-plus"></i> Create Post</a></li>
     <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit Post</a></li>
     <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete Post</a></li>
   </ul>

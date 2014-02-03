@@ -45,6 +45,7 @@ Template.navbarFooter.events({
     toggleSession('show_search_panel');
   },
   'click #editPostButton, tap #editPostButton':function(){
+    Session.set('user_intent', 'editpost');
     Router.go('/posts/' + Session.get('selected_post_id'));
   },
   'click #deletePostButton, tap #deletePostButton':function(){

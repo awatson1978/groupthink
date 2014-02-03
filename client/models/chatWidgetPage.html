@@ -5,3 +5,98 @@
     </div>
   </div>
 </template>
+
+
+<template name="chatWidget">
+  <div id="chatWidget" class="widget">
+    <!-- Widget title -->
+    <!--<div class="widget-head">-->
+    <!--<div class="pull-left">Chats</div>-->
+    <!--<div class="widget-icons pull-right">-->
+    <!--<a href="#" class="wminimize"><i class="icon-chevron-up"></i></a>-->
+    <!--<a href="#" class="wclose"><i class="icon-remove"></i></a>-->
+    <!--</div>-->
+    <!--<div class="clearfix"></div>-->
+    <!--</div>-->
+    <div class="widget-content">
+      <!-- Widget content -->
+      <div class="padd">
+
+        <ul class="chats">
+
+          {{#each posts}}
+          {{> chatItem }}
+          {{/each }}
+
+
+          <!--&lt;!&ndash; Chat by other. Use the class "by-other". &ndash;&gt;-->
+          <!--<li class="by-other">-->
+          <!--&lt;!&ndash; Use the class "pull-right" in avatar &ndash;&gt;-->
+          <!--<div class="avatar pull-right">-->
+          <!--<img src="img/user.jpg" alt=""/>-->
+          <!--</div>-->
+
+          <!--<div class="chat-content">-->
+          <!--&lt;!&ndash; In the chat meta, first include "time" then "name" &ndash;&gt;-->
+          <!--<div class="chat-meta">3 hours ago <span class="pull-right">Ravi</span></div>-->
+          <!--Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.-->
+          <!--<div class="clearfix"></div>-->
+          <!--</div>-->
+          <!--</li>-->
+
+          <!--<li class="by-me">-->
+          <!--<div class="avatar pull-left">-->
+          <!--<img src="img/user.jpg" alt=""/>-->
+          <!--</div>-->
+
+          <!--<div class="chat-content">-->
+          <!--<div class="chat-meta">Ashok <span class="pull-right">4 hours ago</span></div>-->
+          <!--Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.-->
+          <!--<div class="clearfix"></div>-->
+          <!--</div>-->
+          <!--</li>-->
+
+        </ul>
+
+      </div>
+      <!-- Widget footer -->
+      <!--{{#if isLoggedIn }}-->
+      <!--<div class="widget-foot">-->
+        <!--<form class="form-inline">-->
+          <!--<div class="fullwidth form-group">-->
+            <!--<div class="col col-sm-10 col-md-10 col-lg-11">-->
+              <!--<input type="text" class="form-control" placeholder="Type your message here...">-->
+            <!--</div>-->
+            <!--<div class="col col-sm-2 col-md-2 col-lg-1">-->
+              <!--<button id="createPostButton" type="submit" class="fullwidth btn {{ getPreferredButtonTheme }}">Send</button>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</form>-->
+      <!--</div>-->
+      <!--{{/if}}-->
+
+
+
+    </div>
+
+
+  </div>
+
+</template>
+
+<template name="chatItem">
+  <!-- Chat by us. Use the class "by-me". -->
+  <li class="by-me">
+    <!-- Use the class "pull-left" in avatar -->
+    <div class="avatar pull-left">
+      <img src="{{ getPostAvatar }}" alt=""/>
+    </div>
+
+    <div class="chat-content">
+      <!-- In meta area, first include "name" and then "time" -->
+      <div class="chat-meta">{{ creatorName }} <span class="pull-right">{{ createdAt }}</span></div>
+      {{{text}}}
+      <div class="clearfix"></div>
+    </div>
+  </li>
+</template>

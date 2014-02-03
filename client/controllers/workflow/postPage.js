@@ -118,7 +118,7 @@ Template.postInputPage.events({
     Session.set('user_intent', 'updatepost');
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
-  'click .cancel-post-btn, tap .cancel-post-btn': function(){
+  'click .cancelPostButton, tap .cancel-post-btn': function(){
     Router.go('/forum/' + Session.get('forum_topic_id'));
   },
   'click .fa-times, tap .fa-times':function(){

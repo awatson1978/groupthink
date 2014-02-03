@@ -145,7 +145,14 @@ Template.profilePage.getAvatarImage = function(){
   if(Meteor.userId()){
     if(Meteor.user().profile){
       if(Meteor.user().profile.avatar != ""){
-        return '<img class="profile-avatar with-vertical-padding" src="' + Meteor.user().profile.avatar + '">';
+        var img = new Image();
+        img.src = Meteor.user().profile.avatar;
+        console.log('image ratio: ' + img.width/img);
+        if(img.width = img.height){
+          return '<img class="profile-avatar with-vertical-padding" src="' + Meteor.user().profile.avatar + '">';
+        }else{
+          return '<img class="profile-avatar with-vertical-padding" src="placeholder-512x512.jpg">';
+        }
       }else{
         return '<img class="profile-avatar with-vertical-padding" src="placeholder-512x512.jpg">';
       }

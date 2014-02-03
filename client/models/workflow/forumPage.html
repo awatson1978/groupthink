@@ -16,25 +16,10 @@
       </div>
       {{/if}}
 
-      <div class="panel {{ getPreferredProfileTheme }}">
-        <div class="panel-heading">
-          <ul class="inline">
-            <li class='bold topic-title'> {{ getForumTopic }} </li>
-            <li class='pull-right topic-id'> {{ getForumTopicId }} </li>
-          </ul>
-
-        </div>
-        <ul class="list-group">
-          {{#each posts}}
-          {{> postItem }}
-          {{/each }}
-        </ul>
-        <div class="panel-footer">
-          {{#if isLoggedIn }}
-            <a id="createPostButton" href="/post" class="btn {{ getPreferredButtonTheme }}">Create Post</a>
-          {{/if}}
-        </div>
-      </div>
+      {{> chatWidget}}
+      {{#if isLoggedIn }}
+        <a id="createPostButton" href="/post" class="pull-right btn {{ getPreferredButtonTheme }}">Create Post</a>
+      {{/if}}
     </div>
   </div>
 </template>

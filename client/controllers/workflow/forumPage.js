@@ -59,8 +59,8 @@ canEdit = function(postId){
   }
 };
 Session.setDefault('selected_post_id', false);
-Template.postItem.events({
-  'click .list-group-item, tap .list-group-item':function(){
+Template.chatItem.events({
+  'click .by-me, tap .by-me':function(){
     if(Session.get('selected_post_id') === this._id){
       Session.set('selected_post_id', false);
       Session.set('selected_post_creator_id', false);
@@ -86,7 +86,7 @@ Template.postItem.events({
     Router.go('/posts/' + this._id);
   }
 });
-Template.postItem.isSelectedItem = function(){
+Template.chatItem.isSelectedItem = function(){
   if(Session.get('selected_post_id')  === this._id){
     return "selected-post";
   }else{
@@ -95,7 +95,7 @@ Template.postItem.isSelectedItem = function(){
 };
 
 
-Template.postItem.getTopic = function(){
+Template.chatItem.getTopic = function(){
   if(this.topicId){
     return Topics.findOne(this.topicId).topic;
   }else{
@@ -103,7 +103,7 @@ Template.postItem.getTopic = function(){
   }
 };
 
-Template.postItem.getWebsite = function(){
+Template.chatItem.getWebsite = function(){
   if(this.weblink){
     return this.weblink;
   }else{
@@ -111,7 +111,7 @@ Template.postItem.getWebsite = function(){
   }
 };
 
-Template.postItem.getPostAvatar = function(){
+Template.chatItem.getPostAvatar = function(){
   if(Meteor.users.findOne(this.creatorId)){
     var user = Meteor.users.findOne(this.creatorId);
     if(user.profile.avatar){
@@ -123,10 +123,10 @@ Template.postItem.getPostAvatar = function(){
     return '/images/icons/Default_User.png';
   }
 };
-Template.postItem.getPostCreatorId = function(){
+Template.chatItem.getPostCreatorId = function(){
   return this.creatorId;
 };
-Template.postItem.creatorName = function(){
+Template.chatItem.creatorName = function(){
   if(this.createdBy){
     return this.createdBy;
   }else{
@@ -134,15 +134,15 @@ Template.postItem.creatorName = function(){
   }
 };
 
-Template.postItem.tagObjects = function(){
+Template.chatItem.tagObjects = function(){
   return _.map(this.tags || [], function (tag) {
     return {todo_id: this._id, tag: tag};
   });
 };
-Template.postItem.addingTag = function () {
+Template.chatItem.addingTag = function () {
   return Session.equals('editing_addtag', this._id);
 };
-Template.postItem.events({
+Template.chatItem.events({
   'click .addtag': function (evt, tmpl) {
 //    Session.set('editing_addtag', this._id);
 //    Meteor.flush(); // update DOM before focus
