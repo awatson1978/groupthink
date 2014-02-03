@@ -76,15 +76,15 @@ Router.map(function() {
   });
   this.route('dogfoodRoute', {
     path: '/public',
-    template:'forumPage',
+    template: 'chatWidgetPage',
+    //template:'forumPage',
     before: function(){
       //Session.set('forum_topic_id', 'CvydqH5rhpzNcjf7B');
       Session.set('current_page', 'Forum');
     },
     waitOn: function(){
-      Meteor.subscribe('settings');
       Meteor.subscribe('posts');
-      return Meteor.subscribe('topics');
+      return Meteor.subscribe('settings');
     },
     after: function() {
       setPageTitle("Forum");

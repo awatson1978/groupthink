@@ -10,11 +10,6 @@ Meteor.subscribe('userProfile', Meteor.userId(), function(){
 });
 
 
-Meteor.autorun(function(){
-  Meteor.subscribe('posts', Session.get('forum_topic_id'));
-});
-
-
 settingsId = null;
 Meteor.subscribe('settings', function(){
   Session.set('settingsLoaded', true);
@@ -31,6 +26,12 @@ Meteor.subscribe('settings', function(){
 
   displayForkMeBanner(Session.get('systemConfigs'));
 });
+
+Meteor.autorun(function(){
+  Meteor.subscribe('posts', Session.get('forum_topic_id'));
+});
+
+
 
 
 
