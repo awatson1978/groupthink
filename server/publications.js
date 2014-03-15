@@ -47,7 +47,6 @@ Meteor.publish("usersDirectory", function () {
       'username': true,
       'profile.name': true,
       'profile.avatar': true,
-      'profile.wallpaper': true,
       'profile.username': true,
 
       'emails.address': true
