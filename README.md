@@ -45,7 +45,7 @@ Default Users
 
 TODO LIST
 ------------------------
-- circle avatars
+- wrapbootstrap landing page
 - swipeleft/swiperight
 - admin: delete user
 - admin: graytext moderation
