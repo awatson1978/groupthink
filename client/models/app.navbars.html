@@ -36,27 +36,26 @@
   <nav id="navbarFooter" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
     <div class="navbar-footer">
       <div class="container">
-        {{#if isLoggedIn }}
-          {{#if canEdit }}
-            {{#if isTopicsPage }}
-              {{> topicsAdminFooter}}
+        <ul class="centered inline nav navbar">
+          {{#if isLoggedIn }}
+            {{#if canEdit }}
+              {{#if isTopicsPage }}
+                {{> topicsAdminFooter}}
+              {{/if}}
+              {{#if isForumPage }}
+                {{> forumAdminFooter}}
+              {{/if}}
+              {{#if isPostPage }}
+                {{> postAdminFooter}}
+              {{/if}}
             {{/if}}
-            {{#if isForumPage }}
-              {{> forumAdminFooter}}
-            {{/if}}
-            {{#if isPostPage }}
-              {{> postAdminFooter}}
-            {{/if}}
-          {{/if}}
-        {{else}}
-        <div class="centered">
-          <ul class="centered inline nav navbar">
+            <li id="userListButton"><a href="/users"><i class="fa fa-list"></i>  Users</a></li>
+          {{else}}
             <li><a class="gray" href="http://www.pentasyllabic.com">Pentasyllabic Studios, LLC</a></li>
             <li><a class="gray" href="http://www.pentasyllabic.com">Meteor-Cookbook</a></li>
             <li><a class="gray" href="https://github.com/awatson1978/groupthink/issues">Report An Issue</a></li>
-          </ul>
-        </div>
-        {{/if}}
+          {{/if}}
+        </ul>
       </div>
     </div>
   </nav>
@@ -69,16 +68,12 @@
   <!--</ul>-->
 </template>
 <template name="forumAdminFooter">
-  <ul class="nav nabvar-nav inline">
-    <li id="createPostButton"><a href="/post"><i class="fa fa-plus"></i> Create Post</a></li>
-    <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit Post</a></li>
-    <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete Post</a></li>
-  </ul>
+  <li id="createPostButton"><a href="/post"><i class="fa fa-plus"></i> Create Post</a></li>
+  <li id="editPostButton"><a href="#"><i class="fa fa-lock"></i> Edit Post</a></li>
+  <li id="deletePostButton"><a href="#"><i class="fa fa-times-circle"></i> Delete Post</a></li>
 </template>
 
 <template name="postAdminFooter">
-  <ul class="nav nabvar-nav inline">
-    <li id="goBackButton"><a href="#"><i class="fa fa-lock"></i> Cancel</a></li>
-    <li id="updateButton"><a href="#"><i class="fa fa-times-circle"></i> Update</a></li>
-  </ul>
+  <li id="goBackButton"><a href="#"><i class="fa fa-lock"></i> Cancel</a></li>
+  <li id="updateButton"><a href="#"><i class="fa fa-times-circle"></i> Update</a></li>
 </template>

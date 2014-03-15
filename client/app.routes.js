@@ -3,6 +3,16 @@ var setPageTitle = function(newTitle) {
   var siteName = (Session.get('systemConfigs') || {}).name;
   document.title = newTitle + " - " + siteName;
 }
+checkUserSignedIn = function(scope){
+  if(!Meteor.userId()){
+    Session.set('currentPage', 'entrySignIn');
+    scope.render("entrySignInPage");
+    scope.stop();
+  }else{
+    scope.render("navbarHeader",{to: 'header'});
+    scope.render("sidebarTemplate",{to: 'aside'});
+  }
+};
 
 Router.map(function() {
   this.route('landingRoute', {
@@ -30,10 +40,7 @@ Router.map(function() {
     path: '/topics',
     template:'topicsPage',
     before: function(){
-      if(!Meteor.userId()){
-        this.render("entrySignIn");
-        this.stop();
-      }
+      checkUserSignedIn(this);
       Session.set('current_page', 'Topics');
     },
     after: function() {
@@ -44,10 +51,7 @@ Router.map(function() {
     path: '/forum',
     template:'topicsPage',
     before: function(){
-      if(!Meteor.userId()){
-        this.render("entrySignIn");
-        this.stop();
-      }
+      checkUserSignedIn(this);
       Session.set('current_page', 'Forum');
     },
     after: function() {
@@ -95,10 +99,7 @@ Router.map(function() {
     path: '/profile',
     template:'profilePage',
     before: function(){
-      if(!Meteor.userId()){
-        this.render("entrySignIn");
-        this.stop();
-      }
+      checkUserSignedIn(this);
       Session.set('current_page', 'Profile');
     },
     after: function() {
@@ -109,11 +110,23 @@ Router.map(function() {
     path: '/admin',
     template:'adminPage',
     before: function(){
-      if(!Meteor.userId()){
-        this.render("entrySignIn");
-        this.stop();
-      }
+      checkUserSignedIn(this);
       Session.set('current_page', 'Admin');
+    },
+    after: function() {
+      setPageTitle("Admin");
+    }
+  });
+  this.route('usersListRoute', {
+    path: '/users',
+    template:'usersListPage',
+    before: function(){
+      checkUserSignedIn(this);
+      Session.set('current_page', 'Admin');
+    },
+    waitOn: function(){
+      Meteor.subscribe('settings');
+      return Meteor.subscribe('usersDirectory');
     },
     after: function() {
       setPageTitle("Admin");
@@ -124,10 +137,7 @@ Router.map(function() {
     path: '/post',
     template:'postInputPage',
     before: function(){
-      if(!Meteor.userId()){
-        this.render("entrySignIn");
-        this.stop();
-      }
+      checkUserSignedIn(this);
       Session.set('current_page', 'Post');
     }, after: function() {
       setPageTitle("New Post");

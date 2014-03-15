@@ -1,0 +1,46 @@
+<template name="usersListPage">
+  <div id="usersListPage" class="page">
+    <div class="container">
+      <table class="table">
+        <thead>
+        <tr>
+          <th>
+            id
+          </th>
+          <th>
+            username
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            full name
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each usersList }}
+        {{> userListItem}}
+        {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>
+
+<template name="userListItem">
+  <tr class="userListItem">
+    <td>
+      {{_id}}
+    </td>
+    <td>
+      {{ username }}
+    </td>
+    <td>
+      {{ getEmail }}
+    </td>
+    <td>
+      {{ profile.name }}
+    </td>
+  </tr>
+</template>
