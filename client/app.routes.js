@@ -10,7 +10,7 @@ checkUserSignedIn = function(scope){
     scope.stop();
   }else{
     scope.render("navbarHeader",{to: 'header'});
-    scope.render("sidebarTemplate",{to: 'aside'});
+    //scope.render("sidebarTemplate",{to: 'aside'});
   }
 };
 
