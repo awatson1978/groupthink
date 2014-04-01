@@ -37,7 +37,7 @@ Template.forumPage.showSearchPanel = function(){
   if(Session.get('show_search_panel')){
     return true;
   }else{
-    false;
+    return false;
   }
 };
 
@@ -126,13 +126,24 @@ Template.chatItem.getPostAvatar = function(){
 Template.chatItem.getPostCreatorId = function(){
   return this.creatorId;
 };
+// Template.chatItem.creatorName = function(){
+//   if(this.createdBy){
+//     return this.createdBy;
+//   }else{
+//     return '---';
+//   }
+// };
+
 Template.chatItem.creatorName = function(){
   if(this.createdBy){
-    return this.createdBy;
+    return Template[this.createdBy]();
+    //return this.createdBy;
   }else{
     return '---';
   }
 };
+
+
 
 Template.chatItem.tagObjects = function(){
   return _.map(this.tags || [], function (tag) {

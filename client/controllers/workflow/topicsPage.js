@@ -75,6 +75,10 @@ Template.topicsPage.getLockIcon = function(){
   }
 };
 
+Template.topicsPage.getDate = function(){
+  return moment();
+};
+
 //-------------------------------------------------------------
 // TopicItem
 
@@ -122,4 +126,3 @@ Template.topicItem.events({
     Topics.remove(this._id);
   }
 });
-

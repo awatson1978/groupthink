@@ -1,5 +1,9 @@
 Session.setDefault('user_intent', 'createpost');
+Session.setDefault('areTagsEnabled', true);
 
+Template.postInputPage.tagsEnabled = function(){
+  return Session.get('areTagsEnabled');
+}
 Template.postInputPage.isNewTopic = function(){
   if(Session.get('user_intent') === 'newtopic'){
     return true;

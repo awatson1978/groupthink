@@ -17,7 +17,8 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           {{#if isLoggedIn }}
-            <li><a href="/profile">{{ userName }}</a></li>
+<!--             <li><a href="/profile">{{ userName }}</a></li> -->
+            <li><a href="/profile">{{ currentUser.emails.0.address }}</a></li>
             <li><a href="/sign-out">Sign-Out</a></li>
           {{else}}
             <li><div id="signUpButton" class="btn btn-sm btn-warning">Sign Up</div></li>

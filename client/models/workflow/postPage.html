@@ -69,7 +69,7 @@
           <div class="tagContainer">
             <ul class="inline">
               <li class="input-wrapper">
-                <input id="postTagsInput" type="text" class="form-control" placeholder="add tag"></input>
+                <input id="postTagsInput" type="text" class="form-control" placeholder="add tag" {{#if tagsEnabled}}checked{{/if}}></input>
               </li>
               {{#each tagObjects}}
               <li class="gray tags"><i class="fa fa-times"></i> {{tag}}</li>
