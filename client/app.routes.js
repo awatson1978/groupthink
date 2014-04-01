@@ -14,6 +14,14 @@ checkUserSignedIn = function(scope){
   }
 };
 
+// Router.configure({
+//   layoutTemplate: 'layout',
+//   yieldTemplates: {
+//       'navbarHeader':{to: 'header'},
+//       'navbarFooter':{to: 'footer'}
+//     }
+// });
+
 Router.map(function() {
   this.route('landingRoute', {
     path: '/',
