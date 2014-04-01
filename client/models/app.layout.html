@@ -10,14 +10,17 @@
 
 <template name="layout">
   <img class="" src="{{customBackgroundImage}}">
-    <aside>
-        <!-- render to the sidebar yield -->
-        {{yield 'sidebar'}}
-    </aside>
+    <!--<header>-->
+    <!--  {{>yield region='header'}} -->
+    <!--</header>-->
 
     {{> navbarHeader }}
 
-    <!-- the main template will be rendered here -->
+    <aside>
+      {{yield 'sidebar'}}
+    </aside>
+
+
     {{yield}}
 
     {{> navbarFooter }}
