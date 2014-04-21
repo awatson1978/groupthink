@@ -134,7 +134,7 @@ Template.profilePage.events({
   }
 });
 
-Template.layout.customBackgroundImage = function(){
+Template.mainLayout.customBackgroundImage = function(){
   return Session.get('userProfileBackgroundImage');
 };
 

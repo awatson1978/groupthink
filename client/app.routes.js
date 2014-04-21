@@ -14,24 +14,29 @@ checkUserSignedIn = function(scope){
   }
 };
 
+
+Router.configure({
+  layoutTemplate: "mainLayout"
+})
+
 Router.map(function() {
   this.route('landingRoute', {
     path: '/',
     template: 'landingPage',
-    before: function(){
+    onBeforeAction: function(){
       Session.set('current_page', 'Landing');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Home");
     }
   });
   this.route('guidelinesRoute', {
     path: '/guidelines',
     template: 'guidelinesPage',
-    before: function(){
+    onBeforeAction: function(){
       Session.set('current_page', 'Guidelines');
     },
-    after:function() {
+    onAfterAction:function() {
       setPageTitle("Guidelines");
     }
   });
@@ -39,29 +44,29 @@ Router.map(function() {
   this.route('topicsRoute', {
     path: '/topics',
     template:'topicsPage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Topics');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Topics");
     }
   });
   this.route('forumRoute', {
     path: '/forum',
     template:'topicsPage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Forum');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("List of topics");
     }
   });
   this.route('specificForumRoute', {
     path: '/forum/:_id',
     template:'forumPage',
-    before: function(){
+    onBeforeAction: function(){
       if(!Meteor.userId()){
         this.render("entrySignIn");
         this.stop();
@@ -74,7 +79,7 @@ Router.map(function() {
       Meteor.subscribe('posts');
       return Meteor.subscribe('topics');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Forum");
     }
   });
@@ -82,7 +87,7 @@ Router.map(function() {
     path: '/public',
     template: 'chatWidgetPage',
     //template:'forumPage',
-    before: function(){
+    onBeforeAction: function(){
       //Session.set('forum_topic_id', 'CvydqH5rhpzNcjf7B');
       Session.set('current_page', 'Forum');
     },
@@ -90,7 +95,7 @@ Router.map(function() {
       Meteor.subscribe('posts');
       return Meteor.subscribe('settings');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Forum");
     }
   });
@@ -98,37 +103,37 @@ Router.map(function() {
   this.route('profileRoute', {
     path: '/profile',
     template:'profilePage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Profile');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Your Profile");
     }
   });
   this.route('adminRoute', {
     path: '/admin',
     template:'adminPage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Admin');
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Admin");
     }
   });
   this.route('usersListRoute', {
     path: '/users',
     template:'usersListPage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Admin');
     },
-    waitOn: function(){
-      Meteor.subscribe('settings');
-      return Meteor.subscribe('usersDirectory');
-    },
-    after: function() {
+//    waitOn: function(){
+//      Meteor.subscribe('settings');
+//      return Meteor.subscribe('usersDirectory');
+//    },
+    onAfterAction: function() {
       setPageTitle("Admin");
     }
   });
@@ -136,10 +141,10 @@ Router.map(function() {
   this.route('postInputRoute', {
     path: '/post',
     template:'postInputPage',
-    before: function(){
+    onBeforeAction: function(){
       checkUserSignedIn(this);
       Session.set('current_page', 'Post');
-    }, after: function() {
+    }, onAfterAction: function() {
       setPageTitle("New Post");
     }
   });
@@ -148,7 +153,7 @@ Router.map(function() {
     path: '/posts/:_id',
     data: function() { return Posts.findOne(this.params._id); },
     template: 'postInputPage',
-    before: function(){
+    onBeforeAction: function(){
       if(!Meteor.userId()){
         this.render("entrySignIn");
         this.stop();
@@ -166,11 +171,8 @@ Router.map(function() {
       Meteor.subscribe('topics');
       return Meteor.subscribe('onePost', this.params._id);
     },
-    after: function() {
+    onAfterAction: function() {
       setPageTitle("Viewing Post");
     }
   });
 });
-
-
-

@@ -2,30 +2,38 @@
   {{#if currentUser}}
 
     {{#if profileUrl}}
-      {{#if wrapLinks}}<li>{{/if}}
+      {{#if wrapLinks}}
+        <li><a class='profileLink' href='{{profileUrl}}'>{{signedInAs}}</a></li>
+      {{else}}
         <a class='profileLink' href='{{profileUrl}}'>{{signedInAs}}</a>
-      {{#if wrapLinks}}</li>{{/if}}
+      {{/if}}
     {{else}}
-      {{#if wrapLinks}}<li>{{/if}}
+      {{#if wrapLinks}}
+        <li><p class="navbar-text">{{signedInAs}}</p></li>
+      {{else}}
         <p class="navbar-text">{{signedInAs}}</p>
-      {{#if wrapLinks}}</li>{{/if}}
+      {{/if}}
     {{/if}}
 
-    {{#if wrapLinks}}<li>{{/if}}
+    {{#if wrapLinks}}
+      <li><a href="/sign-out">Sign Out</a></li>
+    {{else}}
       <a href="/sign-out">Sign Out</a>
-    {{#if wrapLinks}}</li>{{/if}}
-
+    {{/if}}
   {{else}}
 
-    {{#if wrapLinks}}<li>{{/if}}
+    {{#if wrapLinks}}
+      <li><a href="/sign-in">Sign In</a></li>
+    {{else}}
       <a href="/sign-in">Sign In</a>
-    {{#if wrapLinks}}</li>{{/if}}
+    {{/if}}
 
     {{#unless wrapLinks}}<span>or</span>{{/unless}}
 
-    {{#if wrapLinks}}<li>{{/if}}
+    {{#if wrapLinks}}
+      <li><a href="/sign-up">Sign Up</a></li>
+    {{else}}
       <a href="/sign-up">Sign Up</a>
-    {{#if wrapLinks}}</li>{{/if}}
-
+    {{/if}}
   {{/if}}
 </template>

@@ -10,8 +10,10 @@ Meteor.startup(function(){
 
 setWallpaper = function(){
   var user = Meteor.user();
-  if(user.profile && user.profile.wallpaper){
-    $('html').addClass(Meteor.user().profile.wallpaper);
+  if(user){
+    if(user.profile && user.profile.wallpaper){
+      $('html').addClass(Meteor.user().profile.wallpaper);
+    }
   }
 };
 
@@ -22,7 +24,3 @@ removeWallpapers = function(){
   $('html').removeClass('blueWallpaper');
   $('html').removeClass('rainbowWallpaper');
 };
-
-
-
-

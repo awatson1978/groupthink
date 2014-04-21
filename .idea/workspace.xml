@@ -22,13 +22,22 @@
     <favorites_list name="meteor-forum" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.601686">
+    <splitter split-orientation="horizontal" split-proportion="0.43308747">
       <split-first>
         <leaf>
-          <file leaf-file-name="usersListPage.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="usersListPage.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/models/workflow/usersListPage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="18" selection-start="582" selection-end="582" vertical-scroll-proportion="0.30113637" vertical-offset="80" max-vertical-offset="960">
+                <state line="35" column="12" selection-start="841" selection-end="841" vertical-scroll-proportion="-18.541666" vertical-offset="80" max-vertical-offset="960">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.subscriptions.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.43202764" vertical-offset="0" max-vertical-offset="885">
                   <folding />
                 </state>
               </provider>
@@ -37,7 +46,7 @@
           <file leaf-file-name="app.routes.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/app.routes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2730">
+                <state line="162" column="28" selection-start="4085" selection-end="4085" vertical-scroll-proportion="0.0" vertical-offset="1757" max-vertical-offset="2730">
                   <folding />
                 </state>
               </provider>
@@ -46,7 +55,7 @@
           <file leaf-file-name="publications.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/server/publications.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
+                <state line="52" column="8" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="1695">
                   <folding />
                 </state>
               </provider>
@@ -56,19 +65,37 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="model.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/model.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="5" selection-start="420" selection-end="420" vertical-scroll-proportion="0.17508417" vertical-offset="264" max-vertical-offset="1155">
+                <state line="45" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="990">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="usersListPage.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="app.collections.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/app.collections.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="usersListPage.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/controllers/workflow/usersListPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+                <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.1659292" vertical-offset="0" max-vertical-offset="904">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="profilePage.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/controllers/workflow/profilePage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="181" column="14" selection-start="6098" selection-end="6098" vertical-scroll-proportion="0.0" vertical-offset="2424" max-vertical-offset="3555">
                   <folding />
                 </state>
               </provider>
@@ -86,22 +113,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/models/chatWidgetPage.html" />
-        <option value="$PROJECT_DIR$/server/initialize.forum.js" />
         <option value="$PROJECT_DIR$/server/public.thread.js" />
         <option value="$PROJECT_DIR$/server/conversation.public.js" />
         <option value="$PROJECT_DIR$/client/controllers/workflow/forumPage.js" />
         <option value="$PROJECT_DIR$/lib/conversation.public.js" />
-        <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
         <option value="$PROJECT_DIR$/client/controllers/chatWidget.js" />
         <option value="$PROJECT_DIR$/client/models/chatWidget.html" />
         <option value="$PROJECT_DIR$/client/controllers/workflow/profilePage.js" />
         <option value="$PROJECT_DIR$/client/views/widgets.less" />
         <option value="$PROJECT_DIR$/client/models/app.navbars.html" />
-        <option value="$PROJECT_DIR$/client/controllers/workflow/usersListPage.js" />
         <option value="$PROJECT_DIR$/server/publications.js" />
-        <option value="$PROJECT_DIR$/client/app.routes.js" />
         <option value="$PROJECT_DIR$/client/models/workflow/usersListPage.html" />
+        <option value="$PROJECT_DIR$/client/app.routes.js" />
+        <option value="$PROJECT_DIR$/client/app.subscriptions.js" />
+        <option value="$PROJECT_DIR$/lib/model.js" />
+        <option value="$PROJECT_DIR$/client/app.collections.js" />
+        <option value="$PROJECT_DIR$/client/controllers/workflow/usersListPage.js" />
       </list>
     </option>
   </component>
@@ -243,86 +270,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="groupthink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workflow" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -403,7 +350,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1203" y="303" width="1297" height="1052" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -417,7 +364,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140687" sideWeight="0.67198175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24140687" sideWeight="0.67198175" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -442,20 +389,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/app.startup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/app.layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/app.entry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
@@ -477,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/controllers/workflow/forumPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="38" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
@@ -494,13 +420,6 @@
     <entry file="file://$PROJECT_DIR$/client/controllers/chatWidget.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/profilePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3555">
           <folding />
         </state>
       </provider>
@@ -519,37 +438,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/usersListPage.js">
+    <entry file="file://$PROJECT_DIR$/client/models/workflow/profilePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="420" selection-end="420" vertical-scroll-proportion="0.17508417" vertical-offset="264" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/publications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2730">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/models/workflow/usersListPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="18" selection-start="582" selection-end="582" vertical-scroll-proportion="0.30113637" vertical-offset="80" max-vertical-offset="960">
+        <state line="35" column="12" selection-start="841" selection-end="841" vertical-scroll-proportion="-18.541666" vertical-offset="80" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="28" selection-start="4085" selection-end="4085" vertical-scroll-proportion="0.0" vertical-offset="1757" max-vertical-offset="2730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/publications.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="8" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/profilePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="14" selection-start="6098" selection-end="6098" vertical-scroll-proportion="0.0" vertical-offset="2424" max-vertical-offset="3555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.43202764" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app.collections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/controllers/workflow/usersListPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.1659292" vertical-offset="0" max-vertical-offset="904">
           <folding />
         </state>
       </provider>

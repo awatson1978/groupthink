@@ -3,33 +3,25 @@
 </head>
 
 <body>
-  {{> layout}}
   {{> reactiveOverlaysTemplate }}
 </body>
 
 
-<template name="layout">
+<template name="mainLayout">
   <img class="" src="{{customBackgroundImage}}">
     <aside>
         <!-- render to the sidebar yield -->
-        {{yield 'sidebar'}}
+        {{> yield region='sidebar'}}
     </aside>
 
     {{> navbarHeader }}
 
     <!-- the main template will be rendered here -->
-    {{yield}}
+    {{> yield}}
 
     {{> navbarFooter }}
     <footer>
         <!-- render to the footer yield -->
-        {{yield 'footer'}}
+        {{> yield region='footer'}}
     </footer>
 </template>
-
-<template name="yield">
-    hey, this is a yield page!
-</template>
-
-
-

@@ -22,7 +22,7 @@ Router.map(function() {
   });
   return this.route('entrySignOut', {
     path: '/sign-out',
-    before: function() {
+    onBeforeAction: function() {
       if (AccountsEntry.settings.homeRoute) {
         Meteor.logout();
         Router.go(AccountsEntry.settings.homeRoute);
