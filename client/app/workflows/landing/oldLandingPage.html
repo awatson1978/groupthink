@@ -1,0 +1,41 @@
+<template name="oldLandingPage">
+  <div id="oldLandingPage" class="page">
+    <img class="background-fish" src="{{ landingPageBackgroundImage }}">
+    <div class="container with-top-and-bottom-spacing">
+
+
+      <div class="row">
+        <div class="col col-lg-7 col-md-7 col-sm-7 with-bottom-spacer">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>Welcome</h4>
+            </div>
+            <div class="padded">
+              <p>GroupThink is a real-time bulletin-board system, written in Meteor.js.  It's open-source, themeable, and supports tagging and voting, and many other features.</p>
+              <p>Feel free to fork and modify as you like.</p>
+            </div>
+          </div>
+
+          <div class="centered fullwidth userCounterBox">
+            <div class="fullwidth centered btn btn-warning">
+              <h1 class="userCounter">{{ getUserCount }}<span class="userCountText">registered users</span></h1>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-5 col-md-5 col-sm-5">
+          <div class="panel panel-default">
+            <div class="padded">
+              <img id="screenshotTileBlue" class="screenshot-tile" src="{{getScreenshotPath}}">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="screenshotBluePanel" class="hidden panel">
+    <img id="screenshotBlue" class="screenshot-fullsize" src="{{getScreenshotPath}}">
+  </div>
+</template>
