@@ -129,10 +129,10 @@ Meteor.startup(function () {
     // crate our administrator
     configurationId = Settings.insert({
       keyword: 'sysadmin',
-      name: 'GroupThink',
+      name: 'Clinical Support Forum',
       logo: '',
       landingImage: '/images/groupthink/fish-groupthink.jpg',
-      tagline: 'Forums for the 21st century...',
+      tagline: 'Support forums for the 21st century...',
       installed: false,
       live: false,
       maintenance: false,

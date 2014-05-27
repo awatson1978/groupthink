@@ -40,7 +40,7 @@ displayForkMeBanner = function(session){
   if(session.forkme){
     forkMeBanner = new ForkMe({
       user: 'awatson1978',
-      repo: 'groupthink',
+      repo: 'clinical-support-forum',
       ribbon: {
         color: 'orange',
         position: 'left'
@@ -48,6 +48,3 @@ displayForkMeBanner = function(session){
     });
   }
 };
-
-
-
